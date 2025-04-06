@@ -17,13 +17,48 @@
                     Software engineer with a passion for creating user-friendly applications that help real people solve real problems.
                 </p>
             </div>
+            
+            <!-- Reduced size Personality Widget -->
+            <div class="personality-widget">
+                <div class="widget-title">Currently...</div>
+                
+                <div class="now-playing">
+                    <h3>Listening to</h3>
+                    <div class="music-widget">
+                        <div class="vinyl-container">
+                            <div class="vinyl">
+                                <div class="vinyl-album"></div>
+                            </div>
+                        </div>
+                        <div class="music-info">
+                            <h4 id="track"></h4>
+                            <p id="artist"></p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="now-reading">
+                    <h3>Reading</h3>
+                    <div class="book-widget">
+                        <div class="book-thumbnail"></div>
+                        <div class="book-info">
+                            <h4>Beware of Pity</h4>
+                            <p>Stefan Zweig</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
             <div class="navigation">
                 <button class="nav-button" data-section="about">ABOUT</button>
-                <button class="nav-button" data-section="experience">EXPERIENCE</button>
                 <button class="nav-button" data-section="projects">PROJECTS</button>
+                <button class="nav-button" data-section="experience">EXPERIENCE</button>
             </div>
         </div>
         <div class="right-panel">
+            <div class="right-panel-bg"></div>
+            <div class="spotlight"></div>
+            
             <div class="profile-section" id="about">
                 <div class="profile-header">
                     <div class="profile-image">
@@ -36,7 +71,7 @@
                         <p><i class="fas fa-map-marker-alt"></i> Portland, OR</p>
                         <div class="social-icons">
                             <a href="https://www.linkedin.com/in/alexander-siruno-nebel-b2a069236/" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
-                            <a href="https://github.co/xandervsn" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+                            <a href="https://github.com/xandervsn" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
                             <a href="https://instagram.com/xandersiruno" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a>
                             <a href="https://open.spotify.com/user/ab8f0rcrldpzc9snq82wvhlg6?si=2d9a843a943f443c" target="_blank" title="Spotify"><i class="fab fa-spotify"></i></a>
                         </div>
@@ -50,36 +85,6 @@
                     </p>
                     <p>
                         When I'm not coding, you can find me hiking in Oregon's beautiful outdoors, exploring new music, or thrifting new finds.
-                    </p>
-                </div>
-            </div>
-
-            <div class="section" id="experience">
-                <h2>Experience</h2>
-                <div class="experience-item">
-                    <h3>Undergraduate Researcher</h3>
-                    <h4>UMN TURBO Telescope Lab</h4>
-                    <p class="date">Sep 2024 - Present</p>
-                    <p>
-                        Researcher at the University of Minnesota's TURBO telescope lab under direct supervision from Professor Mandeep Gill. 
-                        Developed a data analysis pipeline for detecting transient astronomical events
-                    </p>
-                </div>
-                <div class="experience-item">
-                    <h3>Research Intern</h3>
-                    <h4>Oregon Health & Science University</h4>
-                    <p class="date">Jan 2024 - Aug 2024</p>
-                    <p>
-                        Student intern at the Oregon Health & Science University—studied recombinant AAV viruses, helped develop new AAV vector identification methods
-                    </p>
-                </div>
-                <div class="experience-item">
-                    <h3>Teaching Assistant</h3>
-                    <h4>UMN College of Science & Engineering</h4>
-                    <p class="date">Mar 2025 - Present</p>
-                    <p>
-                        Teaching assistant for CSE 1001: First-Year Experience, an introductory course for every student in the University of Minnesota's 
-                        College of Science & Engineering supervised by Ben Koch.
                     </p>
                 </div>
             </div>
@@ -117,8 +122,41 @@
                     </a>
                 </div>
             </div>
+
+            <div class="section" id="experience">
+                <h2>Experience</h2>
+                <div class="experience-item">
+                    <h3>Undergraduate Researcher</h3>
+                    <h4>UMN TURBO Telescope Lab</h4>
+                    <p class="date">Sep 2024 - Present</p>
+                    <p>
+                        Researcher at the University of Minnesota's TURBO telescope lab under direct supervision from Professor Mandeep Gill. 
+                        Developed a data analysis pipeline for detecting transient astronomical events
+                    </p>
+                </div>
+                <div class="experience-item">
+                    <h3>Research Intern</h3>
+                    <h4>Oregon Health & Science University</h4>
+                    <p class="date">Jan 2024 - Aug 2024</p>
+                    <p>
+                        Student intern at the Oregon Health & Science University—studied recombinant AAV viruses, helped develop new AAV vector identification methods
+                    </p>
+                </div>
+                <div class="experience-item">
+                    <h3>Teaching Assistant</h3>
+                    <h4>UMN College of Science & Engineering</h4>
+                    <p class="date">Mar 2025 - Present</p>
+                    <p>
+                        Teaching assistant for CSE 1001: First-Year Experience, an introductory course for every student in the University of Minnesota's 
+                        College of Science & Engineering supervised by Ben Koch.
+                    </p>
+                </div>
+            </div>
+
         </div>
     </div>
     <script src="main.js"></script>
+    <script src="src/secret.js"></script>
+    <script src="src/vinyl.js"></script>
 </body>
 </html>

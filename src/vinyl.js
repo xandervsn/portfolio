@@ -6,5 +6,27 @@ const optionsLast = {
     apiKey: "api_key=" + getLastKey().toString(),
 };
 
+async function getLastTracks() {
+    const url = optionsLast.api + optionsLast.getRecentTracks + optionsLast.user + optionsLast.apiKey;
+    let data = await fm_fetch(url);
+    let currentTrack = data.recenttracks.track[0];
+    let trackName = currentTrack.name;
+    let trackArtist = currentTrack.artist["#text"];
+    let trackImage = currentTrack.image[1]["#text"];
+    console.log(trackName);
+    console.log(trackArtist);
+    console.log(trackImage);
+    track.innerText = trackName;
+    artist.innerText = trackArtist;
+    document.querySelector('.vinyl-album').style.backgroundImage = `url('${trackImage}')`;
+}
 
+async function fm_fetch(url){
+    const res = await fetch(url)
+    const data = await res.json()
+    return data;
+}
 
+window.onload = function() {
+    getLastTracks();
+};
