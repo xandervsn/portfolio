@@ -13,9 +13,6 @@ async function getLastTracks() {
     let trackName = currentTrack.name;
     let trackArtist = currentTrack.artist["#text"];
     let trackImage = currentTrack.image[1]["#text"];
-    console.log(trackName);
-    console.log(trackArtist);
-    console.log(trackImage);
     track.innerText = trackName;
     artist.innerText = trackArtist;
     document.querySelector('.vinyl-album').style.backgroundImage = `url('${trackImage}')`;

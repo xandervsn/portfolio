@@ -26,7 +26,7 @@ body {
     flex-direction: column;
     justify-content: space-between;
     position: relative;
-    z-index: 1; /* Ensure content is above the background */
+    z-index: 1;
 }
 
 .left-panel::before {
@@ -40,7 +40,7 @@ body {
     background-size: cover;
     background-position: center;
     opacity: 0.2;
-    z-index: -1; /* Place background behind content */
+    z-index: -1;
 }
 
 .intro h1 {
@@ -58,15 +58,14 @@ body {
     margin-bottom: 2rem;
 }
 
-/* Personality Widget - Reduced size */
 .personality-widget {
     margin: 1.5rem 0;
     background-color: rgba(0, 0, 0, 0.3);
     border-radius: 12px;
     padding: 1rem;
     backdrop-filter: blur(5px);
-    position: relative; /* Ensure widget is positioned above background */
-    z-index: 2; /* Higher z-index to ensure visibility */
+    position: relative;
+    z-index: 2;
 }
 
 .widget-title {
@@ -130,15 +129,15 @@ body {
         transparent 2px,
         transparent 4px
     );
-    z-index: 2; /* Z-index to appear above the album art but below the center hole */
+    z-index: 1;
 }
 
 .vinyl-album {
-    width: 32px; /* Slightly smaller than the vinyl itself */
-    height: 32px; /* Slightly smaller than the vinyl itself */
+    width: 24px;
+    height: 24px; 
     border-radius: 50%;
     position: relative;
-    z-index: 1; /* Ensure it's behind the vinyl overlays */
+    z-index: 2;
     background-image: url('');
     background-size: cover;
     background-position: center;
@@ -183,8 +182,8 @@ body {
     flex-direction: column;
     gap: 1.5rem;
     margin-top: auto;
-    position: relative; /* Ensure navigation is positioned above background */
-    z-index: 2; /* Higher z-index to ensure visibility */
+    position: relative;
+    z-index: 2;
 }
 
 .nav-button {
@@ -232,47 +231,45 @@ body {
 
 .right-panel {
     width: 70%;
-    height: 100vh; /* Fixed height for the right panel */
-    overflow-y: auto; /* Enable vertical scrolling */
+    height: 100vh;
+    overflow-y: auto;
     scroll-behavior: smooth;
     background-color: #333;
     padding: 3rem;
     position: relative;
-    /* Contain spotlight within the right panel */
-    overflow-x: hidden; /* Prevent horizontal scrolling */
+    overflow-x: hidden;
 }
 
 .right-panel-bg {
-    position: fixed; /* Change to fixed for the background */
+    position: fixed;
     top: 0;
     right: 0;
-    width: 70%; /* Match the right panel width */
+    width: 70%;
     height: 100%;
     background-image: url('https://s.abcnews.com/images/US/crater-lake-01-gty-jef-250401_1743527235802_hpMain_16x9_1600.jpg');
     background-size: cover;
     background-position: center;
-    opacity: 0.15; /* Reduced opacity to make content more readable */
-    z-index: 0; /* Behind content */
+    opacity: 0.15;
+    z-index: 0;
 }
 
 .spotlight {
     position: absolute;
-    width: 1200px; /* 3x larger spotlight */
-    height: 1200px; /* 3x larger spotlight */
+    width: 1200px;
+    height: 1200px;
     border-radius: 50%;
     background: radial-gradient(circle, rgba(149, 80, 166, 0.2) 0%, rgba(255, 255, 255, 0) 70%);
     pointer-events: none;
     transform: translate(-50%, -50%);
     z-index: 1;
     opacity: 0.7;
-    /* Spotlight shouldn't cause scrolling */
-    will-change: transform; /* Optimize animation performance */
+    will-change: transform;
 }
 
 .profile-section, .section {
     margin-bottom: 4rem;
     position: relative;
-    z-index: 2; /* Ensure content is above background and spotlight */
+    z-index: 2;
 }
 
 .profile-header {
@@ -463,10 +460,11 @@ body {
     }
     
     .spotlight {
-        display: none; /* Disable spotlight on mobile */
+        display: none;
     }
     
     .right-panel-bg {
-        width: 100%; /* Full width on mobile */
+        width: 100%;
     }
 }
+
