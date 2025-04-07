@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', function() {
             spotlight.style.opacity = '1';
             
             const relativeX = x - rightPanelRect.left;
-            const relativeY = y - rightPanelRect.top;
+            const relativeY = y
             
             spotlight.style.left = `${relativeX}px`;
             spotlight.style.top = `${relativeY}px`;

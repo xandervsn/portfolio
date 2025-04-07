@@ -46,7 +46,7 @@ body {
 .intro h1 {
     font-size: 2rem;
     font-weight: 500;
-    margin-bottom: 1.5rem;
+    padding-bottom: 1.5rem;
     letter-spacing: -0.5px;
     color: #fff;
 }
@@ -55,7 +55,7 @@ body {
     color: #aaa;
     font-size: 1rem;
     line-height: 1.6;
-    margin-bottom: 2rem;
+    padding-bottom: 2rem;
 }
 
 .personality-widget {
@@ -70,12 +70,12 @@ body {
 
 .widget-title {
     font-size: 1.1rem;
-    margin-bottom: 0.8rem;
+    padding-bottom: 0.8rem;
     color: #9550a6;
 }
 
 .now-playing, .now-reading {
-    margin-bottom: 1rem;
+    padding-bottom: 1rem;
 }
 
 .now-playing h3, .now-reading h3 {
@@ -83,7 +83,7 @@ body {
     text-transform: uppercase;
     letter-spacing: 1px;
     color: #999;
-    margin-bottom: 0.4rem;
+    padding-bottom: 0.4rem;
 }
 
 .music-widget {
@@ -150,7 +150,7 @@ body {
 .music-info h4, .book-info h4 {
     font-weight: 500;
     color: #fff;
-    margin-bottom: 0.2rem;
+    padding-bottom: 0.2rem;
     font-size: 0.9rem;
 }
 
@@ -181,7 +181,7 @@ body {
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
-    margin-top: auto;
+    padding-top: auto;
     position: relative;
     z-index: 2;
 }
@@ -267,7 +267,7 @@ body {
 }
 
 .profile-section, .section {
-    margin-bottom: 4rem;
+    padding-bottom: 4rem;
     position: relative;
     z-index: 2;
 }
@@ -275,7 +275,7 @@ body {
 .profile-header {
     display: flex;
     gap: 2rem;
-    margin-bottom: 3rem;
+    padding-bottom: 3rem;
 }
 
 .profile-image {
@@ -295,24 +295,24 @@ body {
 
 .contact-info h2 {
     font-size: 1.5rem;
-    margin-bottom: 1rem;
+    padding-bottom: 1rem;
     font-weight: 500;
 }
 
 .contact-info p {
-    margin-bottom: 0.5rem;
+    padding-bottom: 0.5rem;
     color: #ccc;
 }
 
 .contact-info i {
-    margin-right: 0.5rem;
+    padding-right: 0.5rem;
     color: #9550a6;
 }
 
 .social-icons {
     display: flex;
     gap: 1rem;
-    margin-top: 1.5rem;
+    padding-top: 1.5rem;
 }
 
 .social-icons a {
@@ -328,19 +328,19 @@ body {
 
 .about-content h2, .section h2 {
     font-size: 1.8rem;
-    margin-bottom: 1.5rem;
+    padding-bottom: 1.5rem;
     font-weight: 500;
     letter-spacing: -0.5px;
     color: #fff;
 }
 
 .about-content p {
-    margin-bottom: 1rem;
+    padding-bottom: 1rem;
     color: #ccc;
 }
 
 .experience-item {
-    margin-bottom: 2.5rem;
+    padding-bottom: 2.5rem;
     padding-bottom: 2rem;
     border-bottom: 1px solid #444;
 }
@@ -351,14 +351,14 @@ body {
 
 .experience-item h3 {
     font-size: 1.3rem;
-    margin-bottom: 0.3rem;
+    padding-bottom: 0.3rem;
     font-weight: 500;
     color: #fff;
 }
 
 .experience-item h4 {
     font-size: 1rem;
-    margin-bottom: 0.3rem;
+    padding-bottom: 0.3rem;
     font-weight: 400;
     color: #9550a6;
 }
@@ -366,7 +366,7 @@ body {
 .experience-item .date {
     font-size: 0.9rem;
     color: #888;
-    margin-bottom: 1rem;
+    padding-bottom: 1rem;
 }
 
 .project-grid {
@@ -392,14 +392,14 @@ body {
 
 .project-item h3 {
     font-size: 1.2rem;
-    margin-bottom: 0.8rem;
+    padding-bottom: 0.8rem;
     font-weight: 500;
     color: #fff;
 }
 
 .project-item p {
     color: #ccc;
-    margin-bottom: 1rem;
+    padding-bottom: 1rem;
     font-size: 0.95rem;
 }
 
@@ -448,7 +448,7 @@ body {
     .navigation {
         flex-direction: row;
         justify-content: space-between;
-        margin-top: 2rem;
+        padding-top: 2rem;
     }
     
     .right-panel {
