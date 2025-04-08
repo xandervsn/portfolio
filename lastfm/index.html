@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="shortcut icon" href="#">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Last.fm Time Sort</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="body">
+    <div class="settings">
+        <div class="left">
+            <div class="searchbar">
+                <input type="search" id="input" class="search" placeholder="Last.fm username">
+                <button class="icon" id="button">Go!</button>
+            </div>
+            
+            <select class="range" id="range">
+                <option value="7day">Week</option>
+                <option value="1month">Month</option>
+                <option value="3month">3 Month</option>
+                <option value="6month">6 Month</option>
+                <option value="12month">Year</option>
+                <option value="overall">Overall</option>
+            </select>
+            
+            <button class="icon" id="stop">Stop!</button>
+            
+            <div class="checks">
+                <label><input class="box" type="checkbox" id="artist">Artist</label>
+                <label><input class="box" type="checkbox" id="album">Album</label>
+                <label><input class="box" type="checkbox" id="genre">Genre</label>
+                <label><input class="box" type="checkbox" id="deezer">Deezer</label>
+            </div>
+        </div>
+        <div class="errors">
+            Deezer function currently broken—hang tight as I get a new API key <br>
+            Some notes:
+            <ul>
+                <li> Depending on how many scrobbles you have, the app may take a LONG time to load. If you have a lot of scrobbles, 
+                    I recommend using the "Stop!" button to stop the loading process. This will allow you to see the data that has already been loaded.
+                </li>
+                <li> For its calculations, this app uses the LastFM API, which has some gaps. A lot of songs have no associated Album, Genre, 
+                    length, etc. To remedy this, press the Deezer button, which will fetch the missing data from the Deezer API.
+                </li>
+                <li> Pressing the "Artist" button will add no extra time to the fetch process. Pressing the "Album" or "Genre" button will roughly double the process. 
+                    Pressing the "Deezer" button will roughly 4x the process (all very rough estimates depending on your listening habits and Deezer/LastFM's API response times).
+                </li>
+                <li> Genres are based off of LastFM tags. They're scuffed. They're also community-generated, so it's kind of your fault.
+                </li>
+        </div>
+    </div>
+    
+    <div class="right">
+        <div class="table">
+            <table class="content-table" id="content-table">
+                <thead>
+                    <tr class="first-row" id="first-row">
+                        <th id="tracks">Tracks</th>
+                        <th id="artists">Artists</th>
+                        <th id="albums">Albums</th>
+                        <th id="genres">Genres</th>
+                    </tr>
+                </thead>
+            </table>
+        </div>
+        <div class="real">
+            <table class="content-table" id="real">
+                <tbody id="tbody"></tbody>
+            </table>
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="src/table.js"></script>
+    <script type="text/javascript" src="src/secret.js"></script>
+    <script type="text/javascript" src="src/print.js"></script>
+    <script type="text/javascript" src="src/index.js"></script>
+    <script type="text/javascript" src="src/anal.js"></script>
+    <script type="text/javascript" src="src/listeners.js"></script>
+</body>
+</html>
