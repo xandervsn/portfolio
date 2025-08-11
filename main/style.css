@@ -1,3 +1,4 @@
+/* Reset and base styles */
 * {
     margin: 0;
     padding: 0;
@@ -5,466 +6,369 @@
 }
 
 body {
-    font-family: 'SF Pro Display', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
-    background-color: #333;
-    color: #fff;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
     line-height: 1.6;
-}
-
-.container {
-    display: flex;
-    height: 100vh;
-    overflow: hidden;
-    position: relative;
-}
-
-.left-panel {
-    width: 30%;
-    background-color: rgba(34, 34, 34, 0.8);
-    padding: 4rem 2rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    position: relative;
-    z-index: 1;
-}
-
-.left-panel::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-image: url('https://images.fineartamerica.com/images/artworkimages/mediumlarge/1/sunset-over-mount-tabor-reservior-portland-oregon-jit-lim.jpg');
-    background-size: cover;
-    background-position: center;
-    opacity: 0.2;
-    z-index: -1;
-}
-
-.intro h1 {
-    font-size: 2rem;
-    font-weight: 500;
-    padding-bottom: 1.5rem;
-    letter-spacing: -0.5px;
-    color: #fff;
-}
-
-.executive-summary {
-    color: #aaa;
-    font-size: 1rem;
-    line-height: 1.6;
-    padding-bottom: 2rem;
-}
-
-.personality-widget {
-    margin: 1.5rem 0;
-    background-color: rgba(0, 0, 0, 0.3);
-    border-radius: 12px;
-    padding: 1rem;
-    backdrop-filter: blur(5px);
-    position: relative;
-    z-index: 2;
-}
-
-.widget-title {
-    font-size: 1.1rem;
-    padding-bottom: 0.8rem;
-    color: #9550a6;
-}
-
-.now-playing, .now-reading {
-    padding-bottom: 1rem;
-}
-
-.now-playing h3, .now-reading h3 {
-    font-size: 0.85rem;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    color: #999;
-    padding-bottom: 0.4rem;
-}
-
-.music-widget {
-    display: flex;
-    align-items: center;
-    gap: 0.8rem;
-}
-
-.vinyl-container {
-    width: 50px;
-    height: 50px;
-    position: relative;
-    animation: rotate 8s linear infinite;
-}
-
-@keyframes rotate {
-    from { transform: rotate(0deg); }
-    to { transform: rotate(360deg); }
-}
-
-.vinyl {
-    width: 100%;
-    height: 100%;
-    background-color: #111;
-    border-radius: 50%;
-    position: relative;
-    overflow: hidden;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.vinyl::after {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: repeating-radial-gradient(
-        rgba(255, 255, 255, 0.1),
-        rgba(255, 255, 255, 0.1) 2px,
-        transparent 2px,
-        transparent 4px
-    );
-    z-index: 1;
-}
-
-.vinyl-album {
-    width: 24px;
-    height: 24px; 
-    border-radius: 50%;
-    position: relative;
-    z-index: 2;
-    background-image: url('');
-    background-size: cover;
-    background-position: center;
-}
-
-.music-info, .book-info {
-    overflow: hidden;
-}
-
-.music-info h4, .book-info h4 {
-    font-weight: 500;
-    color: #fff;
-    padding-bottom: 0.2rem;
-    font-size: 0.9rem;
-}
-
-.music-info p, .book-info p {
-    color: #aaa;
-    font-size: 0.8rem;
-}
-
-.book-widget {
-    display: flex;
-    align-items: center;
-    gap: 0.8rem;
-}
-
-.book-thumbnail {
-    width: 50px;
-    height: 65px;
-    background-image: url('https://m.media-amazon.com/images/I/611+lcKmPcL._AC_UF1000,1000_QL80_.jpg');
-    background-size: cover;
-    background-position: center;
-    border-radius: 4px;
-    position: relative;
-    overflow: hidden;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
-}
-
-.navigation {
-    display: flex;
-    flex-direction: column;
-    gap: 1.5rem;
-    padding-top: auto;
-    position: relative;
-    z-index: 2;
-}
-
-.nav-button {
-    background: transparent;
-    color: #fff;
-    border: none;
-    padding: 0.8rem 1.5rem;
-    font-size: 1rem;
-    border-radius: 8px;
-    cursor: pointer;
-    letter-spacing: 1px;
-    font-weight: 500;
-    text-align: left;
-    transition: all 0.3s ease;
-    position: relative;
-    overflow: hidden;
-}
-
-.nav-button::after {
-    content: '';
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 0;
-    height: 2px;
-    background-color: #9550a6;
-    transition: width 0.3s ease;
-}
-
-.nav-button:hover {
-    background-color: rgba(255, 255, 255, 0.1);
-}
-
-.nav-button:hover::after {
-    width: 100%;
-}
-
-.nav-button.active {
-    color: #9550a6;
-}
-
-.nav-button.active::after {
-    width: 100%;
-}
-
-.right-panel {
-    width: 70%;
-    height: 100vh;
-    overflow-y: auto;
-    scroll-behavior: smooth;
-    background-color: #333;
-    padding: 3rem;
-    position: relative;
+    color: #2c2c2c;
+    background-color: #fafafa;
     overflow-x: hidden;
 }
 
-.right-panel-bg {
+/* Layout */
+.sidebar {
     position: fixed;
+    left: 0;
     top: 0;
-    right: 0;
-    width: 70%;
-    height: 100%;
-    background-image: url('https://s.abcnews.com/images/US/crater-lake-01-gty-jef-250401_1743527235802_hpMain_16x9_1600.jpg');
-    background-size: cover;
-    background-position: center;
-    opacity: 0.15;
-    z-index: 0;
+    width: 16.666667%; /* 1/6 of the page */
+    height: 100vh;
+    background: #e8e8e8;
+    color: #2c2c2c;
+    padding: 2rem 1.5rem;
+    overflow-y: auto;
+    z-index: 1000;
+    border-right: 1px solid #ddd;
 }
 
-.spotlight {
-    position: absolute;
-    width: 1200px;
-    height: 1200px;
-    border-radius: 50%;
-    background: radial-gradient(circle, rgba(149, 80, 166, 0.2) 0%, rgba(255, 255, 255, 0) 70%);
-    pointer-events: none;
-    transform: translate(-50%, -50%);
-    z-index: 1;
-    opacity: 0.7;
-    will-change: transform;
+.main-content {
+    margin-left: 16.666667%;
+    padding: 3rem 4rem;
+    max-width: 1200px;
 }
 
-.profile-section, .section {
-    padding-bottom: 4rem;
-    position: relative;
-    z-index: 2;
+/* Sidebar Styles */
+.profile-info h1 {
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    line-height: 1.3;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
 }
 
-.profile-header {
+.profile-info .major {
+    font-size: 0.9rem;
+    opacity: 0.9;
+    margin-bottom: 0.25rem;
+    font-style: italic;
+}
+
+.profile-info .school {
+    font-size: 0.8rem;
+    opacity: 0.8;
+    margin-bottom: 2rem;
+}
+
+.contact-info {
+    margin-bottom: 2rem;
+}
+
+.contact-item {
     display: flex;
-    gap: 2rem;
-    padding-bottom: 3rem;
+    align-items: center;
+    margin-bottom: 0.75rem;
+    font-size: 0.85rem;
 }
 
-.profile-image {
-    width: 215px;
-    height: 215px;
-    overflow: hidden;
-    border-radius: 15px;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+.contact-item i {
+    width: 16px;
+    margin-right: 0.75rem;
+    opacity: 0.8;
 }
 
-.profile-image img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    display: block;
+.contact-item a {
+    color: #2c2c2c;
+    text-decoration: none;
+    transition: color 0.2s ease;
 }
 
-.contact-info h2 {
-    font-size: 1.5rem;
-    padding-bottom: 1rem;
-    font-weight: 500;
+.contact-item a:hover {
+    color: #666;
 }
 
-.contact-info p {
-    padding-bottom: 0.5rem;
-    color: #ccc;
-}
-
-.contact-info i {
-    padding-right: 0.5rem;
-    color: #9550a6;
-}
-
-.social-icons {
+.social-links {
     display: flex;
     gap: 1rem;
-    padding-top: 1.5rem;
+    margin-bottom: 2rem;
 }
 
-.social-icons a {
-    color: #fff;
-    font-size: 1.5rem;
-    transition: all 0.3s ease;
+.social-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 36px;
+    height: 36px;
+    background: #d0d0d0;
+    border: 1px solid #bbb;
+    color: #2c2c2c;
+    text-decoration: none;
+    transition: background-color 0.2s ease;
 }
 
-.social-icons a:hover {
-    color: #9550a6;
-    transform: translateY(-3px);
+.social-icon:hover {
+    background: #c0c0c0;
 }
 
-.about-content h2, .section h2 {
-    font-size: 1.8rem;
-    padding-bottom: 1.5rem;
-    font-weight: 500;
-    letter-spacing: -0.5px;
-    color: #fff;
+.social-icon i {
+    font-size: 1rem;
+}
+
+.current-status {
+    margin-top: auto;
+}
+
+.status-widget {
+    background: #d0d0d0;
+    border: 1px solid #bbb;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+.status-widget h3 {
+    font-size: 0.8rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    opacity: 0.9;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.status-widget h3 i {
+    font-size: 0.7rem;
+}
+
+.status-widget p {
+    font-size: 0.75rem;
+    margin-bottom: 0.25rem;
+    opacity: 0.8;
+}
+
+.status-widget .author {
+    font-size: 0.7rem;
+    opacity: 0.6;
+    font-style: italic;
+}
+
+/* Main Content Styles */
+section {
+    margin-bottom: 4rem;
+}
+
+section h2 {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+    color: #2c2c2c;
+    position: relative;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+    border-bottom: 2px solid #2c2c2c;
+    padding-bottom: 0.5rem;
+}
+
+/* About Section */
+.about-content {
+    margin-top: 2rem;
 }
 
 .about-content p {
-    padding-bottom: 1rem;
-    color: #ccc;
+    font-size: 1.1rem;
+    line-height: 1.7;
+    color: #2c2c2c;
+    margin: 0;
+    text-align: left;
 }
 
-.experience-item {
-    padding-bottom: 2.5rem;
-    padding-bottom: 2rem;
-    border-bottom: 1px solid #444;
-}
-
-.experience-item:last-child {
-    border-bottom: none;
-}
-
-.experience-item h3 {
-    font-size: 1.3rem;
-    padding-bottom: 0.3rem;
-    font-weight: 500;
-    color: #fff;
-}
-
-.experience-item h4 {
-    font-size: 1rem;
-    padding-bottom: 0.3rem;
-    font-weight: 400;
-    color: #9550a6;
-}
-
-.experience-item .date {
-    font-size: 0.9rem;
-    color: #888;
-    padding-bottom: 1rem;
-}
-
+/* Projects Section */
 .project-grid {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
     gap: 2rem;
+    margin-top: 2rem;
 }
 
-.project-item {
-    background-color: rgba(34, 34, 34, 0.8);
-    border-radius: 12px;
-    overflow: hidden;
+.project-card {
+    background: white;
+    border: 1px solid #ddd;
     text-decoration: none;
     color: inherit;
-    transition: all 0.3s ease;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(5px);
+    transition: border-color 0.2s ease;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.project-card:hover {
+    border-color: #2c2c2c;
+}
+
+.project-image {
+    height: 120px;
+    background: #f5f5f5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #666;
+    font-size: 2.5rem;
+    border-bottom: 1px solid #ddd;
+    overflow: hidden;
+}
+
+.project-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .project-content {
     padding: 1.5rem;
 }
 
-.project-item h3 {
-    font-size: 1.2rem;
-    padding-bottom: 0.8rem;
-    font-weight: 500;
-    color: #fff;
+.project-content h3 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 0.75rem;
+    color: #2c2c2c;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
 }
 
-.project-item p {
-    color: #ccc;
-    padding-bottom: 1rem;
-    font-size: 0.95rem;
+.project-content p {
+    color: #666;
+    margin-bottom: 1rem;
+    line-height: 1.6;
 }
 
 .project-tech {
+    display: inline-block;
+    background: #f5f5f5;
+    color: #2c2c2c;
+    padding: 0.25rem 0.75rem;
+    font-size: 0.8rem;
+    font-weight: 500;
+    border: 1px solid #ddd;
+}
+
+/* Experience Section */
+.experience-item {
+    background: white;
+    border: 1px solid #ddd;
+    padding: 2rem;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.experience-item:hover {
+    border-color: #2c2c2c;
+}
+
+.experience-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 1rem;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.experience-header h3 {
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: #2c2c2c;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+}
+
+.experience-org {
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: #2c2c2c;
+}
+
+.experience-date {
+    font-size: 0.9rem;
+    color: #666;
+    font-weight: 500;
+}
+
+.experience-item p {
+    color: #2c2c2c;
+    line-height: 1.7;
+    margin-bottom: 1rem;
+}
+
+.experience-tech {
+    display: inline-block;
+    background: #f5f5f5;
+    color: #2c2c2c;
+    padding: 0.5rem 1rem;
     font-size: 0.85rem;
-    color: #9550a6;
+    font-weight: 500;
+    border: 1px solid #ddd;
 }
 
-.project-item:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
-    background-color: #2a2a2a;
-}
-
-.right-panel::-webkit-scrollbar {
-    width: 8px;
-}
-
-.right-panel::-webkit-scrollbar-track {
-    background: #333;
-}
-
-.right-panel::-webkit-scrollbar-thumb {
-    background: #555;
-    border-radius: 4px;
-}
-
-.right-panel::-webkit-scrollbar-thumb:hover {
-    background: #777;
-}
-
-@media (max-width: 1024px) {
-    .container {
-        flex-direction: column;
+/* Responsive Design */
+@media (max-width: 1200px) {
+    .sidebar {
+        width: 250px;
     }
     
-    .left-panel, .right-panel {
+    .main-content {
+        margin-left: 250px;
+        padding: 2rem 3rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .sidebar {
+        position: relative;
         width: 100%;
-    }
-    
-    .left-panel {
         height: auto;
-        padding: 2rem;
+        padding: 1.5rem;
     }
     
-    .navigation {
-        flex-direction: row;
-        justify-content: space-between;
-        padding-top: 2rem;
-    }
-    
-    .right-panel {
-        height: 70vh;
+    .main-content {
+        margin-left: 0;
+        padding: 2rem 1.5rem;
     }
     
     .project-grid {
         grid-template-columns: 1fr;
+        gap: 1.5rem;
     }
     
-    .spotlight {
-        display: none;
+    .experience-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.5rem;
     }
     
-    .right-panel-bg {
-        width: 100%;
+    section h2 {
+        font-size: 1.8rem;
+    }
+    
+    .social-links {
+        justify-content: center;
+    }
+    
+    .current-status {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .main-content {
+        padding: 1.5rem 1rem;
+    }
+    
+    .project-content {
+        padding: 1rem;
+    }
+    
+    .experience-item {
+        padding: 1.5rem;
+    }
+    
+    .current-status {
+        grid-template-columns: 1fr;
     }
 }
 

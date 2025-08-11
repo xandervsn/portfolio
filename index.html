@@ -9,151 +9,145 @@
     <link href="https://fonts.googleapis.com/css2?family=SF+Pro+Display:wght@300;400;500;600&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="container">
-        <div class="left-panel">
-            <div class="intro">
-                <h1>Alexander Siruno-Nebel</h1>
-                <p class="executive-summary">
-                    Software engineer with a passion for creating user-friendly applications that help real people solve real problems.
-                </p>
+    <div class="sidebar">
+        <div class="profile-info">
+            <h1>Alexander Siruno-Nebel</h1>
+            <p class="major">Computer Science, History Student</p>
+            <p class="school">University of Minnesota</p>
+        </div>
+        
+        <div class="contact-info">
+            <div class="contact-item">
+                <i class="fas fa-envelope"></i>
+                <a href="mailto:xandervsn@gmail.com">xandervsn@gmail.com</a>
             </div>
-
-            <div class="personality-widget">
-                <div class="widget-title">Currently...</div>
-                
-                <div class="now-playing">
-                    <h3>Listening to</h3>
-                    <div class="music-widget">
-                        <div class="vinyl-container">
-                            <div class="vinyl">
-                                <div class="vinyl-album"></div>
-                            </div>
-                        </div>
-                        <div class="music-info">
-                            <h4 id="track"></h4>
-                            <p id="artist"></p>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="now-reading">
-                    <h3>Reading</h3>
-                    <div class="book-widget">
-                        <div class="book-thumbnail"></div>
-                        <div class="book-info">
-                            <h4>Beware of Pity</h4>
-                            <p>Stefan Zweig</p>
-                        </div>
-                    </div>
-                </div>
+            <div class="contact-item">
+                <i class="fas fa-phone"></i>
+                <a href="tel:+19713488915">(971) 348-8915</a>
             </div>
-            
-            <div class="navigation">
-                <button class="nav-button" data-section="about">ABOUT</button>
-                <button class="nav-button" data-section="projects">PROJECTS</button>
-                <button class="nav-button" data-section="experience">EXPERIENCE</button>
+            <div class="contact-item">
+                <i class="fas fa-map-marker-alt"></i>
+                <span>Portland, OR</span>
             </div>
         </div>
-        <div class="right-panel">
-            <div class="right-panel-bg"></div>
-            <div class="spotlight"></div>
+        
+        <div class="social-links">
+            <a href="https://www.linkedin.com/in/alexander-siruno-nebel-b2a069236/" target="_blank" class="social-icon">
+                <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="https://github.com/xandervsn" target="_blank" class="social-icon">
+                <i class="fab fa-github"></i>
+            </a>
+        </div>
+        
+        <div class="current-status">
+            <div class="status-widget">
+                <h3><i class="fas fa-music"></i> Listening</h3>
+                <p id="track">Loading...</p>
+                <p id="artist">Loading...</p>
+            </div>
             
-            <div class="profile-section" id="about">
-                <div class="profile-header">
-                    <div class="profile-image">
-                        <img src="main/imgs/headshot.png" alt="Alexander Siruno-Nebel">
-                    </div>
-                    <div class="contact-info">
-                        <h2>Contact Information</h2>
-                        <p><i class="fas fa-envelope"></i> xandervsn@gmail.com</p>
-                        <p><i class="fas fa-phone"></i> (971) 348-8915</p>
-                        <p><i class="fas fa-map-marker-alt"></i> Portland, OR</p>
-                        <div class="social-icons">
-                            <a href="https://www.linkedin.com/in/alexander-siruno-nebel-b2a069236/" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
-                            <a href="https://github.com/xandervsn" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
-                            <a href="https://instagram.com/xandersiruno" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a>
-                            <a href="https://open.spotify.com/user/ab8f0rcrldpzc9snq82wvhlg6?si=2d9a843a943f443c" target="_blank" title="Spotify"><i class="fab fa-spotify"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="about-content">
-                    <h2>About Me</h2>
-                    <p>
-                        I'm a passionate Computer Science student with experience in full stack development, specializing in data analysis. 
-                        I believe in the power of technology to transform lives, and am interested in using my skills to create impactful solutions to real-world problems.
-                    </p>
-                    <p>
-                        When I'm not coding, you can find me hiking in Oregon's beautiful outdoors, exploring new music, or thrifting new finds.
-                    </p>
-                </div>
+            <div class="status-widget">
+                <h3><i class="fas fa-book"></i> Reading</h3>
+                <p>The Emperor of Gladness</p>
+                <p class="author">Ocean Vuong</p>
             </div>
-            <div class="section" id="projects">
-                <h2>Projects</h2>
-                <div class="project-grid">
-                    <a href="lastfm" class="project-item" target="_blank">
-                        <div class="project-content">
-                            <h3>Last.fm Time Charts</h3>
-                            <p>A web application using data from the Last.fm and Deezer APIs, providing users with personalized music rankings and history</p>
-                            <span class="project-tech">JavaScript, HTML, CSS</span>
-                        </div>
-                    </a>
-                    <a href="https://github.com/xandervsn/GopherTrip" class="project-item" target="_blank">
-                        <div class="project-content">
-                            <h3>Vehicle Classification</h3>
-                            <p>An ML application that classifies the make and model of cars, providing users with enhanced traffic information using data from the Oregon DoT's TripCheck API</p>
-                            <span class="project-tech">PyTorch, Jupyter Notebook</span>
-                        </div>
-                    </a>
-                    <a href="https://google.com" class="project-item" target="_blank">
-                        <div class="project-content">
-                            <h3>GopherTrip+</h3>
-                            <p>A cross-platform web/mobile application, displaying advanced bus route information for the University of Minnesota</p>
-                            <span class="project-tech">Vue.js, Quasar</span>
-                        </div>
-                    </a>
-                    <a href="https://github.com/xandervsn/portfolio" class="project-item" target="_blank">
-                        <div class="project-content">
-                            <h3>Portfolio</h3>
-                            <p>What you're seeing now :) <br>The widget to your left uses real-time Spotify data</p>
-                            <span class="project-tech">JavaScript, HTML, CSS</span>
-                        </div>
-                    </a>
-                </div>
-            </div>
-            <div class="section" id="experience">
-                <h2>Experience</h2>
-                <div class="experience-item">
-                    <h3>Undergraduate Researcher</h3>
-                    <h4>UMN TURBO Telescope Lab</h4>
-                    <p class="date">Sep 2024 - Present</p>
-                    <p>
-                        Researcher at the University of Minnesota's TURBO telescope lab under direct supervision from Professor Mandeep Gill. 
-                        Developed a data analysis pipeline for detecting transient astronomical events
-                    </p>
-                </div>
-                <div class="experience-item">
-                    <h3>Research Intern</h3>
-                    <h4>Oregon Health & Science University</h4>
-                    <p class="date">Jan 2024 - Aug 2024</p>
-                    <p>
-                        Student intern at the Oregon Health & Science University—studied recombinant AAV viruses, helped develop new AAV vector identification methods
-                    </p>
-                </div>
-                <div class="experience-item">
-                    <h3>Teaching Assistant</h3>
-                    <h4>UMN College of Science & Engineering</h4>
-                    <p class="date">Mar 2025 - Present</p>
-                    <p>
-                        Teaching assistant for CSE 1001: First-Year Experience, an introductory course for every student in the University of Minnesota's 
-                        College of Science & Engineering supervised by Ben Koch.
-                    </p>
-                </div>
-            </div>
-
         </div>
     </div>
+
+    <div class="main-content">
+        <section class="about">
+            <h2>About</h2>
+            <div class="about-content">
+                <p>I am a Computer Science and Mathematics student with a strong interest in the intersection of technology, law, and public interest work. My background spans research, software development, and leadership roles, where I've worked on projects ranging from data analysis to full-stack applications. I'm motivated by opportunities that combine analytical problem-solving with meaningful social impact, and I thrive in collaborative environments where I can learn quickly and contribute to complex, interdisciplinary challenges.</p>
+            </div>
+        </section>
+
+        <section class="projects">
+            <h2>Projects</h2>
+            <div class="project-grid">
+                <a href="lastfm" target="_blank" class="project-card">
+                    <div class="project-image">
+                        <img src="main/imgs/lastfm.png" alt="Last.FM Time Charts">
+                    </div>
+                    <div class="project-content">
+                        <h3>Last.FM Time Charts</h3>
+                        <p>Music listening pattern analysis using multiple APIs</p>
+                        <div class="project-tech">JavaScript, HTML, CSS</div>
+                    </div>
+                </a>
+
+                <a href="https://github.com/xandervsn/GopherTrip" target="_blank" class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Machine Learning Research</h3>
+                        <p>Vehicle classification using machine learning</p>
+                        <div class="project-tech">PyTorch, Jupyter Notebook</div>
+                    </div>
+                </a>
+
+                <a href="https://google.com" target="_blank" class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-bus"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Transportation Analysis</h3>
+                        <p>Public transportation data analysis application</p>
+                        <div class="project-tech">Vue.js, Quasar</div>
+                    </div>
+                </a>
+
+                <a href="https://github.com/xandervsn/portfolio" target="_blank" class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Portfolio Website</h3>
+                        <p>What you're seeing now :)</p>
+                        <div class="project-tech">JavaScript, HTML, CSS</div>
+                    </div>
+                </a>
+            </div>
+        </section>
+
+        <section class="experience">
+            <h2>Experience</h2>
+            
+            <div class="experience-item">
+                <div class="experience-header">
+                    <h3>Software Engineering Intern</h3>
+                    <div class="experience-org">Mercor</div>
+                    <div class="experience-date">Apr 2025 - Present</div>
+                </div>
+                <p>Supporting AI development at top AI labs—focused on debugging, environment setup and test infrastructure across cutting-edge machine learning repositories</p>
+                <div class="experience-tech">Python, Machine Learning, Infrastructure</div>
+            </div>
+
+            <div class="experience-item">
+                <div class="experience-header">
+                    <h3>Teaching Assistant</h3>
+                    <div class="experience-org">University</div>
+                    <div class="experience-date">Mar 2025 - Present</div>
+                </div>
+                <p>Supporting course instruction and student learning in academic environment</p>
+                <div class="experience-tech">Teaching, Communication</div>
+            </div>
+
+            <div class="experience-item">
+                <div class="experience-header">
+                    <h3>Undergraduate Research</h3>
+                    <div class="experience-org">University</div>
+                    <div class="experience-date">Sep 2024 - Present</div>
+                </div>
+                <p>Conducting research in academic environment</p>
+                <div class="experience-tech">Research, Analysis</div>
+            </div>
+        </section>
+    </div>
+
     <script src="main/main.js"></script>
-    <script src="main/src/secret.js"></script>
     <script src="main/src/vinyl.js"></script>
 </body>
 </html>

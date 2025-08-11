@@ -3,3 +3,5 @@ secrets.js
 */secret.js
 lastfm/src/secret.js
 main/src/secret.js
+.git
+.*

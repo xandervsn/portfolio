@@ -33,9 +33,25 @@ async function getLastTracks() {
     let trackName = currentTrack.name;
     let trackArtist = currentTrack.artist["#text"];
     let trackImage = currentTrack.image[0]["#text"];
-    track.innerText = trackName;
-    artist.innerText = trackArtist;
-    document.querySelector('.vinyl-album').style.backgroundImage = `url('${trackImage}')`;
+    
+    // Update DOM elements directly (for backward compatibility)
+    const trackElement = document.getElementById('track');
+    const artistElement = document.getElementById('artist');
+    if (trackElement) trackElement.innerText = trackName;
+    if (artistElement) artistElement.innerText = trackArtist;
+    
+    // Update vinyl album image
+    const vinylAlbum = document.querySelector('.vinyl-album');
+    if (vinylAlbum) vinylAlbum.style.backgroundImage = `url('${trackImage}')`;
+    
+    // Dispatch custom event for the main.js to listen to
+    const spotifyDataEvent = new CustomEvent('spotifyDataUpdate', {
+        detail: {
+            track: trackName,
+            artist: trackArtist
+        }
+    });
+    window.dispatchEvent(spotifyDataEvent);
 }
 
 async function fm_fetch(url){
