@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LSAT Online Test Environment</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Start Screen -->
+    <div id="start-screen" class="screen active">
+        <div class="start-container">
+            <h1>LSAT Online Test Environment</h1>
+            <p>This is a practice version of the LSAT online administration system. <br> 
+                This practice uses LSAT PrepTest 158, available for free on the LSAC website. <br> 
+                You can upload/download custom practice tests <a href="#" id="json-menu-link">here</a>.
+            </p>
+            <div class="test-info">
+                <h3>Test Structure:</h3>
+                <ul>
+                    <li>4 sections total (35 minutes each)</li>
+                    <li>3 scored sections</li>
+                    <li>1 experimental section (unscored)</li>
+                    <li>10-minute break after Section 2</li>
+                </ul>
+            </div>
+            <button id="begin-test-btn" class="btn-primary">Begin Test</button>
+        </div>
+    </div>
+
+    <!-- Test Environment -->
+    <div id="test-environment" class="screen">
+        <!-- Header -->
+        <header class="test-header">
+            <div class="test-info">
+                <span id="section-name">Section 1</span>
+                <span id="question-counter">Question 1 of 5</span>
+            </div>
+            <div class="timer-container">
+                <div class="timer" id="timer">35:00</div>
+                <button id="submit-section-btn" class="btn-primary">Submit Section</button>
+            </div>
+        </header>
+
+        <!-- Main Content Area -->
+        <main class="test-content">
+            <!-- Reading Comprehension Layout -->
+            <div id="rc-layout" class="section-layout">
+                <div class="passage-pane">
+                    <div class="passage-content" id="passage-content">
+                        <!-- Passage content will be loaded here -->
+                    </div>
+                </div>
+                <div class="question-pane">
+                    <div class="question-content" id="question-content">
+                        <!-- Question content will be loaded here -->
+                    </div>
+                    <div class="answer-choices" id="answer-choices">
+                        <!-- Answer choices will be loaded here -->
+                    </div>
+                </div>
+            </div>
+
+            <!-- Logical Reasoning Layout -->
+            <div id="lr-layout" class="section-layout">
+                <div class="lr-prompt-pane">
+                    <div class="prompt-content" id="lr-question-content">
+                        <!-- LR prompt content will be loaded here -->
+                    </div>
+                </div>
+                <div class="question-pane">
+                    <div class="question-content" id="lr-question-display">
+                        <!-- LR question display will be loaded here -->
+                    </div>
+                    <div class="answer-choices" id="lr-answer-choices">
+                        <!-- LR answer choices will be loaded here -->
+                    </div>
+                </div>
+            </div>
+
+            <!-- Logic Games Layout -->
+            <div id="lg-layout" class="section-layout">
+                <div class="game-setup-pane">
+                    <div class="game-content" id="game-content">
+                        <!-- Game setup content will be loaded here -->
+                    </div>
+                </div>
+                <div class="question-pane">
+                    <div class="question-content" id="lg-question-content">
+                        <!-- LG question content will be loaded here -->
+                    </div>
+                    <div class="answer-choices" id="lg-answer-choices">
+                        <!-- LG answer choices will be loaded here -->
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <!-- Navigation -->
+        <nav class="test-navigation">
+            <div class="nav-container">
+                <div class="question-grid" id="question-grid">
+                    <!-- Question grid will be generated here -->
+                </div>
+                <div class="nav-arrows">
+                    <button id="prev-btn" class="btn-primary">←</button>
+                    <button id="next-btn" class="btn-primary">→</button>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Tools Panel -->
+        <div class="tools-panel">
+            <button id="highlighter-btn" class="tool-btn">Highlighter</button>
+            <button id="notes-btn" class="tool-btn">Notes</button>
+        </div>
+
+        <!-- Notes Modal -->
+        <div id="notes-modal" class="modal">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3>Notes</h3>
+                    <button id="close-notes" class="close-btn">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <textarea id="notes-textarea" placeholder="Add your notes here..."></textarea>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Break Screen -->
+    <div id="break-screen" class="screen">
+        <div class="break-container">
+            <h2>Break Time</h2>
+            <p>You have completed Section 2. You can take a 10-minute break or skip it.</p>
+            <div class="break-timer" id="break-timer">10:00</div>
+            <button id="resume-test-btn" class="btn-primary">Skip Break & Resume Test</button>
+        </div>
+    </div>
+
+    <!-- End of Test Screen -->
+    <div id="end-screen" class="screen">
+        <div class="end-container">
+            <h2>Test Complete</h2>
+            <p>You have completed all sections of the LSAT practice test.</p>
+            <div class="test-summary">
+                <h3>Test Summary:</h3>
+                <ul id="test-summary-list">
+                    <!-- Summary will be populated here -->
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- Submit Section Confirmation Modal -->
+    <div id="submit-modal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>Submit Section</h3>
+            </div>
+            <div class="modal-body">
+                <p>Are you sure you want to submit this section? You will not be able to return to it.</p>
+                <div class="modal-buttons">
+                    <button id="cancel-submit" class="btn-secondary">Cancel</button>
+                    <button id="confirm-submit" class="btn-primary">Submit Section</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- JSON Upload/Download Modal -->
+    <div id="json-modal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>JSON Upload/Download</h3>
+                <button id="close-json-modal" class="close-btn">&times;</button>
+            </div>
+            <div class="modal-body">
+                <div class="json-section">
+                    <h4>Download Current Test</h4>
+                    <p>Download the current test data as a JSON file.</p>
+                    <button id="download-json-btn" class="btn-primary">Download in.json</button>
+                </div>
+                <hr>
+                <div class="json-section">
+                    <h4>Upload Custom Test</h4>
+                    <p>Upload your own JSON file to replace the current test data.</p>
+                    <input type="file" id="json-file-input" accept=".json" style="display: none;">
+                    <button id="upload-json-btn" class="btn-secondary">Choose File</button>
+                    <span id="selected-file-name"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

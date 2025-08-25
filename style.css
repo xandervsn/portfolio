@@ -275,6 +275,10 @@ section h2 {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
 }
 
+.experience-right {
+    text-align: right;
+}
+
 .experience-org {
     font-size: 1.1rem;
     font-weight: 500;

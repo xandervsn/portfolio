@@ -1,0 +1,1567 @@
+{
+  "RC": {
+    "timeLimit": 35,
+    "passages": [
+      {
+        "title": "Early Non-Fiction Film",
+        "content": "The following passage is adapted from a 2001 article by a film historian.\n\nIn exhibiting works of art whether in a gallery, a cinema, or anywhere else the primary question usually is: which works should be exhibited together? In many exhibitions the selection is often tied to the creator of the works. For example, we might have an exhibition of Rembrandt's paintings. Another reasonable method might be to choose paintings with a particular theme or of a particular historical period, for example, Modernism. In all cases the aim is to select a series of works with something in common. In the world of cinema, this notion of \"collecting the similar\" has its analogue in the retrospective. This involves collecting together and screening several examples of the work of a particular director, star, studio, etc. In recent years a rediscovery of early (pre-1915) nonfiction film has been taking place, and such films have been the subject of some notable retrospectives.\n\nBut I would argue that the philosophy of \"collecting the similar\" is often inappropriate for screening early film, especially nonfiction, because it means showing several films of the same type one after the other in the same sitting, which would never have been the practice at the time the films were made. Gathering together several short films (and in the early 1910s most films were under fifteen minutes) by the same maker or studio, while useful for historians and academics, is often profoundly dull for the viewer. With some exceptions, nonfiction films have always been supporting films, not main attractions. Early cinemagoers never saw a collection of similar films screened together; they almost always saw a program that was a mix of everything from dramas and comedies to travelogues and news. Even into the 1920s a mixed program was the norm.\n\nFilm archives and retrospective festivals often behave as if the production of the films were the only side of the coin. Film archives spend vast amounts of time and effort in restoring films as they supposedly were when originally produced. These restorations are presented with great fanfare as authentic versions, or \"directors' cuts.\" Yet as far as the exhibition side is concerned, authenticity is sometimes allowed to go out the window. Films are presented in an inauthentic setting, utterly shorn of the program that once gave these films life and context, a setting that allowed particular films to shine, but also to balance and react against other kinds of films. Film presenters discovered the magic of programming in the early years of the twentieth century, or more likely inherited it from the vaudeville tradition. It ill behooves us alleged early film lovers to forsake their insights today.",
+        "questions": [
+          {
+            "text": "Which one of the following most accurately expresses the main point of the passage?",
+            "choices": [
+              "Screenings that consist entirely of early nonfiction films are poorly conceived because they ignore the context of the films' original screening.",
+              "The practices that are best suited to exhibiting works in an artistic medium like painting are not well suited for exhibiting cinematic works.",
+              "Early nonfiction films have not received the critical recognition that they deserve.",
+              "The artistic goals of early nonfiction films are different in many major respects from the goals of contemporary cinema.",
+              "For modern audiences to properly experience early nonfiction films, film archivists must produce restorations of those films that are as authentic as possible."
+            ],
+            "correct": 0
+          },
+          {
+            "text": "According to the passage, which one of the following is true of early nonfiction films?",
+            "choices": [
+              "They were produced by studios that focused exclusively on nonfiction films.",
+              "They were rarely credited to individual directors.",
+              "They were heavily influenced by the vaudeville tradition.",
+              "They were usually intended to be supporting films.",
+              "They were no less popular than most comedies and dramas of the time."
+            ],
+            "correct": 3
+          },
+          {
+            "text": "The author would be most likely to reject which one of the following principles?",
+            "choices": [
+              "Works of art should be presented as authentically as possible.",
+              "Dissimilar works of art should never be displayed together.",
+              "Contemporary exhibitions of works of art should be informed by knowledge of how past exhibitions collected works together.",
+              "Art exhibitions should never be designed without regard to how each work contributes to the whole.",
+              "Art exhibitions should sometimes collect works that are all by the same artist."
+            ],
+            "correct": 1
+          },
+          {
+            "text": "The passage contains information sufficient to answer which one of the following questions?",
+            "choices": [
+              "How many nonfiction films were made in the years before 1915?",
+              "Did directors of early nonfiction films ever work on other films as well?",
+              "How long were most films in the early years of the twentieth century?",
+              "Out of what historical tradition did the idea of \"directors cuts\" originate?",
+              "How popular were early travelogues and news films with audiences of their time?"
+            ],
+            "correct": 2
+          },
+          {
+            "text": "The author most likely intends the final sentence of the passage to",
+            "choices": [
+              "call into question the sincerity of those who purport to be early film aficionados",
+              "carry an implication regarding the proper way of exhibiting early nonfiction films",
+              "trace the historical basis behind the screening practices of early twentieth century film presenters",
+              "suggest that it is incumbent upon those who enjoy early films to seek out the earliest versions they can find",
+              "challenge the notion that early film can ever be fully understood by contemporary audiences"
+            ],
+            "correct": 1
+          },
+          {
+            "text": "The author would be most likely to agree with which one of the following statements?",
+            "choices": [
+              "An exhibition of works by a single artist is likely to be less interesting than an exhibition that contains a mixture of works by different artists.",
+              "When several works of art are exhibited together, the audience's response can be greatly affected by the interplay among those works.",
+              "Film archives and retrospective festivals are too beholden to practices that have their roots in the vaudeville tradition.",
+              "Most early cinemagoers did not think of nonfiction films of the time as belonging to a separate genre from comedies and dramas.",
+              "A work of art will be misunderstood by historians or academics unless it is viewed in an authentic setting."
+            ],
+            "correct": 1
+          },
+          {
+            "text": "It can be inferred from the passage that the author holds which one of the following views regarding the \"directors cuts\" described in the final paragraph?",
+            "choices": [
+              "They are usually little more than clever marketing gimmicks and are entirely lacking in artistic value.",
+              "Producing them is largely a pointless endeavor, in that it is striving for a goal that can never be fully achieved.",
+              "Paradoxically, even though they are produced in an attempt to increase authenticity, in many cases they are less authentic than other versions.",
+              "The time and effort expended in producing them is potentially wasted if no attention is paid to other aspects of authenticity.",
+              "In the vast majority of cases where such a version is available, it represents by far the best way to experience the film."
+            ],
+            "correct": 3
+          }
+        ]
+      },
+      {
+        "title": "International Water Law",
+        "content": "With rapidly expanding populations, growing industrial development, and dwindling water supplies on national and regional levels, water is fast replacing oil as the world's most valuable resource. Meanwhile, the growing importance of water in geopolitical affairs has increased the potential for international conflict over water resources. Thus as development and other threats to the world's rivers have continued to mount, nations have become acutely aware of the need for legal and institutional mechanisms to manage and protect resources that traverse their borders. Recognition of the need for international cooperation in efforts to manage and protect rivers has led the United Nations' International Law Commission (ILC) to develop a treaty structure for the uses of international watercourses. The ILC's Draft Articles on the Law of the Non-Navigational Uses of International Watercourses are an attempt to codify the customary principles of international water law as those principles are manifested in past legal decisions and currently accepted international practice. The Draft Articles are intended as a set of guidelines for the creation of treaties governing the use of specific international watercourses. They prescribe that treaties should uphold several broad precepts: that one nation's use of a watercourse should not cause appreciable harm to another nation, that every nation's use of the watercourse should be equitable and reasonable, and that nations should work for the protection of ecosystems.\n\nThough the Draft Articles are a significant step forward in the formulation of legal principles for the protection and regulation of international rivers, they are inadequate because they do not provide satisfactory ways of dealing with possible future environmental changes. One significant environmental threat to the world's rivers is the increase of atmospheric carbon dioxide. With its resultant greenhouse effect and warmer temperatures, it is likely to have a number of dramatic effects on water levels in international river systems, arising from increased runoff due to snowmelt or, more importantly, from decreased precipitation in many regions.\n\nTreaties that allocate fixed amounts of water to various countries based on current usage, as suggested by the Draft Articles, will not be flexible enough to respond to these large fluctuations in river flows. Once specific water rights are allocated along a river in accordance with the Draft Articles, nations would have no mechanism for coping with a drastic reduction in the flow of the river. Adhering rigidly to these fixed allocations would unjustly favor those countries whose water usage is most extensive. One way to circumvent this problem is to devise treaties that apportion water use in more flexible ways—for example, by assigning proportional shares rather than fixed allotments of water. Similarly, treaties might incorporate explicit contingency plans dealing specifically with issues related to possible climate changes, such as how reduced flows will be allocated among countries sharing a river.",
+        "questions": [
+          {
+            "text": "Which one of the following most accurately expresses the main point of the passage?",
+            "choices": [
+              "The world's water resources are on the decline, so the ILC has formulated a set of treaty guidelines designed to ensure each nation's equitable use of watercourses, protect ecosystems, and prevent one country's use of a watercourse from harming another country.",
+              "The potential for international conflict over dwindling water resources is escalating due to climatic changes, so the ILC has developed a treaty structure in an effort to ensure and safeguard the continued growth of industrial development on national and regional levels.",
+              "Though the ILC's Draft Articles are a worthwhile attempt to assemble an appropriate set of principles to govern the formulation of treaties concerning the use of international watercourses, they are flawed because of their lack of provision for the foreseeable effects of certain predicted environmental changes.",
+              "While the environmental threats to the world's water resources have thus far had little impact on river systems, the ILC's Draft Articles can and should be suitably revised to take into account possible future threats that could significantly alter the world's rivers.",
+              "The increase in atmospheric carbon dioxide and the attendant greenhouse effect and resultant global warming have already had detrimental effects on international river systems, and the ILC's Draft Articles fail to outline adequate contingency plans to deal with these environmental changes."
+            ],
+            "correct": 2
+          },
+          {
+            "text": "Which one of the following is proposed by the author as a way for countries to respond to the danger that serious water-usage problems may result from changes in the flow of international rivers?",
+            "choices": [
+              "regulating industrial development in countries with rapidly expanding economies",
+              "developing mechanisms to sustain and safeguard the balance of ecosystems",
+              "allocating water usage amounts to countries based on a proportional share system",
+              "modifying agricultural practices that require inordinate amounts of water",
+              "redirecting snowmelt runoff to areas with increased water needs"
+            ],
+            "correct": 2
+          },
+          {
+            "text": "According to the passage, a primary purpose for the development of the Draft Articles was to",
+            "choices": [
+              "criticize existing international practices resulting from past legal decisions",
+              "provide an explicit formulation of some commonly applied principles of international law",
+              "establish uniform judicial procedures for deciding disputes over water resources",
+              "protect the pre-existing water rights of those countries that use the most water",
+              "help guarantee continued industrial development in countries that share rivers"
+            ],
+            "correct": 1
+          },
+          {
+            "text": "In the passage, the author claims that the Draft Articles are flawed in that they",
+            "choices": [
+              "focus on the management of water resources rather than on the protection of rivers endangered by environmental changes",
+              "fail to incorporate certain widely accepted legal principles reflected in customary international water-use practices",
+              "do not address pertinent issues involving the relationship between navigational and non-navigational uses of international watercourses",
+              "suggest that treaties stipulate specific quantities of water use, which future conditions may render inequitable",
+              "provide little assistance to countries in the process of expanding their water uses, and thus favor more industrialized countries"
+            ],
+            "correct": 3
+          },
+          {
+            "text": "The passage most strongly supports the inference that the author would agree with which one of the following statements?",
+            "choices": [
+              "It is possible to devise treaties that uphold the broad precepts embraced in the Draft Articles and that also permit countries to adapt to large fluctuations in river flows.",
+              "Efforts to manage and protect the world's water resources should include unilateral regulatory action on the part of the ILC in cases where treaties do not adequately provide for the protection of internationally shared watercourses.",
+              "The Draft Articles need to be reformulated to take into account the effects of water usage on entire river systems instead of focusing on the individual segments of such systems that lie entirely within each nation's borders.",
+              "Many existing treaties governing water usage are cast in terms that permit nations to react flexibly to altered water availability patterns that might occur due to global warming.",
+              "Countries that use the greatest quantities of water have generally favored treaties formulated in terms that allocate fixed quantities of water usage to each participating country."
+            ],
+            "correct": 0
+          },
+          {
+            "text": "The passage most strongly suggests that at the time the ILC began developing the Draft Articles, which one of the following was true?",
+            "choices": [
+              "Water resources were sufficiently abundant to meet the needs of most of the countries belonging to the United Nations.",
+              "Precipitation levels throughout the world had been declining steadily for a number of years.",
+              "Existing treaties governing water rights rarely covered matters involving environmental protection.",
+              "Conflicts over the management of water resources had been escalating sharply in frequency and intensity.",
+              "Much of the content of the Draft Articles had already been articulated by courts resolving international water-rights cases."
+            ],
+            "correct": 4
+          },
+          {
+            "text": "Which one of the following most accurately characterizes the author's attitude toward the Draft Articles?",
+            "choices": [
+              "mistrust of the political motivations that shaped them",
+              "skepticism regarding their assumption that treaties are the only viable type of water-usage agreement",
+              "concern over their failure to prescribe ways of dealing with treaty violations",
+              "satisfaction with their initiative in diverging from international customary practice",
+              "approval of the general goals that they attempt to accomplish"
+            ],
+            "correct": 4
+          },
+          {
+            "text": "The author probably intends the phrase \"treaty structure\" in the last sentence of the first paragraph to refer to",
+            "choices": [
+              "a compendium of past treaties that the ILC regards as exemplary models for the formulation of future treaties",
+              "an outline for a comprehensive international accord intended to serve in place of individual bilateral treaties between countries",
+              "a systematic analysis of legal precedents that have been established by international tribunals in adjudicating treaty-related disputes",
+              "a set of general prescriptive principles to be followed in the formulation of the provisions of treaties",
+              "a charter for a proposed advisory board that would oversee treaty negotiation on behalf of the international community"
+            ],
+            "correct": 3
+          }
+        ]
+      },
+      {
+        "title": "Nanoscale Electronics",
+        "content": "This passage was adapted from an article published in 2000.\n\nCompetition to make computer chips smaller and, consequently, faster and more efficient has driven a technological revolution, fueled economic growth, and rapidly made successive generations of computers obsolete. Yet at the current rate of progress this march toward miniaturization will hit a wall by about 2010—for many, an unthinkable prospect. The laws of physics dictate that, with current methods, properly functioning transistors—the electronic devices that make up computer chips—cannot be made smaller than 25 nanometers (billionths of a meter). In living cells, however, natural chemical processes efficiently and precisely produce extremely complex structures below this size limit, so there may be hope of using some such processes to yield tiny molecules that can either function like transistors or be induced to combine with other materials in carefully controlled ways to construct whole nanocircuits. Much current research is aimed at harnessing DNA to this end, but materials chemist Angela Belcher and physicist Evelyn Hu are investigating a different molecular pattern maker: peptides, amino acid chains that are shorter than proteins.\n\nThe project grew out of Belcher's doctoral research on abalone. Her research group discovered in the mid-1990s that a specific peptide causes calcium carbonate to crystallize into the structure found only in the tough abalone shell. From that discovery, Belcher and Hu, Belcher's postdoctoral adviser at the time, realized that if they found peptides able to direct the crystal growth of the semiconductor materials that form transistors, they might have a tool for building nanoscale electronics. However, no known peptide was able to bind to semiconductor materials to cause the development of particular crystalline structures as some peptides did with calcium carbonate. So Belcher, Hu, and their colleagues grew a random assortment of one billion different peptides and tested whether any of them bound to silicon, gallium arsenide, or indium phosphide crystals—three widely used semiconductor materials. They found a few peptides that not only bound exclusively to one of the crystals in the experiment but also latched onto a particular face of the crystal. Through a process resembling accelerated evolution, they developed additional related peptides from those that had the initially promising characteristics.\n\nHu says that in order to use such a method to assemble a set of circuit-building tools it would be necessary to identify many additional organic compounds that bind to circuit-component materials. The group is making progress on that quest. As they have expanded their targets to 20 more semiconductor materials, their cache of crystal-manipulating peptides has ballooned into the hundreds. They are also designing new peptides that bind to two different crystals at once, acting as a daub of glue. It will take that kind of finesse at the nanoscale to produce self-assembling circuits.",
+        "questions": [
+          {
+            "text": "Which one of the following most accurately expresses the main point of the passage?",
+            "choices": [
+              "Although preliminary results suggest that Belcher and Hu's research on peptides and semiconductors could result in a breakthrough in the miniaturization of computer chips, enough obstacles remain to make such an outcome unlikely.",
+              "Advances in computer chip speed and efficiency beyond the year 2010 may depend on the outcome of various current research projects, including that conducted by Belcher and Hu, which focus on using peptides to bind different crystals together.",
+              "Belcher and Hu's research on the abilities of some peptides to bind to semiconductor materials indicates that peptides might eventually be applied to the production of computer chips with transistors smaller than the lower limit set by current methods.",
+              "Belcher and Hu's discovery of peptides that cause the development of a particular crystalline structure in a natural biological context suggests that semiconductor materials might bind to biological compounds.",
+              "The application of Belcher's work on abalone to the world of semiconductors shows that pure scientific research can have unexpected practical repercussions."
+            ],
+            "correct": 2
+          },
+          {
+            "text": "The words \"that kind of finesse\" (final sentence of the passage) refer primarily to",
+            "choices": [
+              "the ability to translate abstract, theoretical concepts in computer design into concrete applications",
+              "the creativity that was necessary to apply knowledge gained from DNA research to molecular pattern makers other than DNA",
+              "the development of sophisticated methods of observing the behavior of crystalline structures that are both extremely tiny and extremely complex",
+              "the ability to differentiate peptides that interact chemically with at least one semiconductor material from very similar peptides that do not interact with any such materials",
+              "the ability of researchers to manipulate organic compounds in ways that satisfy very specific circuit-construction needs"
+            ],
+            "correct": 4
+          },
+          {
+            "text": "Which one of the following statements about the peptides that Belcher and Hu tested in relation to semiconductors can be most reasonably inferred from the passage?",
+            "choices": [
+              "At least some of them did not previously exist in nature.",
+              "At least one of them was found to bind to three different semiconductor compounds.",
+              "At least some of them were tested in relation to silicon but not in relation to gallium arsenide.",
+              "At least one of them was in use in the computer chip industry prior to Belcher and Hu's research.",
+              "Other researchers had previously tested at least some of them for possible reactions with semiconductor materials other than silicon, gallium arsenide, and indium phosphide."
+            ],
+            "correct": 0
+          },
+          {
+            "text": "Which one of the following situations involving volatile oils is most analogous to the situation involving peptides that is presented in the passage?",
+            "choices": [
+              "A group of researchers, whose experimentation has focused on the chemical properties of certain synthetic volatile oils, abandons that line of inquiry on receiving a grant to study whether certain species of trees contain acids that could have antiviral properties in human medical applications.",
+              "A group of researchers extracts several volatile oils from the leaves of certain species of trees and, while testing each of the oils to determine whether it has antifungal properties that could make it useful in human medical applications, they discover that one of the oils is a powerful insecticide.",
+              "A group of researchers synthesizes several volatile oils that, when combined, are found to be useful as a fungicide on fruit trees. Through further experimentation, they find that this same combination of oils has antiviral properties in human medical applications.",
+              "A group of researchers observes that a volatile oil contained in an antifungal product used on fruit trees can cause mutations in the trees. As a result, they launch a research project to determine whether similar oils that are used in human medical applications might cause genetic damage.",
+              "A group of researchers, noting that a volatile oil secreted by a certain species of tree protects it from a type of fungal infection, synthesizes several similar oils and tests them for possible antibacterial activity that might make them useful in human medical applications."
+            ],
+            "correct": 4
+          },
+          {
+            "text": "The primary role of the first two sentences of the passage is to help the reader understand",
+            "choices": [
+              "why research of the sort done by Belcher and Hu was not previously undertaken by other researchers",
+              "the purpose and importance of the research that Belcher and Hu have undertaken",
+              "the skepticism with which some members of the scientific community have greeted Belcher and Hu's research",
+              "a commonly held viewpoint against which Belcher and Hu's research is directed",
+              "a hypothesis that Belcher and Hu's research is designed to test"
+            ],
+            "correct": 1
+          },
+          {
+            "text": "The passage most strongly supports which one of the following?",
+            "choices": [
+              "Some peptides that bind to gallium arsenide also bind to indium phosphide.",
+              "Researchers besides Belcher and Hu and their colleagues have studied the possibility of using peptides in the assembly of nanocircuits.",
+              "Neither Belcher nor Hu has done major scientific research on organic compounds other than peptides.",
+              "Silicon, gallium arsenide, and indium phosphide are not the only semiconductor materials to which peptides have been found to bind.",
+              "Peptides have been used in industrial applications that are not related to semiconductors."
+            ],
+            "correct": 3
+          },
+          {
+            "text": "Which one of the following, if true, lends the most support to a prediction of an eventual commercial application of Belcher and Hu's research into peptides and semiconductors?",
+            "choices": [
+              "Belcher and Hu's early successes in synthesizing peptides that bind to semiconductors have sparked renewed interest in possible DNA applications in the construction of nanocircuits.",
+              "For almost any semiconductor material that is used in a computer circuit, there are many other semiconductor materials that function in the same way and could be substituted for it.",
+              "The number of peptides that bind to two different crystals at once appears to be smaller than the number of peptides that, although they bind to two different crystals, cannot bind to both at the same time.",
+              "The one billion peptides that Belcher and Hu grew and tested in the initial stages of their research was nearly four times the number of peptides they grew and tested subsequently.",
+              "Expectations of continuing high costs of synthesizing the peptides that Belcher and Hu have found to bind to semiconductors have tended to restrict the number of scientists contemplating possible research into peptide uses in nanocircuits."
+            ],
+            "correct": 1
+          }
+        ]
+      },
+      {
+        "title": "Language and Thought",
+        "content": "Passage A\n\nIn 1940, Benjamin Lee Whorf seduced a whole generation into believing that our mother tongue restricts what we are able to think. In particular, Whorf announced, Hopi and English impose different pictures of reality on their speakers, impeding mutual understanding. Eventually, it transpired that there had never actually been any evidence to support his fantastic claims. Whorf's main mistake was to assume that our mother tongue prevents us from being able to think certain thoughts; new research suggests that in reality its influence consists in what it obliges us to think about. German, for example, forces me to designate my neighbor as male (Nachbar) or female (Nachbarin).\n\nFurthermore, grammatical genders can shape the feelings and associations that speakers have toward objects around them. In the 1990s, psychologists compared associations that speakers of German and Spanish make. There are many inanimate nouns whose genders in the two languages are reversed. A German bridge is feminine (die Brücke), for instance, but el puente is masculine in Spanish; and the same goes for clocks and violins. When speakers were asked about the characteristics of various objects, Spanish speakers deemed bridges, clocks, and violins to have stereotypically masculine properties like strength, but Germans tended to think of them as more slender or elegant. With objects like mountains or chairs, which are \"he\" in German but \"she\" in Spanish, the effect was reversed.\n\nPassage B\n\nStudies involving Pirahã and Mundurukú Indian subjects from the Brazilian Amazonia give evidence regarding the role of language in the development of numerical reasoning. The subjects in these reports apparently have consistent, unambiguous words for one and two and more loosely used words for three and four, but these subjects may not have true number words at all. Moreover, they do not overtly count, either with number words or by means of tallies. Yet, when tested on a variety of numerical tasks—naming the number of items in a stimulus set, constructing sets of equivalent number, judging which of two sets is more numerous, and mental addition and subtraction—the results appear to indicate that the subjects possess an innate imprecise nonverbal concept of number.\n\nIn showing that subjects with no verbal counting system have a concept of approximate numerical magnitude comparable to that of numerate subjects, these reports support a non-Whorfian, language-independent view of the origins of our concept of number. However, there is more to the story. Numerate subjects have a strong intuition of exact numerical equality. Two plus two is exactly four, not roughly four. When the innumerate subjects in these reports matched a set of four items to a set of five, or judged that 6 - 3 = 2, they gave evidence of being indifferent to exact numerical equality, an indifference not seen in numerate control subjects. Thus, the reports suggest that learning number words either creates a concept of exact numerical equality (a strong Whorfian hypothesis), or mediates the expansion of such a concept (a weaker Whorfian hypothesis), or directs attention to such a concept (a non-Whorfian hypothesis).",
+        "questions": [
+          {
+            "text": "Both passages are concerned with answering which one of the following questions?",
+            "choices": [
+              "Are there limits to the translatability of one language into another?",
+              "What does scientific research reveal about the relation between language and thought?",
+              "Do differences among languages result from different ways of thinking about the world?",
+              "Were Whorf's claims about language based on better evidence than previously thought?",
+              "Is the influence of language on thought confined to specific areas such as number and gender?"
+            ],
+            "correct": 1
+          },
+          {
+            "text": "In the first sentence of passage B, the word \"subjects\" refers to which one of the following?",
+            "choices": [
+              "words",
+              "topics",
+              "people",
+              "relations",
+              "objects"
+            ],
+            "correct": 2
+          },
+          {
+            "text": "Which one of the following is true about the relationship between the two passages?",
+            "choices": [
+              "Passage A presents examples of languages that picture reality in compatible ways, whereas passage B presents examples of languages that picture reality in incompatible ways.",
+              "Passage A depicts language as influencing thought by means of its vocabulary, whereas passage B depicts language as influencing thought by means of its grammatical structure.",
+              "Passage A regards linguistic differences as rendering mutual understanding impossible, whereas passage B regards them as a surmountable obstacle to mutual understanding.",
+              "Passage A portrays linguistic differences as arising from conceptual differences, whereas passage B portrays conceptual differences as arising from linguistic differences.",
+              "Passage A focuses on differences in people's subjective associations, whereas passage B focuses on the possession of concepts."
+            ],
+            "correct": 4
+          },
+          {
+            "text": "Given the style and tone of each passage, which one of the following is most likely to be true?",
+            "choices": [
+              "The author of passage A is writing for a general audience, while the author of passage B is addressing a more academic audience.",
+              "The author of passage A is an anthropologist, while the author of passage B is a linguist.",
+              "The author of passage A is a neutral observer, while the author of passage B is an advocate of a particular view.",
+              "The author of passage A is interested mainly in the historical development of an idea, whereas the author of passage B is concerned with its truth.",
+              "The author of passage A is dismissive of the ideas under discussion, while the author of passage B takes them more seriously."
+            ],
+            "correct": 0
+          },
+          {
+            "text": "Which one of the following principles underlies the argument in passage B, but not that in passage A?",
+            "choices": [
+              "If different languages apply incompatible concepts to one and the same object, then that suggests those concepts were created by those languages.",
+              "If a speaker possesses a concept for which the speaker's language lacks an expression, then that suggests that the concept was not created by language.",
+              "If one's language prevented one from possessing certain concepts, then one would not be able to learn a language in which such concepts are represented.",
+              "If a concept can be expressed more exactly in one language than in another language, then it is likely that the concept was created by those languages.",
+              "If a language obliges speakers to think about a concept, that concept must have been obtained independently of the language."
+            ],
+            "correct": 1
+          }
+        ]
+      }
+    ]
+  },
+  "LR": {
+    "timeLimit": 35,
+    "questions": [
+      {
+        "stimulus": "CEO: While we only have the sales reports for the first 9 months of this year, I feel confident in concluding that this will be a good year for us in terms of sales. In each of the last 5 years, our monthly sales average was less than $30 million. However, our monthly sales average so far for this year is over $35 million.",
+        "text": "Which one of the following, if true, most strengthens the CEO's argument?",
+        "choices": [
+          "The CEO's company typically has its highest monthly sales of the year during the last 3 months of the year.",
+          "The quality of the products sold by the CEO's company has always been considered to be relatively high.",
+          "The CEO has a strong incentive to highlight any good news regarding the company and to downplay bad news.",
+          "The CEO's company started a new advertising campaign at the beginning of this year that has proved unusually effective so far.",
+          "Several other companies who sell products similar to those sold by the CEO's company have also reported that this year's monthly sales averages so far have been higher than previous years' averages."
+        ],
+        "correct": 0
+      },
+      {
+        "stimulus": "Javier: Government workers are paid higher hourly wages than comparable private sector employees. So the government could save money by hiring private contractors to perform services now performed by government employees.\nMykayla: An analysis of government contracts showed that, on average, the government paid substantially more to hire contractors than it would have cost for government employees to perform comparable services.",
+        "text": "Javier and Mykayla disagree with each other over whether",
+        "choices": [
+          "the government could reduce spending by reducing the number of employees on its payroll",
+          "the government would save money if it hired private contractors to perform services now performed by government employees",
+          "government workers generally are paid higher hourly wages than comparable private sector workers",
+          "every service that is currently performed by government employees could be performed by private contractors",
+          "the total amount of money that the government pays its employees annually is greater than the total amount that it spends on contractors annually"
+        ],
+        "correct": 1
+      },
+      {
+        "stimulus": "Biologist: DNA analysis shows that Acacia heterophylla, a tree native to the Indian Ocean's Réunion Island, is descended from the Hawaiian tree Acacia koa, Some think this occurred because A. koa seeds floated from Hawaii to Réunion, but that explanation is implausible, since the seeds will not germinate after being soaked in seawater. Moreover, both trees grow in the mountains, not near the shore. Seabirds sometimes carry seeds great distances, so they probably caused the dispersal.",
+        "text": "Which one of the following, if true, most strengthens the support for the biologist's hypothesis?",
+        "choices": [
+          "A. koa branches carrying seeds can remain afloat for prolonged periods of time.",
+          "There are mountain-nesting seabird species common to Réunion and Hawaii.",
+          "Many seabird species return to land very infrequently, and often do so only to breed.",
+          "A. koa is thought to be descended from Acacia melanoxylon, a tree native to eastern Australia.",
+          "Ocean currents have sometimes carried buoyant objects from Hawaii to Réunion."
+        ],
+        "correct": 1
+      },
+      {
+        "stimulus": "Although smaller class sizes are popular with parents and teachers, the evidence shows that large scale reductions in class size lead to only slight improvements in student performance. Because school finances are limited, the cost-benefit test that any educational policy must pass is not \"Does this policy have any positive effect?\" but rather \"Is there a more productive use of education dollars?\" So public funds would in fact be better spent on efforts to recruit and retain better teachers.",
+        "text": "Which one of the following is an assumption required by the argument?",
+        "choices": [
+          "Reducing class size is an extremely expensive type of educational reform measure.",
+          "Dollar for dollar, efforts to recruit and retain good teachers yield larger improvements in student performance than do reductions in class size.",
+          "Because reducing class size is a popular policy, it is much easier to get public approval for that policy than for most other educational policies.",
+          "Reducing class size is the most cost effective way to recruit and retain good teachers.",
+          "In practice, it is difficult to identify what would be the most productive use of education dollars."
+        ],
+        "correct": 1
+      },
+      {
+        "stimulus": "Seasonal allergy symptoms are the immune system's response to pollen in the air. When karge amounts of pollen are inhaled, it can trigger an inflammatory response that causes allergy symptoms. While there are medicines that minimize those symptoms, a more effective though often impractical-strategy is simply to stay indoors on dry, windy days during allergy season.",
+        "text": "Which one of the following is most strongly supported by the information above?",
+        "choices": [
+          "Medicines that minimize seasonal allergy symptoms prevent people from inhaling large amounts of pollen.",
+          "Most types of pollen do not cause seasonal allergy symptoms.",
+          "People who stay indoors on dry, windy days during allergy season are unlikely to inhale large amounts of pollen.",
+          "People who take medicines that minimize seasonal allergy symptoms tend to stay indoors on dry, windy days during allergy season.",
+          "People who experience seasonal allergy symptoms typically use air filters that remove pollen from the air in their homes."
+        ],
+        "correct": 2
+      },
+      {
+        "stimulus": "Saturn's moon Enceladus has a rocky core and an icy surface. Between these two layers, there must be a lake of liquid water. The Cassini space probe was used to measure the density of matter composing Enceladus. These measurements revealed something denser than ice between the core and surface of Enceladus, and that could only be liquid water.",
+        "text": "Which one of the following most accurately expresses the overall conclusion drawn in the argument?",
+        "choices": [
+          "Saturn's moon Enceladus has a rocky core and an icy surface.",
+          "There must be a lake of liquid water between the rocky core and the icy surface of Enceladus.",
+          "The Cassini space probe was used to measure the density of Enceladus.",
+          "Density measurements reveal something denser than ice between the core and surface of Enceladus.",
+          "Anything denser than ice between the core and surface of Enceladus would have to be liquid water."
+        ],
+        "correct": 1
+      },
+      {
+        "stimulus": "Thousands of fossils from the long-extinct dire wolf have been found in a cluster of natural tar pits in which animals became trapped and were preserved for millennia. None of these fossils came from dire wolf pups under six months old. Pups under six months old, therefore, probably did not accompany adults that were scavenging or hunting.",
+        "text": "Which one of the following is an assumption required by the argument?",
+        "choices": [
+          "Dire wolf pups under six months old would not have contributed to the adults' success in scavenging or hunting.",
+          "If a dire wolf pup under six months old became trapped in a tar pit, it would be better able to pull itself free than an adult dire wolf would.",
+          "Before the dire wolf became extinct, more dire wolves became trapped in the tar pits than did any other animal species.",
+          "The entrapment of dire wolves in the tar pits most frequently occurred when those animals were scavenging or hunting.",
+          "For the dire wolves that lived nearby, the tar pits were a favorite location for scavenging and hunting."
+        ],
+        "correct": 3
+      },
+      {
+        "stimulus": "If a garden does not receive plenty of water and sunlight and is not planted in rich soil, then it will not be productive. Patricia has located her garden in an area that is ideal for receiving water and sunlight, and has made sure the soil is rich by adding fertilizer and compost. Hence, Patricia's garden will be productive.",
+        "text": "The reasoning in the argument is flawed in that the argument",
+        "choices": [
+          "fails to specify adequately the meaning in context of the term \"ideal\"",
+          "infers a cause from a correlation",
+          "confuses a cause with its effect",
+          "takes a set of necessary conditions as sufficient",
+          "relies on a sample that is unlikely to be representative"
+        ],
+        "correct": 3
+      },
+      {
+        "stimulus": "Rodents are small, gnawing animals characterized by their chisel-like incisor teeth. Although most North American mammal species are not rodent species, most of the individual mammals in North America are rodents.",
+        "text": "Which one of the following is most strongly supported by the information above?",
+        "choices": [
+          "Most species of North American mammals have chisel-like incisor teeth.",
+          "In North America, rodent species tend to have more individual members than other species of mammals have.",
+          "Most species of mammals that have chisel-like incisor teeth can be found in North America.",
+          "Of the mammal species in North America, the one with the most individual members is a species of rodent.",
+          "Most nonrodent mammal species can be found in North America."
+        ],
+        "correct": 1
+      },
+      {
+        "stimulus": "Toning shoes—walking shoes with a specially rounded sole—are popular with fitness enthusiasts. Research shows that the major leg muscles of people walking in toning shoes receive no more exercise than those of people walking in ordinary walking shoes. Nevertheless, many people experience a strengthening of their major leg muscles after switching to toning shoes.",
+        "text": "Which one of the following, if true, most helps to resolve the apparent discrepancy in the information above?",
+        "choices": [
+          "Toning shoes strengthen small underused muscles in the feet and ankles.",
+          "Muscles in the leg adapt to the rounded shape of toning shoes almost immediately.",
+          "Many people find toning shoes especially comfortable and walk more as a result.",
+          "There is little evidence that toning shoes cause injuries to their wearers.",
+          "Shoes that strengthen the major leg muscles are more marketable than ordinary shoes."
+        ],
+        "correct": 2
+      },
+      {
+        "stimulus": "Psychologist: Specialists naturally tend to view their own specialties as fundamentally important. We are therefore amply justified in being skeptical when geneticists claim that personality traits not traditionally thought to be genetically determined are, in fact, genetically determined. The geneticists are probably just amplifying their sense of their own importance.",
+        "text": "The reasoning in the psychologist's argument is flawed in that this argument",
+        "choices": [
+          "generalizes about all specialists on the basis of an unrepresentative sample",
+          "presumes that the traditional view must be the right view simply because it is what has been traditionally believed",
+          "draws a conclusion that is merely a restatement of one of its main premises",
+          "appeals to the authority of those unlikely to be well informed about the topic at issue",
+          "disputes a claim on the basis of a supposed motive for making the claim rather than by assessing the evidence relevant to the claim"
+        ],
+        "correct": 4
+      },
+      {
+        "stimulus": "After the disastrous 1986 accident at the Chernobyl nuclear plant, the surrounding area was contaminated with radiation. Wild animals that are now there have very high levels of radiation in their muscles and bones. And yet since the disaster, wildlife populations in the region have expanded rapidly.",
+        "text": "Which one of the following, if true, most helps to resolve the apparent discrepancy in the information above?",
+        "choices": [
+          "Animals that did not arrive in the area around the Chernobyl nuclear plant until after the accident still developed high levels of radiation in their muscles and bones.",
+          "Some of the species that inhabit the region are migratory and so only live in the region for part of the year, limiting their exposure to the radiation.",
+          "The region affected by the release of radiation is very large, encompassing 1,800 square miles (4,660 square kilometers).",
+          "While some of the radioactive chemicals released by the accident depress fertility in local birds, others do not.",
+          "The threat of radiation poisoning drove people out of the area, which opened up new habitat for wildlife and eliminated the danger from hunters."
+        ],
+        "correct": 4
+      },
+      {
+        "stimulus": "Commentator: The worldwide oil crisis of 1973 was not due to any real shortfall, but was the result of collusion between international oil companies and oil-producing countries to artificially restrict the supply of oil in order to profit from higher prices. This is shown by the fact that after 1973 the profits of oil companies showed large increases, as did the incomes of oil-producing countries.",
+        "text": "The reasoning in the commentator's argument is most vulnerable to criticism on the grounds that the argument",
+        "choices": [
+          "fails to consider the possibility that a party can benefit from an event without helping to bring about that event",
+          "presumes, without providing justification, that oil companies and oil-producing countries were the only parties to benefit from the 1973 oil crisis",
+          "rests on using the term \"profit\" in an ambiguous way",
+          "fails to establish that there was a worldwide oil surplus prior to the crisis of 1973",
+          "fails to consider the possibility that events that occur simultaneously can be causally related"
+        ],
+        "correct": 0
+      },
+      {
+        "stimulus": "In a study, six medical students were each separately presented with the same patient, whose symptoms could be the result of any one of several medical conditions. The attending physician asked each student a leading question of the form, \"What tests should we order to try to rule out a diagnosis of X?\" where X was filled in with a different medical condition for each student. A week later each student was presented with a patient having similar symptoms in the presence of a different attending physician who asked for a diagnosis without asking any leading questions. Each student began by testing the diagnosis that had been suggested by the original attending physician.",
+        "text": "Which one of the following statements is most strongly supported by the information above?",
+        "choices": [
+          "On the second occasion, none of the medical students began by testing the same diagnosis as any of the other medical students.",
+          "At most one of the medical students knew which of the several medical conditions was most likely to lead to the patients' symptoms.",
+          "The second attending physician was unaware of the results of the students' encounter with the first attending physician.",
+          "On the second occasion, exactly one of the students tested for the medical condition that actually caused the patient's symptoms.",
+          "At least some of the medical students were unaware that the patients' symptoms could be the result of medical conditions other than the one suggested by the original attending physician."
+        ],
+        "correct": 0
+      },
+      {
+        "stimulus": "Few, if any, carbonated beverages contain calcium. Some very popular ones, however, contain significant amounts of caffeine, and consuming caffeine causes people to excrete significantly more calcium than they would otherwise. Interestingly, teenagers who drink large amounts of carbonated beverages containing caffeine tend to suffer more broken bones than those who do not. Calcium deficiency can make bones more brittle, of course, so the higher incidence of broken bones in teenagers who consume carbonated beverages with caffeine is probably due primarily to caffeine consumption.",
+        "text": "Which one of the following, if true, most weakens the argument?",
+        "choices": [
+          "Teenagers who drink large quantities of carbonated beverages containing caffeine tend to drink smaller quantities of calcium-rich beverages than other teenagers do.",
+          "Teenagers engage in the types of activities that carry a high risk of causing broken bones much more often than both older and younger people do.",
+          "Some teenagers have calcium deficiencies even though they do not consume any caffeine.",
+          "Some of the less popular carbonated beverages contain even more caffeine than the more popular ones.",
+          "The more calcium a person ingests as a regular part of his or her diet, the more calcium that person will tend to excrete."
+        ],
+        "correct": 0
+      },
+      {
+        "stimulus": "Philosopher: Groups are not the type of entity that can be worthy of praise or blame. Blameworthiness implies conscience and agency. Nations do not have consciences. Families are not agents. Hence, any ascription of praise or blame to a group must be translated into some statement about individuals if we are to evaluate it properly.",
+        "text": "Which one of the following most accurately describes the role played in the philosopher's argument by the claim that nations do not have consciences?",
+        "choices": [
+          "It is an intermediate conclusion offered as direct support for the argument's main conclusion.",
+          "It is offered as support for an intermediate conclusion that is in turn offered as direct support for the argument's main conclusion.",
+          "It is cited as an implication of the main conclusion drawn in the argument.",
+          "It is cited as an instance of a general conclusion drawn in the argument.",
+          "It is the main conclusion drawn in the argument."
+        ],
+        "correct": 3
+      },
+      {
+        "stimulus": "Psychiatrist: Psychological stress is known both to cause negative emotions and to impair physical health. This suggests that overcoming such negative emotions when they arise could cause one's health to improve.",
+        "text": "The psychiatrist's argument is most vulnerable to criticism on which one of the following grounds?",
+        "choices": [
+          "It presumes without justification that two conditions that together have a certain effect causally influence one another.",
+          "It presumes, merely on the basis that two conditions have a common cause, that one of these two conditions can causally influence the other.",
+          "It confuses two causes that together are necessary to bring about an effect with causes that are sufficient for that effect.",
+          "It takes for granted that two conditions that together have a certain effect can, each by itself, produce the same effect.",
+          "It takes for granted that removing a condition that causally contributes to another condition suffices to eliminate the latter condition."
+        ],
+        "correct": 1
+      },
+      {
+        "stimulus": "Some potential anticancer drugs work by depriving growing tumors of needed blood vessels. The creation of blood vessels is called angiogenesis, and the experimental drugs work by inhibiting this process. The same drugs have been found to prevent obesity in rodents.",
+        "text": "The statements above, if true, lend the strongest support to which one of the following?",
+        "choices": [
+          "The cells in tumors are more similar in structure to fat cells than to other cells in the body.",
+          "Drugs that inhibit angiogenesis would probably enable obese humans to lose weight.",
+          "Fat tissue depends on angiogenesis in order to grow.",
+          "Rodents with cancer are more likely to be obese than healthy rodents.",
+          "Drugs that inhibit angiogenesis also prevent absorption of vital nutrients."
+        ],
+        "correct": 2
+      },
+      {
+        "stimulus": "Although the slightest difference in shades of paint is noticeable, it is pointless to spend much time trying to match an old paint precisely when repainting only part of the interior of a house. This is because paint fades somewhat in the months after it has been applied. Thus, even if a new paint matches the old during application, the two paints will no longer match after a year or so.",
+        "text": "The reasoning in which one of the following is most similar to that in the argument above?",
+        "choices": [
+          "A bicycle is most comfortable to ride when the wheels are perfectly aligned. However, because the position of a bike wheel always shifts a bit when the bike is ridden, it is useless to put very much effort into perfectly aligning a new wheel.",
+          "It is rarely worthwhile to look for parts for an older car. Because most cars do not last more than 20 years, it is best to buy a new car instead of restoring an older car.",
+          "Keeping hair healthy requires using a shampoo designed specifically for one's hair type. However, hair will become unhealthy if washed consistently with the same brand of shampoo. Thus, to maintain healthy hair, a person should alternate between two suitable shampoos.",
+          "Although cookies made with butter have a better texture than do cookies made with margarine, it is pointless to spend the extra money needed to buy butter, when cookies made with margarine are almost as good.",
+          "Unless the size and shape of a dress exactly matches the size and shape of its lining, the dress will hang unevenly when it is worn. However, because most people would not notice this unevenness, it is not worthwhile when making a dress to spend much time attempting to match a dress and its lining perfectly."
+        ],
+        "correct": 0
+      },
+      {
+        "stimulus": "Social observer: Advertising agencies are willfully neglecting the most profitable segment of the market: older adults. Older adults control more of this nation's personal disposable income than does the rest of the population combined. Therefore, advertising agencies can maximize their clients' profits if they gear their advertisements mainly to older adults.",
+        "text": "Which one of the following, if assumed, would enable the conclusion of the social observer's argument to be properly inferred?",
+        "choices": [
+          "Older people generally have larger incomes and have had longer to accumulate resources than younger people.",
+          "No company can maximize its profits unless it markets its products primarily to a population segment that controls most of this nation's personal disposable income.",
+          "Advertising that is directed toward the wealthiest people is the most effective means for a business to improve the reputation of its products.",
+          "No advertising agency that tailors its advertisements mainly to an audience that does not control much of this nation's personal disposable income will maximize its clients' profits.",
+          "Any advertising agency that gears its advertisements mainly to a population segment that controls 50 percent or more of this nation's personal disposable income will maximize its clients' profits."
+        ],
+        "correct": 4
+      },
+      {
+        "stimulus": "Professor: It has been argued that all judges should be elected rather than appointed to their positions. But this is a bad idea. If judges ran for election, they would have to raise campaign funds. Thus, they would be likely to accept campaign contributions from special interests. It is well-known that such contributions lead to conflicts of interest for politicians, so it is to be expected that they would produce similar conflicts of interest for judges.",
+        "text": "Which one of the following principles, if valid, would most help to justify the professor's reasoning?",
+        "choices": [
+          "If politicians should avoid conflicts of interest, then judges should avoid conflicts of interest as well.",
+          "Special interests should not make offers of campaign contributions to those running for elective office.",
+          "Judges should be appointed to their positions only if doing so ensures that they will usually be able to avoid conflicts of interest.",
+          "If judges should be appointed, then it is likely that there are other public offices that should be changed from elected to appointed offices.",
+          "No public office for which election campaigning would be likely to produce conflicts of interest should be changed from an appointed to an elected office."
+        ],
+        "correct": 4
+      },
+      {
+        "stimulus": "Merle: Usually when I insert a dollar bill into the change machine at the office it makes a squeaking sound before it produces change. But the machine can make the sound only when the electric outlet it is plugged into is turned on. Therefore, it must be that the electric outlet usually is turned on.",
+        "text": "Which one of the following arguments exhibits flawed reasoning most similar to the flawed reasoning exhibited by Merle's argument?",
+        "choices": [
+          "Everyone who has read the new horror novel found the plot disturbing. Indeed, the plot would disturb anyone with a vivid imagination. Therefore, everyone who has read the novel must have a vivid imagination.",
+          "Some people who have read the new horror novel found the plot disturbing. But the plot would not be disturbing to people who lack vivid imaginations. Therefore, some people must have vivid imaginations.",
+          "Many people who have read the new horror novel found the plot disturbing. Undoubtedly, everyone who found the plot disturbing has a vivid imagination. Therefore, many of the people who have read the novel must have vivid imaginations.",
+          "Most people who have read the new horror novel found the plot disturbing. But the plot cannot disturb anyone who lacks a vivid imagination. Therefore, most people must have vivid imaginations.",
+          "Most people who have read the new horror novel found the plot disturbing. But the plot cannot disturb people who lack vivid imaginations. Therefore, most people with vivid imaginations must find the plot disturbing."
+        ],
+        "correct": 3
+      },
+      {
+        "stimulus": "Kira: It would be unwise for you to buy that insurance policy. It's designed to make money for the company that sells it. They set the prices to ensure profits.\nBinh: Undeniably, the insurer is in business to make money. But the mere fact that an insurer draws a profit in no way implies that buying one of its policies is unwise.",
+        "text": "Binh responds to Kira's argument by doing which one of the following?",
+        "choices": [
+          "suggesting that Kira has overlooked a fact that, although consistent with her premises, is in direct conflict with her conclusion",
+          "denying Kira's premises while suggesting that her conclusion, although possibly true, is highly unlikely",
+          "arguing that Kira's premises are not only inadequate to prove her conclusion but in fact point strongly toward its being false",
+          "conceding Kira's premises without denying her conclusion, while asserting that the latter does not follow from the former",
+          "observing that while Kira's premises each independently support her conclusion, the premises themselves are inconsistent with one another"
+        ],
+        "correct": 3
+      },
+      {
+        "stimulus": "Economist: The increase in the minimum wage in Country X will quickly lead to a decrease in Country X's rate of unemployment. Raising the minimum wage will lead to more disposable income for a large segment of the working population. Much of this increased income will be spent on consumer goods. Surely this increase in demand for consumer goods will lead to an increase in the number of factory jobs necessary to meet production.",
+        "text": "Each of the following, if true, would weaken the economist's argument EXCEPT:",
+        "choices": [
+          "The cost of a minimum-wage increase in Country X will be passed on to consumers in the form of significantly higher prices for consumer goods.",
+          "Most of the consumer goods sold in Country X are produced outside the country.",
+          "In many factories in Country X, most workers are paid much more than the current minimum wage.",
+          "The cost to employers of an increase in the minimum wage in Country X will be made up by reductions in the workforce.",
+          "Most factories that produce consumer goods in Country X have large surpluses of goods as a result of years of overproduction."
+        ],
+        "correct": 2
+      },
+      {
+        "stimulus": "Art critic: An arrangement of objects tends to be aesthetically pleasing to the extent that it gives the impression that the person who arranged the objects succeeded at what he or she was attempting to do.",
+        "text": "The generalization expressed by the art critic, if correct, most helps to justify the reasoning in which one of the following arguments?",
+        "choices": [
+          "The new art installation is very pleasing aesthetically. However, even though it is not apparent to viewers, the artist did not intend the wooden panels to be arranged the way they in fact are. So the panels should be rearranged to reflect the artist's intention.",
+          "The wooden panels in the art installation probably are not arranged in the way that the artist wanted them arranged, for the installation is less aesthetically pleasing than other installations.",
+          "The arrangement of wooden panels in the art installation is likely to give the impression that the artist who arranged them did not quite succeed at what she was attempting to do, for the arrangement is almost, but not quite, symmetrical.",
+          "The art installation would be more aesthetically pleasing if the wooden panels in it were arranged more symmetrically, for then it would seem more like the artist had gotten the panels arranged the way she wanted.",
+          "The artist could make the arrangement of wooden panels in the art installation more aesthetically pleasing by making it less symmetrical, for then it would give less of an impression that every aspect of the arrangement was fully planned."
+        ],
+        "correct": 3
+      },
+      {
+        "stimulus": "The three-spine stickleback is a small fish that lives both in oceans and in freshwater lakes. While ocean stickleback are covered with armor to protect them from their predators, lake stickleback have virtually no armor. Since armor limits the speed of a stickleback's growth, this indicates that having a larger size is a better defense against the lake stickleback's predators than having armor.",
+        "text": "Which one of the following, if true, weakens the argument?",
+        "choices": [
+          "Sticklebacks with armor are unable to swim as fast, making them most vulnerable to fast-moving predators.",
+          "Having a larger size is an important factor in whether lake stickleback, but not ocean stickleback, survive cold winters.",
+          "Unlike ocean stickleback, the lake stickleback are more often preyed upon by predatory insects than by larger fish.",
+          "Both ocean stickleback and lake stickleback feed primarily on the same types of foods.",
+          "Sticklebacks originated in the ocean but began populating freshwater lakes and streams following the last ice age."
+        ],
+        "correct": 1
+      },
+      {
+        "stimulus": "A company produced a small car that costs much less—but is also much less safe—than any car previously available. However, most customers of the new car increased their safety on the roads by buying it.",
+        "text": "Which one of the following, if true, most helps to resolve the apparent paradox in the above claims?",
+        "choices": [
+          "The company surveyed potential customers and discovered that most of them were more concerned about cost than about safety.",
+          "The company could significantly increase the car's safety without dramatically increasing its production cost.",
+          "Most people who bought the new car were probably unaware that it is much less safe than other cars.",
+          "Many households that previously could afford only one car can now afford two.",
+          "Most people who bought the new car previously travelled by bicycle or motorcycle, which are less safe than the new car."
+        ],
+        "correct": 4
+      },
+      {
+        "stimulus": "Brian: I used to eat cheeseburgers from fast-food restaurants almost every day. But then I read that eating bread and meat in the same meal interferes with digestion. So I stopped eating cheeseburgers and switched to a diet of lean meats, fruits, and vegetables. Since starting this new diet, I feel much better and my cholesterol level and blood pressure are lower. This proves that eating bread and meat in the same meal is unhealthy.",
+        "text": "The reasoning in Brian's argument is flawed in that the argument",
+        "choices": [
+          "treats a statement as established fact merely because a self-appointed expert has asserted it",
+          "draws a conclusion that merely restates a premise offered in support of it",
+          "treats a condition that must occur in order for an effect to occur as a condition that would ensure that the effect occurs",
+          "concludes that one part of a change was responsible for an effect without ruling out the possibility that other parts of that change were responsible",
+          "concludes that making a dietary change improved the health of a particular person simply because that change results in improved health for most people"
+        ],
+        "correct": 3
+      },
+      {
+        "stimulus": "Researcher: Newly formed neurons can help to heal an injured brain but only if they develop into the type of neurons that are most common in the injured area. Studies have shown that when a part of the brain called the striatum is injured, newly formed neurons in the striatum never become midsized spiny neurons, the type most common in the striatum.",
+        "text": "If the researcher's statements are true, which one of the following must also be true?",
+        "choices": [
+          "Newly formed neurons sometimes develop into midsized spiny neurons in areas of the brain other than the striatum.",
+          "Newly formed neurons are commonly found in injured areas of the brain shortly after the injury occurs.",
+          "Midsized spiny neurons are not the most common type of neuron in any part of the brain other than the striatum.",
+          "In cases of injury to the striatum, newly formed neurons will not help to heal the injury.",
+          "In most cases of brain injury, newly formed neurons do not help to heal the injury."
+        ],
+        "correct": 3
+      },
+      {
+        "stimulus": "Leona: Thompson's article on the novel Emily's Trials is intriguing but ultimately puzzling. In discussing one scene, Thompson says that a character's \"furrowed brow\" and grim expression indicate deep inner turmoil and anxiety. Later, however, Thompson refers to the same scene and describes this character as the \"self-identified agent\" of an action. This ascription is interesting and challenging in its own right; but Thompson begins the article by claiming that a \"self-identified agent\" is fundamentally incapable of having misgivings or anxiety.",
+        "text": "The argumentative strategy Leona uses in discussing the article is to criticize Thompson's comments on the grounds that",
+        "choices": [
+          "some of Thompson's reasoning is circular",
+          "Thompson provides no definition of the concept of a \"self-identified agent\"",
+          "the analysis of character offered by Thompson is insufficiently supported by the textual evidence",
+          "it is unlikely that any character could qualify as a \"self-identified agent\"",
+          "some of Thompson's claims contradict each other"
+        ],
+        "correct": 4
+      },
+      {
+        "stimulus": "An online auction site conducted a study of auction techniques involving 8,000 used cars, divided into two equal groups. Each car's listing in the first group included a brief description of its condition. The description of each car in the other half additionally listed defects of the car. More cars in the second group sold, and of comparable cars in both groups that sold, the cars in the second group fetched higher prices.",
+        "text": "Which one of the following, if true, most helps to explain why the second group of cars had better sales results than the first group?",
+        "choices": [
+          "Most people are skeptical of the descriptions that accompany items when they are put up for auction online.",
+          "People are likely to assume that a car with no reported defects has been maintained more attentively and is therefore in better overall condition.",
+          "Prospective buyers are likely to overlook mention of defects buried in a detailed description of the condition of an object they are considering purchasing.",
+          "Listing defects in a description of an item tends to lead people to assume that no major defect has gone unmentioned.",
+          "With thousands of cars for sale, prospective buyers are unlikely to read detailed descriptions of more than a small fraction of them."
+        ],
+        "correct": 3
+      },
+      {
+        "stimulus": "Critic: Linsey has been judged to be a bad writer simply because her lyrics typically are disjointed and subjective. This judgment is ill founded, however, since the writings of many modern novelists typically are disjointed and subjective, and yet these novelists are widely held to be good writers.",
+        "text": "Which one of the following most accurately expresses the conclusion drawn in the critic's argument?",
+        "choices": [
+          "Linsey is a good songwriter.",
+          "The view that Linsey is a bad songwriter is poorly supported.",
+          "The writings of many modern novelists are disjointed and subjective.",
+          "Many modern novelists are widely held to be good writers.",
+          "Linsey's talent as a writer is no less than that of many modern novelists."
+        ],
+        "correct": 1
+      },
+      {
+        "stimulus": "Computer security experts correctly maintain that computer passwords are a less secure means of protecting one's information than are alternative security options like fingerprint scanners. But computer passwords are not going to be replaced by these other options anytime soon. The alternative security options remain significantly more expensive to employ, and they can replace passwords only if they become standard on most of the world's computers.",
+        "text": "The conclusion drawn above follows logically if which one of the following is assumed?",
+        "choices": [
+          "There are ways to make computer passwords a more secure means of protecting one's information.",
+          "Any security option that is no more expensive to employ than computer passwords provides less security than computer passwords.",
+          "Most computer security experts do not believe that computer passwords will be replaced by an alternative security option anytime soon.",
+          "Security options that are significantly more expensive to employ than computer passwords will not become standard on most of the world's computers anytime soon.",
+          "As soon as a security option is developed that is not significantly more expensive to employ than computer passwords, computer passwords will be replaced as a security measure."
+        ],
+        "correct": 3
+      },
+      {
+        "stimulus": "Statistics show clearly that in those countries with the most severe penalties for driving while intoxicated, a smaller percentage of drivers have traffic accidents involving alcohol use than in other countries. This refutes those who claim that would-be drunk drivers will not be deterred by the prospect of severe penalties.",
+        "text": "Which one of the following would, if true, most undermine the argument?",
+        "choices": [
+          "The countries with the largest populations do not have severe penalties for driving while intoxicated.",
+          "Very severe penalties against driving while intoxicated are in effect only in countries in which alcohol use is rare.",
+          "The higher a country's speed limits, the more frequent traffic accidents tend to be in that country.",
+          "Only a relatively small minority of those who drive while intoxicated are actually apprehended while doing so.",
+          "All countries impose severer penalties on those who cause accidents while driving intoxicated than on those who are merely apprehended while driving intoxicated."
+        ],
+        "correct": 1
+      },
+      {
+        "stimulus": "Many airlines offer, for a fee, to \"offset\" the carbon emissions produced when you fly, but such schemes are almost entirely ineffective. Although the fees are usually invested in projects that directly reduce carbon emissions, in most cases these projects would have proceeded even without that investment, so no carbon emissions are prevented.",
+        "text": "Which one of the following principles, if valid, most helps to justify the reasoning in the argument?",
+        "choices": [
+          "Steps that are taken in order to mitigate the harmful effects of one's freely chosen, harmful actions do not absolve one from the original harm.",
+          "If an outcome would have occurred in the absence of a certain action, then the outcome was not a consequence of that action.",
+          "If a company or individual gains financially from a particular action, they should not be considered morally praiseworthy for any positive consequences of that action.",
+          "Measures aimed at achieving a certain outcome should only be taken when they are of demonstrable effectiveness at achieving that outcome.",
+          "If a project for reducing carbon emissions does not tackle the largest source of carbon emissions, then it is of limited value in reducing such emissions."
+        ],
+        "correct": 1
+      },
+      {
+        "stimulus": "Many species of plants produce nectar in organs known as extrafloral nectories (EFNs), which are thought to attract certain ants that defend the plants against leaf-eating insects. Recently, greenhouse experiments have found that jumping spiders jump onto plants with active EFNs six times more often than they jump onto plants without EFNs, and regularly eat the nectar. So, like the ants, jumping spiders apparently defend EFN-producing plants against leaf-eating insects.",
+        "text": "Which one of the following, if true, would most strengthen the argument above?",
+        "choices": [
+          "For many species of nectar-producing plants, productivity is increased when a plant is protected from leaf-eating insects.",
+          "In field experiments, the introduction of jumping spiders into an environment was followed by a significant increase in the population of EFN-producing plants.",
+          "Some species of EFN-producing plants cannot survive without some outside agent protecting them from leaf-eating insects.",
+          "Experiments with types of spiders other than jumping spiders suggest that these other types of spiders do not defend EFN-producing plants.",
+          "Regions with large populations of ants also tend to have large populations of EFN-producing plants."
+        ],
+        "correct": 1
+      },
+      {
+        "stimulus": "When using a manufactured pattern to make clothing, a tailor alters the pattern to accommodate any future distortion of the fabric. Also, unless the clothing is to be worn by a person whose measurements precisely match the pattern size, the tailor alters the pattern to fit the wearer exactly. Thus, a professional tailor never blindly follows a pattern, but always adjusts the pattern to fit the wearer exactly.",
+        "text": "The conclusion follows logically if which one of the following is assumed?",
+        "choices": [
+          "Most manufactured patterns do not already accommodate the future distortion of fabrics that shrink or stretch.",
+          "At least some tailors who adjust patterns to the wearer and to the fabrics used are professional tailors.",
+          "The best tailors are those most able to alter patterns to fit the wearer exactly.",
+          "All professional tailors sew only for people whose measurements do not exactly match their chosen patterns.",
+          "A professional tailor can always estimate exactly how much a fabric will shrink or stretch."
+        ],
+        "correct": 3
+      },
+      {
+        "stimulus": "Typically, a design that turns out well has gone through many drafts, each an improvement over the previous one. What usually allows a designer to see an idea's advantages and flaws is a sketch of the idea. The ways in which the sketch appears muddled or confused tend to reveal to the designer ways in which the design has been inadequately conceptualized.",
+        "text": "The statements above, if true, most strongly support which one of the following?",
+        "choices": [
+          "The designs that turn out best go through the most drafts.",
+          "Many good designs have emerged from design ideas that were flawed.",
+          "Designs that do not turn out well have not gone through many drafts.",
+          "Designs whose initial conceptualization was inadequate rarely turn out well.",
+          "A designer will never see advantages and flaws in a design idea without the aid of a sketch."
+        ],
+        "correct": 1
+      },
+      {
+        "stimulus": "Mayor: Some residents complain that the city has no right to require homeowners to connect to city water services, even though we are doing so in order to ensure public health and safety. But they are wrong. We will charge the homeowners a fair market price for the service, and our plan will benefit all of the city's residents by increasing city revenue and by making the city a healthier and safer place in which to live.",
+        "text": "Which one of the following principles, if valid, would most help to justify the reasoning in the mayor's argument?",
+        "choices": [
+          "A city has the right to require homeowners to connect to city water services if it charges a fair price for the service and if the requirement will benefit all the city's residents.",
+          "A city should require homeowners to connect to city water services only if it will increase revenue and make the city a healthier and safer place in which to live.",
+          "A city has no right to require homeowners to connect to city water services if it does not charge the homeowners a fair market price for the service.",
+          "Residents of a city have no right to complain about the requirement that homeowners connect to city water services if the requirement will benefit all of the city's residents.",
+          "A city can successfully increase revenue and make itself a healthier and safer place to live only if the city is able to require homeowners to connect to city water services."
+        ],
+        "correct": 0
+      },
+      {
+        "stimulus": "Deborra: The art of still photography cannot enable us to understand the world. After all, understanding starts from refusing to accept the world as it looks and inquiring into the world's reality, and the reality of the world is not in its images but in its functions. Functioning takes place in time and must be explained in time; only that which narrates can enable us to understand.",
+        "text": "Which one of the following is an assumption on which Deborra's argument depends?",
+        "choices": [
+          "Artists who take still photographs do not attempt to understand the world.",
+          "The functioning of the world cannot be captured on film.",
+          "The art of still photography is not narrative.",
+          "A complete understanding of the world is not attainable through art.",
+          "Images cannot be properly explained."
+        ],
+        "correct": 2
+      },
+      {
+        "stimulus": "Candidate: In each election in the last ten years, the candidate who supported property tax reform received a significant majority of the votes in the northeastern part of my district. In no other part of my district has there been any discernible pattern of voting for or against property tax reform. Therefore, in order to attract additional voters in the northeastern part of my district without alienating voters elsewhere, all I need to do is to go on record as favoring property tax reform.",
+        "text": "The reasoning in the candidate's argument is most vulnerable to criticism on the grounds that the candidate",
+        "choices": [
+          "would not attempt to enact property tax reform if elected",
+          "draws opposite conclusions about voting patterns in different parts of the district",
+          "draws a general conclusion about patterns of voting based on a small sample",
+          "surmises from the fact that two phenomena are correlated that one causes the other",
+          "draws a conclusion based solely on data that are ten years old"
+        ],
+        "correct": 3
+      },
+      {
+        "stimulus": "In an effort to boost milk production, some dairy farmers are treating cows with a genetically engineered hormone called BST. Consumer groups have opposed the use of BST even though the milk of BST-treated cows is identical in nutritional value to that of untreated cows; the treated cows run a greater risk of infection and hence are more likely to be given antibiotics, which may show up in their milk. In high levels, these antibiotics may be harmful to humans. Yet the milk of treated and untreated cows alike is regularly screened for antibiotics.",
+        "text": "Which one of the following is most strongly supported by the information above?",
+        "choices": [
+          "Consumer groups have no legitimate reasons for opposing the use of BST.",
+          "Milk from BST-treated cows is as safe for human consumption as that from untreated cows.",
+          "There is no advantage to the use of BST on dairy cows.",
+          "Milk from BST-treated cows can be presumed safe for humans only if it is successfully screened for high levels of antibiotics.",
+          "The only threat posed by drinking milk from cows treated with BST is high levels of antibiotics."
+        ],
+        "correct": 3
+      },
+      {
+        "stimulus": "Legislator: University humanities departments bring in less tuition and grant money than science departments. But because teaching and research cost significantly less in the humanities than in the sciences, humanities departments bring in more money than they spend while the reverse is true of science departments. As a result, contrary to the typical characterization that humanities departments freeload on science departments, humanities departments actually subsidize science departments. Thus, it is a mistake for universities to cut humanities departments when facing budget shortfalls.",
+        "text": "Which one of the following most accurately describes the role played in the legislator's argument by the claim that teaching and research cost significantly less in the humanities than in the sciences?",
+        "choices": [
+          "It is offered as support for the accuracy of an alleged stereotype.",
+          "It is an alleged stereotype rejected in the argument's overall conclusion.",
+          "It is put forward as a component of an explanation for a premise of the argument.",
+          "It is an intermediate conclusion from which the argument's overall conclusion is inferred.",
+          "It is one of many claims each presented as independent support for the argument's overall conclusion."
+        ],
+        "correct": 2
+      },
+      {
+        "stimulus": "Certain changes in North American residential architecture after World War II are attributable mainly to the increased availability and affordability of air-conditioning. Soon after World War II, many builders found that air-conditioned houses lacking the high ceilings and thick walls that traditionally kept residents cool during extreme heat generally sold well.",
+        "text": "Which one of the following, if true, most seriously weakens the argument?",
+        "choices": [
+          "High ceilings and thick walls enable houses to withstand many types of severe weather that are common in North America.",
+          "Thin-walled, low-ceilinged houses are more costly to heat in winter than thick-walled, high-ceilinged houses.",
+          "Houses with low ceilings and thin walls were prevalent in North America even where there was no demand for residential air-conditioning.",
+          "Thin walls allow cool, air-conditioned air to escape more readily from houses than do thick walls.",
+          "Soon after World War II, new thermal-insulating technology was widely applied in house building."
+        ],
+        "correct": 2
+      },
+      {
+        "stimulus": "McKee: Heckling the performer is a long-standing tradition of stand-up comedy. The performers know this and learn to respond entertainingly. That's why it's unwise for comedy venues to prevent audience members from heckling.\nChapman: Heckling is only a long-standing tradition of comedy because it's tolerated. And it's usually only fun for the heckler. In most cases, heckling is just a distraction from the performance.",
+        "text": "McKee's and Chapman's statements indicate that they disagree about each of the following EXCEPT:",
+        "choices": [
+          "Comedy venues should tolerate audience members' heckling the performers.",
+          "Stand-up comedians' responses to heckling should be considered part of their stand-up comedy performance.",
+          "The best stand-up comedians are able to respond entertainingly when they are heckled by audience members.",
+          "Many audience members at comedy venues enjoy watching stand-up comedians respond to heckling.",
+          "It is unwise for comedy venues to disregard long-standing traditions of stand-up comedy."
+        ],
+        "correct": 2
+      },
+      {
+        "stimulus": "Political scientist: Democracy depends on free choices, and choices cannot be free unless they are made on the basis of well-reasoned opinions. In the Information Age, reading skills have become essential to forming well-reasoned opinions. Thus, in the Information Age, a highly literate society will be a democratic one.",
+        "text": "The political scientist's reasoning is flawed in that it",
+        "choices": [
+          "mistakes necessary conditions for sufficient conditions",
+          "fails to take into account that there are many means of forming well-reasoned opinions",
+          "confuses the means of doing something with the reasons for doing it",
+          "generalizes too hastily from one type of case to another",
+          "takes for granted that a condition under which something occurs is a condition under which all its prerequisites occur"
+        ],
+        "correct": 0
+      },
+      {
+        "stimulus": "All of the students at Harrison University live in one of two residence complexes, either Pulham or Westerville. Although just a small fraction of the classes at Harrison are night classes, 38 percent of Harrison students take at least one night class. That figure is lower for Harrison students living in Westerville: Only 29 percent of those students take at least one night class.",
+        "text": "If the statements above are true, which one of the following must also be true?",
+        "choices": [
+          "More than 38 percent of the students at Harrison who live in Pulham take a night class.",
+          "More than 50 percent of the students who take night classes at Harrison are from Pulham.",
+          "More students at Harrison live in Westerville than live in Pulham.",
+          "Harrison students living in Pulham are less likely than those living in Westerville to take more than one night class.",
+          "Night classes at Harrison have larger enrollments, on average, than day classes do."
+        ],
+        "correct": 0
+      },
+      {
+        "stimulus": "The universe as a whole necessarily tends toward greater disorder, or entropy. From this alone, it follows that the earth's biosphere has always been moving toward increased disorder as well, in spite of appearances to the contrary.",
+        "text": "Which one of the following is most similar in its flawed reasoning to the argument above?",
+        "choices": [
+          "Wooded Lake is one of the most beautiful lakes in the world. This follows from the fact that the extensive system of interconnected lakes of which Wooded Lake is a part is one of the most beautiful systems of its type worldwide.",
+          "This has been the coldest April in this region in the last half-century. So, on any given day this April, it is likely that the weather was unseasonably cold.",
+          "The manifest indicates that every deck on that cruise ship houses some commercial cargo, even though on some decks the cargo storage areas are difficult to find. Hence every deck on the ship is devoted to commercial cargo storage, even though this is not immediately obvious.",
+          "Although Hopper claims to have been working in another part of the plant when the accident occurred, company records show that every person on the cleanup crew of which Hopper is a member was in the grain area at the time. Hence Hopper either has misremembered events, or is not telling the truth.",
+          "Two of the seven critical parts in that gear assembly are unsafe to use, even though this is not obvious upon a casual inspection. The assembly therefore is unsafe to rely on and ought to be repaired."
+        ],
+        "correct": 0
+      },
+      {
+        "stimulus": "Researcher: Consumption of turmeric, an ingredient in curry dishes, probably slows cognitive decline. Our research team analyzed a database of information about the cognitive function, ethnicity, and diet of elderly residents of Singapore. Those who eat curries regularly had higher scores on cognitive-function tests than those who rarely or never eat curries; this relationship was strongest for the elderly Singapore residents of Indian ethnicity.",
+        "text": "Which one of the following, if true, most strengthens the researcher's explanation of the research team's findings?",
+        "choices": [
+          "Even before analyzing the database, the researchers had hypothesized that turmeric consumption slows cognitive decline.",
+          "Highly educated residents of Singapore are more likely than other residents to eat curries regularly.",
+          "Most Singapore residents who are of Indian ethnicity eat curries regularly.",
+          "Singapore residents, on a per capita basis, eat curries more often than do residents of most other countries.",
+          "Indian curries generally contain much more turmeric than other curries contain."
+        ],
+        "correct": 4
+      },
+      {
+        "stimulus": "A theory cannot properly be regarded as empirical unless there is some conceivable observation that, if the theory were false, would refute it.",
+        "text": "The principle above most helps to justify which one of the following?",
+        "choices": [
+          "Since no one was present at the origin of the universe, the Big Bang theory of the universe's origin is not an empirical theory.",
+          "Since set theory is not an empirical theory, there is no conceivable observation that would refute it.",
+          "Psychoanalysis is such a flexible theory that no conceivable observation could show it to be false, so it is not an empirical theory.",
+          "There are conceivable observations that would refute quantum theory, so quantum theory is an empirical theory.",
+          "The theory of relativity must be true since, although scientists have conceived of observations that would refute it, it has not yet been refuted."
+        ],
+        "correct": 2
+      },
+      {
+        "stimulus": "Shopkeeper: Our city will soon approve construction of a new shopping center, but I won't be relocating my store there. My store needs to be in a high-visibility site with good growth potential, but the new shopping center will be at either Maple Street or West Avenue. The Maple Street site lacks visibility, and the West Avenue site has poor growth potential.",
+        "text": "The pattern of reasoning in which one of the following arguments is most similar to the shopkeeper's pattern of reasoning?",
+        "choices": [
+          "Appiah will not renew the lease on her apartment unless her rent does not increase and she is permitted to get a pet. But Appiah's landlord prohibits pets and plans to raise the rent on every apartment in the building. So Appiah will not renew her lease.",
+          "Professor Myers is unable to teach any class next semester unless it meets in Diaz Hall in the afternoon. Myers can teach either ethics or political theory. Ethics classes cannot meet in the afternoon, but political theory classes can. Political theory classes can also meet in Diaz Hall. So Myers will teach political theory next semester.",
+          "Finch will not travel this month unless he can get inexpensive plane tickets or stay with a friend. But Finch only wants to travel to Bridgeport or Hazleton. Plane tickets to Bridgeport are expensive. Finch cannot stay with a friend in Hazleton. So Finch will not travel this month.",
+          "The concert will not sell out of tickets unless it is held at a small venue in the downtown area. But the concert will either be held at Jensen Arena, which is a large venue, or at Pembroke Hall, which is located outside the downtown area. So the concert will not sell out.",
+          "The new park near the river will not be popular unless it is well lit and its natural scenery remains undisturbed. The park will be well lit if lamps are installed near the riverbank. But installing lamps there would disturb the park's natural scenery. So the new park will not be popular."
+        ],
+        "correct": 3
+      }
+    ]
+  },
+  "LR1": {
+    "timeLimit": 35,
+    "questions": [
+      {
+        "stimulus": "Many people who simply enjoy listening to popular music do not realize that it has been used to express religious and political messages. After all, popular music has repeatedly been adopted by social movements to express their viewpoints, since it has the potential to contribute to the \"conversion\" of nonmembers to the movement's position, as well as to raise the morale and to express the solidarity of the movement's participants.",
+        "text": "Which one of the following most accurately expresses the main conclusion of the argument?",
+        "choices": [
+          "Popular music accounts for the success of social movements.",
+          "Popular music's entertainment value has been overemphasized.",
+          "Popular music is the most effective way of converting people to social movements.",
+          "Popular music has purposes other than mere entertainment.",
+          "Popular music has a profound emotional impact on its listeners."
+        ],
+        "correct": 3
+      },
+      {
+        "stimulus": "Council president: Councilmember Smith has proposed a new city ordinance prohibiting the use of the \"bait-and-switch\" sales tactic. Smith must have amnesia. Four years ago he owned an appliance store that was famous for its use of bait-and-switch. Clearly, Smith's proposed ordinance does not even merit consideration.",
+        "text": "The council president's reasoning is most vulnerable to criticism on the grounds that the president",
+        "choices": [
+          "dismisses the proposed ordinance because of its source rather than because of its content",
+          "takes a single fact that is incompatible with a claim as enough to show that claim to be false",
+          "fails to make a needed distinction between deceptive sales tactics and legitimate methods of increasing sales",
+          "draws a conclusion that simply restates a claim presented in support of that conclusion",
+          "generalizes from a limited number of instances of a certain kind to all instances of that kind"
+        ],
+        "correct": 0
+      },
+      {
+        "stimulus": "Bovine remains found in a certain region of Africa date back to a time when the climate was arid. While there were people in the region at this time, there were no other large mammals there. Any natural sources of water available to these bovines would have brought other large mammals to the area. Thus, these bovines had been domesticated and the people living in the region were no longer exclusively hunter-gatherers.",
+        "text": "Which one of the following is an assumption on which the argument depends?",
+        "choices": [
+          "Unless they are domesticated, bovines are unlikely to exist in a region where there are no natural sources of water available to them.",
+          "Domesticating animals is one of the first practices that a society must adopt in order to change from hunting and gathering to agriculture.",
+          "With the help of humans, other large mammals would have been able to inhabit this arid region.",
+          "No human culture obtains food both through agriculture and through hunting and gathering.",
+          "Domesticated animals of a given size do not need as much water as do wild animals of comparable size."
+        ],
+        "correct": 0
+      },
+      {
+        "stimulus": "Cerrato: Economists argue both that the higher turnover rate of part-time workers shows them to be much more likely to be dissatisfied with their jobs than full-time workers are and that lower-paid, part-time workers threaten to take jobs from full-time employees. But because job efficiency is positively correlated with job satisfaction, companies are unlikely to replace satisfied employees with dissatisfied ones. Therefore,",
+        "text": "Which one of the following most logically completes Cerrato's argument?",
+        "choices": [
+          "full-time workers are likely to lose jobs to part-time workers",
+          "the companies earning the greatest profits tend to be those that pay their workers the highest wages",
+          "dissatisfied part-time workers are unlikely to threaten the jobs of full-time workers",
+          "the higher turnover rate of part-time workers is only partly caused by their greater job dissatisfaction",
+          "companies generally hire part-time workers only when they are unable to hire full-time ones"
+        ],
+        "correct": 2
+      },
+      {
+        "stimulus": "On the plains where it lives, an individual zebra stands out because of its black-and-white stripes, which contrast with the green or brown of the surrounding vegetation. Yet zebras are a prey species, and the lions that hunt them can see stripes clearly. It seems surprising that zebras would survive with such vivid markings.",
+        "text": "Which one of the following, if true, most adequately resolves the problem raised above?",
+        "choices": [
+          "Because the vegetation on the open plains changes from green to brown as the season changes from wet to dry, true camouflage coloring for a prey species would have to change according to the seasons.",
+          "Zebras are able to judge from the demeanor of lions they see in the vicinity whether or not those lions are preparing to hunt, and the zebras ignore the lions that are not.",
+          "Lions that hunt zebras are themselves colored in a way that blends in with the brown color of dry vegetation, so that in the dry season, when prey is scarce, the lions can creep up on their prey to within a distance from which the lions have a favorable chance of succeeding in the hunt.",
+          "When lions hunt, the whole pride shares in the food obtained when a prey animal is successfully brought down by one of the hunting lions.",
+          "When zebras run in a group, as they generally do in response to danger, the stripe markings make it difficult for a predator pursuing a single individual to discern its outline."
+        ],
+        "correct": 4
+      },
+      {
+        "stimulus": "Dark honey tends to have a higher antioxidant content than light-colored honey, and the most healthful strains of honey are all unusually high in antioxidants. However, certain strains of honey produced by bees harvesting primarily sage nectar are among the most healthful strains of honey, even though they are also among the lightest-colored strains of honey.",
+        "text": "Which one of the following is most strongly supported by the information above?",
+        "choices": [
+          "Some strains of honey produced by bees harvesting sage nectar are unusually high in antioxidants.",
+          "Most plants produce nectar that, when harvested by bees, results in light-colored honey.",
+          "Light-colored honey tends to be more healthful than dark honey.",
+          "Certain strains of honey produced by bees harvesting primarily sage nectar are unusually low in antioxidants.",
+          "The strain of honey that has the highest antioxidant content is a light-colored honey."
+        ],
+        "correct": 0
+      },
+      {
+        "stimulus": "Researcher: In a recent study of elementary school computers, we found that all keyboards and most monitors were positioned higher than recommended for children. Consequently, children were seated in ways that encouraged craned necks, awkwardly placed wrists, and other unhealthy postures. Evidently, most elementary school computers are installed without consideration of their effect on posture, and thus put children at the same risk for repetitive stress injuries as office workers.",
+        "text": "Which one of the following, if true, most seriously weakens the researcher's argument?",
+        "choices": [
+          "The recommended height for computers is different for children than for adults.",
+          "Children spend more time working with computers at home than at school.",
+          "The greater suppleness of children's bodies makes them less susceptible than adults to repetitive stress injuries.",
+          "Office workers' keyboards and monitors are usually not at the recommended heights for healthy postures for adults.",
+          "Office workers are more likely to report injuries than children are."
+        ],
+        "correct": 2
+      },
+      {
+        "stimulus": "Sociologist: Some anthropologists claim that cultures can most effectively respond to the threat of cultural decay by replacing or abandoning many of their traditions so that other traditions may endure. But since each of its traditions is essential to a culture's identity, this strategy",
+        "text": "Which one of the following most logically completes the sociologist's argument?",
+        "choices": [
+          "can save those cultures capable of reflecting on their customs and envisioning alternatives",
+          "will ensure the elimination of a culture rather than prevent its decay",
+          "can be implemented by all and only those cultures studied by anthropologists",
+          "constitutes the most effective response to the threat of cultural decay",
+          "can succeed if adopted by cultures whose traditions have been adopted only recently"
+        ],
+        "correct": 1
+      },
+      {
+        "stimulus": "Scholar: The purpose of a law is to deter certain actions by threatening to punish those performing the actions. This threat works only if potential violators believe that they are likely to be punished. But the likelihood that someone will be apprehended and punished for committing a prohibited act decreases as the number of types of prohibited actions increases. Therefore, a successful legal system prohibits only those few behaviors that citizens find absolutely intolerable.",
+        "text": "Which one of the following most accurately describes the role played in the scholar's argument by the statement that the purpose of a law is to deter certain actions by threatening to punish those performing the actions?",
+        "choices": [
+          "It is offered in support of the implicit conclusion that a legal system needs a significant number of police officers.",
+          "It is the conclusion of the argument.",
+          "It is a premise of the argument.",
+          "It is an intermediate conclusion.",
+          "It is the view that the argument as a whole is designed to discredit."
+        ],
+        "correct": 2
+      },
+      {
+        "stimulus": "Historian: In the fourteenth and fifteenth centuries, the Swahili civilization of East Africa built tombs with large pillars and paneled facades. Such structures are widespread among the Oromo people of Somalia and Kenya, but are unknown among any other people with whom the Swahili civilization had contact. This indicates that Swahili culture was, to some extent, influenced by Oromo culture.",
+        "text": "The historian's argument is most vulnerable to criticism on the grounds that it",
+        "choices": [
+          "fails to address adequately the possibility that the Oromo people did not use the structures as tombs",
+          "concludes, simply because one event occurred earlier than another event, that the first event caused the second event",
+          "draws a restricted conclusion from premises that provide strong support for a much broader conclusion",
+          "takes for granted that there was no third civilization responsible for creating the first tombs of the kind found in both the Oromo and Swahili cultures",
+          "takes for granted that the Oromo people began constructing tombs with large pillars and paneled facades earlier than the Swahili civilization did"
+        ],
+        "correct": 3
+      },
+      {
+        "stimulus": "The chorus in a play, like a narrator in a novel, introduces a point of view not tied to any of the characters, and both chorus and narrator allow the author to comment on the characters' actions and to introduce information about the context in which these actions take place. However, since the information introduced by the chorus in a play is sometimes not consistent with the rest of the information in the play, the chorus in a play is not equivalent to the narrator in a novel.",
+        "text": "Which one of the following is an assumption on which the argument depends?",
+        "choices": [
+          "The narrator in a novel is never deceptive.",
+          "The voice of a narrator is sometimes necessary in plays that employ a chorus.",
+          "Information necessary for the audience to understand events in a play is sometimes introduced by the chorus.",
+          "Information introduced by a narrator in a novel can never be inconsistent with the rest of the information in the novel.",
+          "Authors sometimes use choruses in plays to mislead audiences about events in the plays."
+        ],
+        "correct": 3
+      },
+      {
+        "stimulus": "Some of the rare pygmy bears should be moved from their native island to the neighboring island. The bears risk extinction from the loss of habitat on their native island, and since the neighboring island is the only place that has a similar habitat, this move represents the only viable chance of saving these valuable animals.",
+        "text": "Which one of the following principles, if valid, most helps to justify the reasoning above?",
+        "choices": [
+          "Some species are more deserving of protection than are other species.",
+          "Rare animals should not be moved from one habitat to another unless these habitats are similar to one another.",
+          "If a species is in danger of extinction, whatever is most likely to prevent the extinction should be undertaken.",
+          "The rarer a species of plant or animal is, the more that should be done to protect that species.",
+          "If an animal's original habitat is in danger of being lost, it is permissible to try to find a new habitat for the animal."
+        ],
+        "correct": 2
+      },
+      {
+        "stimulus": "The widespread use of encryption software, which makes electronic documents accessible by password only, will bring the writing of biographical history virtually to an end. Public figures' private correspondence and diaries are intended to be confidential when written, but they later become biographers' principal sources. In the future, most such documents are likely to be stored as encrypted text, so the most interesting, revealing material will be unavailable to historians unless they have the necessary passwords.",
+        "text": "Which one of the following most accurately expresses the main conclusion drawn in the argument?",
+        "choices": [
+          "In the future, most private correspondence and diaries of public figures will be stored as encrypted text.",
+          "The widespread use of encryption software will cause the writing of biographical history to decline significantly or cease.",
+          "Historians will probably not have access to much of the private correspondence and diaries of public figures in the future.",
+          "In the future, biographers' access to the most interesting, revealing material will be determined by their knowledge of the necessary passwords.",
+          "Public figures' private correspondence and diaries are the most interesting and revealing sources for the writing of biographical history."
+        ],
+        "correct": 1
+      },
+      {
+        "stimulus": "Unlike stars, planets do not generate light, but only reflect it. Besides stars, there are many other celestial objects in this galaxy that are not planets. Hence, there are celestial objects in this galaxy that generate light but are not stars.",
+        "text": "The reasoning in the argument is most vulnerable to criticism on the grounds that the argument fails to consider the possibility that",
+        "choices": [
+          "this galaxy contains no celestial objects that reflect light other than planets",
+          "celestial objects in this galaxy comprise only a minute percentage of all the celestial objects in the universe",
+          "celestial objects in this galaxy are not the only celestial objects that generate light",
+          "there are numerous features that distinguish stars from planets besides the ability to generate light",
+          "planets are not the only celestial objects that do not generate light"
+        ],
+        "correct": 4
+      },
+      {
+        "stimulus": "Psychologist: We measured the \"cognitive plasticity,\" or the willingness to accept new ideas, of a group of people of both genders and of all ages. The first-born children in the study consistently exhibited less cognitive plasticity than did their siblings. It is reasonable to think that those who are open to new ideas will be adventurous in other ways. Hence, our study suggests that siblings of first-born children will tend to be more adventurous than will the first-borns.",
+        "text": "Which one of the following, if true, most strengthens the psychologist's argument?",
+        "choices": [
+          "Some of the great creative geniuses in history were first-born children.",
+          "In most cases, the more younger siblings one has, the greater one's cognitive plasticity.",
+          "Other studies have shown a correlation between cognitive plasticity and the willingness to take risks.",
+          "A study of business executives shows that several industry leaders have older siblings.",
+          "Most of the participants in the study had characterized themselves as more adaptable than other people."
+        ],
+        "correct": 2
+      },
+      {
+        "stimulus": "Historians have found that significant intellectual advances generally occur in cities or countries that have a stable political system. But these same historians acknowledge that in ancient Athens, Plato and Aristotle made unparalleled intellectual progress during a period of great political and social unrest.",
+        "text": "Which one of the following, if true, most helps to reconcile the historians' apparent counterexample with their general rule?",
+        "choices": [
+          "The political systems that have emerged since the time of Plato and Aristotle have in various ways been different from the political system in ancient Athens.",
+          "The citizens of ancient Athens generally held in high esteem people who were accomplished intellectually.",
+          "Financial support for intellectual endeavors is typically unavailable in unstable political environments, but in ancient Athens such support was provided by wealthy citizens.",
+          "Significant intellectual advances sometimes, though not always, lead to stable political environments.",
+          "Many thinkers besides Plato and Aristotle contributed to the intellectual achievements of ancient Athens."
+        ],
+        "correct": 2
+      },
+      {
+        "stimulus": "To establish a human colony on Mars would involve assembling tremendous quantities of basic materials at the site of the colony. But because the costs of transporting such materials through space would be so high, it will not be economically feasible to colonize Mars.",
+        "text": "Which one of the following is an assumption required by the argument?",
+        "choices": [
+          "Only if the cost of transporting materials from Earth to Mars decreases will human habitation be established on Mars.",
+          "The cost of transporting basic materials through space is not expected to decrease in the near future.",
+          "Earth is the only source of the basic materials that would be needed to establish human habitation on Mars.",
+          "No significant benefit would result from establishing human habitation on Mars.",
+          "Mars is not a practical source of the basic materials required for establishing human habitation there."
+        ],
+        "correct": 4
+      },
+      {
+        "stimulus": "Records reveal that of physical therapy patients who received less than six weeks of treatment, about 31 percent showed major improvement, regardless of whether they were treated by a general practitioner or by a specialist. Of patients who received physical therapy for a longer time, again regardless of whether they were treated by a general practitioner or by a specialist, about 50 percent showed major improvement. Therefore, the choice between seeing a specialist or a general practitioner for necessary physical therapy will not affect one's chances of major improvement.",
+        "text": "The reasoning in the argument is most vulnerable to criticism on the grounds that the argument",
+        "choices": [
+          "presumes, without providing justification, that effectiveness of different practitioners in bringing about major improvement cannot differ at all if their effectiveness in bringing about any improvement does not differ",
+          "provides no information about the kinds of injuries that require short-term as opposed to long-term treatment",
+          "overlooks the possibility that patients are more strongly biased to report favorably on one of the two types of medical professionals than on the other",
+          "fails to indicate whether the number of patients surveyed who saw a general practitioner was equal to the number who saw a specialist",
+          "overlooks the possibility that specialists and general practitioners each tend to excel at treating a different type of injury"
+        ],
+        "correct": 4
+      },
+      {
+        "stimulus": "The differences in distance from Earth between the stars in any one distant galaxy are negligible compared to the vast distance to the galaxy itself. Thus, if two stars are in the same distant galaxy, any significant difference in the apparent brightness of those stars results from differences in how brightly each is actually burning. Therefore, we should be able to determine how a star's relative actual brightness correlates with other characteristics by studying stars in the same distant galaxy.",
+        "text": "Which one of the following is an assumption the argument requires?",
+        "choices": [
+          "If two stars are in two different galaxies, it is not possible to determine whether or not they are approximately the same distance from Earth.",
+          "If any two stars are in the same distant galaxy, differences in the elements each is burning will be detectable from Earth.",
+          "The stars in our own galaxy are not all approximately the same distance from Earth.",
+          "There are stars in distant galaxies that have characteristics, other than brightness, discernible from Earth.",
+          "If there are significant differences in how far away two stars are from Earth, then those stars will differ significantly in apparent brightness."
+        ],
+        "correct": 3
+      },
+      {
+        "stimulus": "A research psychologist used a personality test to classify high school students as \"repressors\"—people who repress upsetting thoughts and feelings from conscious awareness—or as \"sensitizers\"—those especially attuned to internal states who freely express distress. The researcher found that, compared to sensitizers, the repressors were less shy and anxious, could better tolerate frustration, and had superior social skills, higher grades, and a greater sense of self-esteem.",
+        "text": "Each of the following, if true, contributes to an explanation of the repressors' characteristics mentioned above EXCEPT:",
+        "choices": [
+          "Repressors are better able than sensitizers to focus on their work and to avoid distractions.",
+          "Repressors are less apt than sensitizers to alienate people by expressing their emotions.",
+          "Parents and other caregivers tend to reward repressors more than they reward sensitizers for academic performance and social behavior deemed desirable.",
+          "Some psychologists have hypothesized that the desire to maintain social and academic success and self-esteem strengthens repressors' tendency to repress upsetting thoughts and feelings.",
+          "Sensitizers tend to focus more than repressors do on the difficulties of succeeding in their projects rather than on factors that are likely to contribute to success."
+        ],
+        "correct": 3
+      },
+      {
+        "stimulus": "A geologist recently claimed to have discovered in clay a previously unknown form of life: \"nanobes,\" one-tenth the size of the smallest known bacteria. However, it is unlikely that nanobes truly are living things. They are probably inanimate artifacts of the clay's microscopic structure, because a nanobe is too small to contain a reproductive mechanism, a prerequisite for life.",
+        "text": "Which one of the following, if true, most seriously weakens the argument?",
+        "choices": [
+          "No known form of bacteria is complicated enough in structure to engage in a sexual type of reproduction.",
+          "Single-celled creatures can combine to form a multicelled structure and then reproduce before they disband into separate single cells again.",
+          "The material phenomena that some scientists claim are the fossilized remains of bacteria in meteorites from Mars are approximately the same size as nanobes.",
+          "Previous definitions of life were based on research done with inferior microscopes no longer in use.",
+          "Animals such as cold-blooded lizards can be physiologically simpler, though still larger, than other animals."
+        ],
+        "correct": 1
+      },
+      {
+        "stimulus": "Devan has never bothered to be kind to me. Nor has he offered help or companionship. So, since he does not meet any of these basic criteria for friendship, he is my enemy.",
+        "text": "Which one of the following exhibits flawed reasoning most similar to the flawed reasoning exhibited in the argument above?",
+        "choices": [
+          "Each officer of this club must be a member of two years standing, or be a committee member, or have special qualifications. Evelyn cannot be an officer, for she has only been a member for one year and is not a committee member.",
+          "In order to thrive, this plant needs to be located in a sunny spot and to be watered regularly. So, since this spot is not sunny, and since I did not water this plant regularly, that explains why this plant is not as healthy as it should be.",
+          "This book has been widely reviewed and hasn't received even one hostile review. Hence we can conclude that, so far, all the critics have loved this book.",
+          "A decision in favor of developing the northern border of the town logically implies that it would be equally acceptable to develop the southern, eastern, or western borders. So, it is possible that at least one of these other borders will also be developed.",
+          "If everyone were an author, poet, or academic, then society would come crashing to a halt. But most people are not poets or authors. Nor are there many academics in our society. Therefore, our society will not come crashing to a halt."
+        ],
+        "correct": 0
+      },
+      {
+        "stimulus": "Journalist: Drivers of sport utility vehicles correctly tend to believe that occupants of such vehicles carry lower risk of serious injury as a result of accidents, and such drivers therefore tend to drive less carefully than they would in more traditional vehicles. Thus, the discovery of powerful cures for certain high-incidence forms of cancer would probably trigger an increase in behaviors such as smoking and overexposure to sun that are known to increase the risks of such cancers.",
+        "text": "The journalist's reasoning most closely conforms to which one of the following principles?",
+        "choices": [
+          "When people believe that there are several measures they could take to reduce the risk associated with a certain activity, generally they will take only the measure that they believe will most reduce that risk.",
+          "The development of ways to protect people from the consequences of behaviors that would normally harm them often makes people less careful to avoid such behaviors.",
+          "People generally take special care to avoid behaviors that they believe would likely lead to serious injury to them and generally do not take special care to avoid behaviors that they believe will not harm them at all.",
+          "People generally exercise more care when performing activities they know to have risky consequences than when performing activities of unknown risk.",
+          "Avoiding serious harm to themselves is given a high priority by people in their behavior, but avoiding lesser harms is frequently outweighed by various desires."
+        ],
+        "correct": 1
+      },
+      {
+        "stimulus": "Filmmaker: Many people feel that independent films have more integrity as works of art than films produced by major studios, since independent films are typically less conventional than major studio films. However, like major studios, all independent filmmakers need to make profits on their films, and this affects the artistic decisions made in creating most independent films. Thus, most independent films do not have absolute integrity as works of art.",
+        "text": "The filmmaker's conclusion is properly drawn if which one of the following is assumed?",
+        "choices": [
+          "A creation has absolute integrity as a work of art if the artistic decisions made in creating it were unaffected by the need to make profits.",
+          "If any of the artistic decisions made in creating something were affected by the need to make profits, then that creation does not have absolute integrity as a work of art.",
+          "The creations of individuals have more integrity as works of art, on average, than those of groups.",
+          "The unconventionality of a creation has no bearing on its integrity as a work of art.",
+          "A creation has no integrity as a work of art unless the artistic decisions made in creating it were unaffected by views about what is conventional."
+        ],
+        "correct": 1
+      },
+      {
+        "stimulus": "If you complete 24 graduate credits and a thesis in our department, you are eligible to receive a master's degree. Roger has completed 24 graduate credits in our department, yet he is not eligible to receive a master's degree. So he must not have finished his thesis yet.",
+        "text": "The reasoning in the argument above is most similar to the reasoning in which one of the following?",
+        "choices": [
+          "If the mayor and the city council had approved the proposed budget, the botanical gardens would be able to open this week. The botanical gardens cannot open this week even though the city council approved the proposed budget. Thus, the mayor must not have approved the proposed budget.",
+          "If I see a science fiction movie, I either love it or hate it. I do not hate the movie I am watching now. Therefore, I will probably end up loving the movie, since it is a science fiction movie.",
+          "If the government or some other party had bought the processing plant, the local economy would have improved. But the local economy did not improve. Therefore, neither the government nor any other party bought the processing plant.",
+          "Books at Falling Embers Bookshop are on sale only if they are either used books or paperbacks. The book I am looking for at Falling Embers is on sale. Therefore, if the book I am looking for is not a paperback, it is a used book.",
+          "If Doha owes more money than she can pay back, then she must either get a higher paying job or declare bankruptcy. Doha does in fact owe more than she can pay back, yet she does not want to declare bankruptcy. So, Doha must get a higher paying job."
+        ],
+        "correct": 0
+      }
+    ]
+  },
+  "LR2": {
+    "timeLimit": 35,
+    "questions": [
+      {
+        "stimulus": "The government's tax collection agency has not followed through on its plan, announced a year ago, to crack down on violations of corporate income tax law. Audits are the primary tool for detecting such violations, and over the past year, not a single audit of corporate income tax returns has been completed.",
+        "text": "Which one of the following, if true, most weakens the argument?",
+        "choices": [
+          "The plan to crack down on violations of corporate income tax law is part of a broad campaign against corporate misconduct.",
+          "The number of personal income tax returns audited over the past year is greater than in previous years.",
+          "Most audits of corporate income tax returns do not reveal any significant violations.",
+          "It generally takes longer than one year to complete an audit of a corporate income tax return.",
+          "Over the last five years, fewer audits of corporate income tax returns have been completed than in the preceding five years."
+        ],
+        "correct": 3
+      },
+      {
+        "stimulus": "Columnist: Making some types of products from recycled materials is probably as damaging to the environment as it would be to make those products from entirely nonrecycled materials. The recycling process for those products requires as much energy as producing them from raw materials, and almost all energy production damages the environment.",
+        "text": "The reasoning in the columnist's argument is most vulnerable to criticism on the grounds that the argument",
+        "choices": [
+          "uses the word \"environment\" in one sense in a premise and in a different sense in the conclusion drawn from that premise",
+          "treats an effect of energy-related damage to the environment as if it were instead a cause of such damage",
+          "fails to consider that the particular types of recycled products that it cites may not be representative of recycled products in general",
+          "fails to consider that making products from recycled materials may have environmental benefits unrelated to energy consumption",
+          "presumes that simply because one phenomenon follows another phenomenon the earlier phenomenon must be a cause of the later one"
+        ],
+        "correct": 3
+      },
+      {
+        "stimulus": "Physician: We are constantly bombarded by warnings, based on initial studies tentative conclusions, about this or that food having adverse health effects. If the medical establishment wants people to pay attention to health warnings, it should announce only conclusive results, the kind that can come only from definitive studies. After all, people who are constantly subjected to fire drills eventually come to ignore the fire alarm.",
+        "text": "The statement that people who are constantly subjected to fire drills eventually come to ignore the fire alarm plays which one of the following roles in the physician's argument?",
+        "choices": [
+          "It is presented as an example of the sort of warning referred to in the argument's overall conclusion.",
+          "It is a statement that plays no logical role in the argument but that instead serves to impugn the motives of the medical establishment.",
+          "It is an analogy offered in support of the argument's overall conclusion.",
+          "It is an analogy that forms part of a specific objection to the argument's overall conclusion.",
+          "It is an analogy offered to clarify the distinction the physician makes between an initial study and a definitive study."
+        ],
+        "correct": 2
+      },
+      {
+        "stimulus": "A club wanted to determine whether it could increase attendance by changing its weekly meetings from Tuesday to another day. At one Tuesday meeting, the club's president took a survey of all members present. Of those surveyed, 95 percent said that they had no difficulty attending on Tuesdays. On the basis of this survey result, the club's president concluded that the attendance problem was not due primarily to schedule conflicts.",
+        "text": "A questionable technique used in the club president's reasoning is",
+        "choices": [
+          "drawing a conclusion on the basis of circular reasoning",
+          "making a generalization on the basis of a sample that is likely to be unrepresentative",
+          "treating a generalization that applies to most cases as if it applied without exception",
+          "drawing a conclusion on the basis of premises that contradict one another",
+          "inferring, solely from the claim that a change is not sufficient to solve a problem, that it is not necessary either"
+        ],
+        "correct": 1
+      },
+      {
+        "stimulus": "The railway authority inspector who recently thoroughly checked the tracks testified that they were in good condition. Thus, since the inspector has no bias in the matter, we should be suspicious of the newspaper reporter's claim that the tracks are in poor condition.",
+        "text": "The reasoning in the argument above is most similar to the reasoning in which one of the following arguments?",
+        "choices": [
+          "My pottery instructor says that making pottery will not cause repetitive-motion injuries if it is done properly. So I will probably not get such injuries, for whenever I do pottery I use the proper techniques that my instructor taught me.",
+          "Gardner, a noted paleontologist who has no vested interest in the case, assures us that the alleged dinosaur bones are not old enough to be from dinosaurs. So we should be skeptical of Penwick's claim to have found dinosaur bones, for Gardner inspected the bones carefully.",
+          "The engineer hired by the company that maintains the bridge has examined the bridge and declared it safe. This engineer is the only one who has given the bridge a close examination recently. Thus, we should consider the bridge safe.",
+          "The reporter who recently interviewed the prime minister said the prime minister appeared to be in poor health. But despite the fact that the reporter works for a paper with opposition leanings, we should accept that the prime minister is in poor health. After all, reporters won't let their bias affect them when the truth of their claims will eventually be discovered.",
+          "The snowblower salesperson claims that there will be above-average snowfall this winter, but because the salesperson is biased, we can discount that claim."
+        ],
+        "correct": 2
+      },
+      {
+        "stimulus": "If the proposed air pollution measures were to be implemented, ozone levels in the city's air would be one fifth lower than current levels. Since the ozone in our air is currently responsible for over $5 billion in health costs, we would spend about a billion dollars less on these ozone-related health costs should the proposed measures be adopted.",
+        "text": "The argument is most vulnerable to criticism on the grounds that it",
+        "choices": [
+          "fails to consider the possibility that other types of pollution not involving ozone might rise, perhaps even producing an overall increase in health costs",
+          "presumes, without providing evidence, that ozone-related health costs in the city vary roughly in proportion to ozone levels",
+          "provides no explicit reason for believing that the proposed air pollution measures will in fact be adopted",
+          "attempts to support its conclusion by making an appeal to emotions",
+          "discusses air pollution in order to draw attention away from more significant sources of health-related costs"
+        ],
+        "correct": 1
+      },
+      {
+        "stimulus": "Newspaper article: Recently discovered clay tablets from southern Egypt date to between 3300 and 3200 B.C. Though most of the tablets translated thus far are tax records, one of them appears to contain literary writing. Hence, these tablets challenge the widely held belief among historians that the Sumerian civilization in Mesopotamia was the first to create literature.",
+        "text": "The argument in the newspaper article requires the assumption that",
+        "choices": [
+          "most of the recently discovered tablets that have not yet been translated contain literary writing",
+          "every civilization that has kept tax records has also kept other written records",
+          "historians generally believe that the Sumerians did not create literature earlier than 3300 B.C.",
+          "some historians are skeptical about the authenticity of the recently discovered tablets",
+          "the Sumerian civilization arose sometime between 3300 and 3200 B.C."
+        ],
+        "correct": 2
+      },
+      {
+        "stimulus": "Climatologist: The waters off the Pacific coast of North America have warmed about 4 degrees over the past 15 years. Some scientists claim that this trend is a symptom of a more general, global warming caused by human-generated air pollution. However, this conclusion is far from justified—it is known that there are many natural cycles of ocean temperature changes that last 60 years or more.",
+        "text": "Which one of the following most accurately expresses the main conclusion drawn in the climatologist's argument?",
+        "choices": [
+          "Some scientists have found evidence that the waters off the Pacific coast of North America have grown significantly warmer over the past 15 years.",
+          "The warming of the waters off the Pacific coast of North America is not a symptom of a more general, global warming caused by human-generated air pollution.",
+          "The conclusion that the warming of the waters off the Pacific coast of North America is a symptom of a more general, global warming caused by human-generated air pollution is far from justified.",
+          "The warming of the waters off the Pacific coast of North America may be the result of a natural cycle of ocean temperature changes.",
+          "If the warming of the waters off the Pacific coast of North America is due to a natural cycle of ocean temperature changes, then it is not a symptom of a more general, global warming caused by human-generated air pollution."
+        ],
+        "correct": 2
+      },
+      {
+        "stimulus": "Robin: Archaeologists can study the artifacts left by ancient cultures to determine whether they were nomadic or sedentary. If the artifacts were made to last rather than to be quickly discarded, the culture was likely sedentary.\nKendall: But what artifacts a people make is determined largely by the materials available to them.",
+        "text": "Their statements commit Robin and Kendall to disagreeing over whether",
+        "choices": [
+          "the distinction that Robin makes between two kinds of cultures is illicit",
+          "it is reasonable to assume that a culture whose artifacts were not durable was nomadic",
+          "any evidence other than the intended durability of a culture's artifacts can establish conclusively which of the two kinds of cultures a particular culture was",
+          "the distinction that Robin makes between the different kinds of cultures is as important as many archaeologists have thought",
+          "studying a culture's artifacts can reveal a great deal about the culture"
+        ],
+        "correct": 1
+      },
+      {
+        "stimulus": "Railroads rely increasingly on automation. Since fewer railroad workers are needed, operating costs have been reduced. This means that we can expect the volume of freight shipped by rail to grow. The chief competitor of railway shipping is shipping by truck, and no reduction in operating costs is predicted for the trucking industry.",
+        "text": "Which one of the following most accurately states the argument's overall conclusion?",
+        "choices": [
+          "The volume of freight shipped by rail can be expected to increase.",
+          "Increasing reliance on automation means that fewer railroad workers are needed.",
+          "No reduction in operating costs is predicted for the trucking industry.",
+          "Operating costs for railroads have been reduced as a result of increased reliance on automation.",
+          "The chief competitor of railway shipping is shipping by truck."
+        ],
+        "correct": 0
+      },
+      {
+        "stimulus": "In the past, infants who were not breast-fed were fed cow's milk. Then doctors began advising that cow's milk fed to infants should be boiled, as the boiling would sterilize the milk and prevent gastrointestinal infections potentially fatal to infants. Once this advice was widely implemented, there was an alarming increase among infants in the incidence of scurvy, caused by vitamin C deficiency. Breast-fed infants, however, did not contract scurvy.",
+        "text": "Which one of the following is most strongly supported by the information above?",
+        "choices": [
+          "Boiled cow's milk makes less vitamin C available to infants than does the same amount of mother's milk.",
+          "Infants who consume cow's milk that has not been boiled frequently contract potentially fatal gastrointestinal infections.",
+          "Mother's milk can cause gastrointestinal infections in infants.",
+          "When doctors advised that cow's milk fed to infants should be boiled, they did not know that scurvy was caused by vitamin C deficiency.",
+          "When doctors advised that cow's milk fed to infants should be boiled, most mothers did not breast-feed their infants."
+        ],
+        "correct": 0
+      },
+      {
+        "stimulus": "The only effective check on grass and brush fires is rain. If the level of rainfall is below normal for an extended period of time, then there are many more such fires. Yet grass and brush fires cause less financial damage overall during long periods of severe drought than during periods of relatively normal rainfall.",
+        "text": "Which one of the following, if true, would most help to resolve the apparent paradox described above?",
+        "choices": [
+          "Fire departments tend to receive less funding during periods of severe drought than during periods of normal rainfall.",
+          "Areas subject to grass and brush fires tend to be less densely populated than areas where there are few such fires.",
+          "Unusually large, hard-to-control grass and brush fires typically occur only when there is a large amount of vegetation for them to consume.",
+          "Grass and brush fires that are not caused by human negligence or arson tend to be started by lightning.",
+          "When vegetation is destroyed in a grass or brush fire, it tends to be replaced naturally by vegetation that is equally if not more flammable."
+        ],
+        "correct": 2
+      },
+      {
+        "stimulus": "Medical researcher: A new screening test detects certain polyps at such an early stage that it is generally unclear whether the polyps are malignant. But the risk that a polyp might be malignant leads doctors, in most cases, to have such polyps surgically removed, which is a dangerous process. Yet some of those polyps turn out not to be malignant. Thus, the new screening test can prompt dangerous operations that actually are not medically necessary.",
+        "text": "Which one of the following is an assumption that the medical researcher's argument requires?",
+        "choices": [
+          "A surgical operation that is dangerous is ethically justified only for treating a medical condition that is more dangerous.",
+          "Surgical removal of nonmalignant polyps detected by the new screening test is not always medically necessary.",
+          "If the new screening test encourages medically unnecessary operations, then probably it either should not be used or its use should be modified.",
+          "A polyp detected by the new screening test should be surgically removed if it is malignant.",
+          "The screening test is medically useful only when it detects a polyp that requires treatment."
+        ],
+        "correct": 0
+      },
+      {
+        "stimulus": "Psychologist: Most people's blood pressure rises when they talk. But extroverted people experience milder surges when they speak than do introverted people, for whom speaking is more stressful. This suggests that the increases result from the psychological stress of communicating rather than from the physical exertion of speech production.",
+        "text": "Which one of the following, if true, most strengthens the psychologist's argument?",
+        "choices": [
+          "Medications designed to lower blood pressure do not keep the people who take them from experiencing blood-pressure fluctuations when speaking.",
+          "In general, the lower one's typical blood pressure, the more one's blood pressure will increase under stress.",
+          "Introverted people who do not have chronically high blood pressure often sense the rises in blood pressure that occur when they speak in conversation.",
+          "Deaf people experience increased blood pressure when they sign, but no change when they move their hands for other reasons.",
+          "Extroverted people are more likely to have chronically high blood pressure than are introverted people and are more likely to take medication to lower their blood pressure."
+        ],
+        "correct": 3
+      },
+      {
+        "stimulus": "One should only buy a frying pan that has a manufacturer's warranty, even if it requires paying more, and even if one would never bother seeking reimbursement should the pan not work well or last long. Manufacturers will not offer a warranty on a product if doing so means that they will need to reimburse many customers because the product did not work well or last long.",
+        "text": "The conclusion of the argument is strongly supported if which one of the following is assumed?",
+        "choices": [
+          "Most people who buy a frying pan with a manufacturer's warranty would seek reimbursement should the pan fail to work well or last long.",
+          "All of the frying pans currently on the market that are covered by a manufacturer's warranty work at least as well at the time of purchase as any of the frying pans not covered by a warranty.",
+          "The more a frying pan costs, the more likely it is to be covered by a manufacturer's warranty.",
+          "The most expensive frying pans are the ones most likely to work well for many years.",
+          "Most frying pan manufacturers warranties provide for full customer satisfaction."
+        ],
+        "correct": 1
+      },
+      {
+        "stimulus": "Journalist: When judges do not maintain strict control over their courtrooms, lawyers often try to influence jury verdicts by using inflammatory language and by badgering witnesses. These obstructive behaviors hinder the jury's effort to reach a correct verdict. Whenever lawyers engage in such behavior, therefore, it is reasonable to doubt whether the verdict is correct.",
+        "text": "Which one of the following, if true, most weakens the journalist's argument?",
+        "choices": [
+          "Court proceedings overseen by judges who are very strict in controlling lawyers behavior are known to result sometimes in incorrect verdicts.",
+          "Lawyers tend to be less concerned than are judges about whether the outcomes of jury trials are just or not.",
+          "People who are influenced by inflammatory language are very unlikely to admit at some later time that they were influenced by such language.",
+          "Obstructive courtroom behavior by a lawyer is seldom effective in cases where jurors are also presented with legitimate evidence.",
+          "The selection of jurors is based in part on an assessment of the likelihood that they are free of bias."
+        ],
+        "correct": 0
+      },
+      {
+        "stimulus": "Mateo: Global warming has caused permafrost to melt under several arctic villages, forcing all their inhabitants to relocate at great expense. Since pollution from automobiles is a major contributor to global warming, the automotive industry should be required to help pay for the villagers' relocation.",
+        "text": "Which one of the following principles, if valid, would most help to justify Mateo's argument?",
+        "choices": [
+          "Any industry has an obligation to pay for any damage that it should have known would result from its activities.",
+          "Manufacturers should be required to produce goods in a way that minimizes harm to people and the environment.",
+          "When the use of a product causes damage, governments should not be required to help pay for the damage unless those responsible for manufacturing the product are also required to help pay for them.",
+          "Any industry manufacturing a product whose use contributes to costly damage for others should be liable for any damage generated by that product's use.",
+          "An industry that contributes to global warming should be required to help pay for resulting damage to specific communities only if it has a general obligation to help pay for all damage produced by global warming."
+        ],
+        "correct": 3
+      },
+      {
+        "stimulus": "Lindsey: Several people claim that our company was unfair when it failed to give bonuses to the staff. Perhaps they recalled that the company had promised that if it increased its profits over last year's, the staff would all get bonuses. However, the company's profit was much smaller this year than it was last year. Clearly, then, the company acted fairly.",
+        "text": "The argument is flawed in that it",
+        "choices": [
+          "relies on the opinions of certain unnamed people without establishing that those people were well informed on the matter",
+          "infers that an opinion is false merely because one potential reason for that opinion has been undermined",
+          "dismisses a claim on the basis of certain irrelevant attributes of the people who made the claim",
+          "confuses the size of a quantity with the amount by which that quantity has increased",
+          "overlooks the possibility that a policy can be fair even when it is not generous"
+        ],
+        "correct": 3
+      },
+      {
+        "stimulus": "It is widely known that the rescue squads serving high mountain areas with treacherous weather save the lives of many mountain climbers every year. However, many experienced climbers believe that the rising annual toll of deaths and injuries among climbers in these regions can be significantly reduced only by completely abolishing the rescue squads.",
+        "text": "Which one of the following, if true, would most help to justify the apparently paradoxical belief of the experienced climbers?",
+        "choices": [
+          "It is difficult to recruit and train members for the rescue squads.",
+          "The recording of deaths and injuries tends to be more accurate in mountain regions served by rescue squads.",
+          "People who commonly take risks with their lives and health do not expect other people to take those risks to rescue them.",
+          "Most of the people injured or killed while mountain climbing were not adequately prepared for the dangers they would face.",
+          "The lower the risk of climbing a particular mountain is perceived to be, the greater the number of less competent climbers who attempt to climb it."
+        ],
+        "correct": 4
+      },
+      {
+        "stimulus": "Paula: Earthlike planets seem to be the rule rather than the exception, so there probably are intelligent beings on other planets. Furthermore, we can expect our radio telescopes to detect signs of such beings. Alien scientists would have basically the same understanding of mathematics and physics that humans have. Thus they would inevitably discover gravity, electromagnetism, and other fundamental physical phenomena and then develop technologies such as radio communication.\nAshley: That is like saying they would inevitably have the same legal or political systems that humans do. Our science, mathematics, and technology are unique outgrowths of our physiology, cognitive makeup, and environment. Using radio telescopes to search for intelligent life is a waste of time and money.",
+        "text": "The dialogue provides the most evidence that Paula and Ashley disagree with each other about whether",
+        "choices": [
+          "it is probable that there are intelligent alien beings who have developed radio communication",
+          "it is probable that there are intelligent alien beings who have the same legal or political systems that humans do",
+          "our technology is influenced by our cognitive makeup",
+          "there is likely to be intelligent life on other planets",
+          "scientists should spend more time and money on the search for intelligent extraterrestrial life"
+        ],
+        "correct": 0
+      },
+      {
+        "stimulus": "Developer: The builders of the Glen Veil apartment complex will not complete the complex unless a road connecting it to the town of Sierra is built. The completed apartment complex would strengthen Sierra's economy, and a stronger economy would benefit every Sierra resident. Therefore, the residents of Sierra should vote in favor of a local tax to fund construction of the proposed road.",
+        "text": "Which one of the following principles, if valid, would most help to justify the developer's reasoning?",
+        "choices": [
+          "If a construction project is necessary in order to strengthen a town's economy, then the residents of that town should vote in favor of a local tax to fund that construction project.",
+          "The residents of a town should not vote in favor of a local tax to fund a construction project unless that construction project will produce results that benefit all of those residents.",
+          "Whenever a town funds a construction project, it should do so by means of a tax rather than debt.",
+          "Only those residents who will benefit from the results of a construction project should be required to pay a tax to fund that project.",
+          "Anyone who would benefit from the results of a construction project should vote in favor of a local tax to fund that project."
+        ],
+        "correct": 4
+      },
+      {
+        "stimulus": "Historian: Because medieval epistemology (theory of knowledge) is a complex subject, intellectual historians have, until recently, failed to produce a definition that would help to determine what should and what should not be included in it. Clearly, the solution is to define medieval epistemology simply as \"the epistemological beliefs of the medieval epistemologists.\" That way, if we want to know whether medieval epistemology includes some epistemological claim, we just ask whether any medieval epistemologists believed it. If any did, it is part of medieval epistemology: if any medieval epistemologists believed the opposite, then that opposite claim is part of medieval epistemology.",
+        "text": "Which one of the following, if true, would most weaken the historian's argument?",
+        "choices": [
+          "Medieval epistemologists held some of the same epistemological beliefs as did ancient epistemologists.",
+          "The epistemological beliefs of medieval epistemologists depended upon their beliefs about nonepistemological matters.",
+          "The writings of most medieval epistemologists include passages that are clearly not about epistemology.",
+          "Some medieval epistemologists had epistemological beliefs that contradicted the epistemological beliefs of other medieval epistemologists.",
+          "There is much debate as to which medieval thinkers, if any, were epistemologists."
+        ],
+        "correct": 4
+      },
+      {
+        "stimulus": "Official: Six months ago, the fines for parking violations on the city's streets were raised to help pay for the parking garage that had just opened. Since then, parking violations on our streets have dropped by 50 percent. Hence, if we want there to be even fewer parking violations, the fines should be raised again.",
+        "text": "The reasoning in the official's argument is flawed in that the argument",
+        "choices": [
+          "takes a possible effect of a reduction to be a possible cause of that reduction",
+          "takes for granted that raising fines a second time will reduce parking violations at least as much as it did the first time",
+          "fails to take into account the financial benefits the city is now deriving from fines for parking violations",
+          "takes for granted that people who park their cars illegally would prefer to park legally",
+          "fails to establish that the initial decrease in parking violations was not due to the availability of additional parking spaces"
+        ],
+        "correct": 1
+      },
+      {
+        "stimulus": "Consumer advocate: Some agricultural crops are now being genetically engineered to produce important pharmaceuticals. However, this development raises the possibility that the drugs will end up in the general food supply, since if pollen from a drug-producing crop drifts into a nearby field in which an ordinary, non-drug-producing crop of the same species is being grown, the pollen could fertilize that crop and turn it into a drug-producing crop as well.",
+        "text": "Which one of the following, if true, would most weaken the consumer advocate's argument?",
+        "choices": [
+          "As far as scientists know, none of the pharmaceuticals produced by genetically engineered crops would present any danger to public health if they were present in the general food supply.",
+          "If pollen from a genetically engineered crop is prevented from drifting into fields in which ordinary crops of the same species are being grown, then there is no risk of the pollen fertilizing the latter crops.",
+          "The genetically engineered crops that produce pharmaceuticals are not among the crop species that comprise the largest portions of the general food supply.",
+          "In crops genetically engineered to produce pharmaceuticals, the drugs are not present in any part of the plant used for food in ordinary crops of the same species.",
+          "If pollen from a drug-producing crop turned an ordinary crop of the same species into a drug-producing crop, it would be possible for scientists to identify the latter crop"
+        ],
+        "correct": 3
+      },
+      {
+        "stimulus": "Most of the members of Bargaining Unit Number 17 of the government employees' union are computer programmers. Thus it is certain that some of the government employees who work in the Hanson Building are computer programmers, since",
+        "text": "The conclusion of the argument follows logically if which one of the following completes the passage?",
+        "choices": [
+          "most of the government employees who belong to Bargaining Unit Number 17 but are not computer programmers work in the Hanson Building",
+          "most members of the executive committee of Bargaining Unit Number 17 work in the Hanson Building",
+          "most of the government employees who work in the Hanson Building are members of Bargaining Unit Number 17",
+          "most of the members of Bargaining Unit Number 17 work in the Hanson Building",
+          "most of the people who work in the Hanson building are government employees"
+        ],
+        "correct": 2
+      },
+      {
+        "stimulus": "Every Labrador retriever in my neighborhood is a well-behaved dog. However, no pet would be well behaved if it were not trained. Thus it is training, not the genetic makeup of the breed, that accounts for these Labrador retrievers' good behavior.",
+        "text": "The flawed reasoning in which one of the following is most closely parallel to the flawed reasoning in the argument above?",
+        "choices": [
+          "All the students at Bryker School excel in their studies. However, students at Bryker School would not excel if they did not have good teachers. Thus, all schools should hire good teachers if they want their students to excel.",
+          "Whenever it snows there are relatively more car crashes on the highways. Yet in general, there would not be car crashes unless people were careless. So it is not icy roads, but carelessness, that causes car crashes when it snows.",
+          "Every musician I know is a good dancer. Every mathematician I know is a bad dancer. Thus, it is a sense of rhythm, not the ability to count, that is most responsible for good dancing.",
+          "All of the good cooks in my country use butter, not margarine, in their cooking. Thus, if you want to be a good cook, you must use butter, not margarine, in your cooking.",
+          "All of the students in my algebra class received an A, even though none of them can solve word problems. No student who is unable to solve word problems has an adequate understanding of algebra. It follows that the students in my class received A's not because they did any good work."
+        ],
+        "correct": 1
+      }
+    ]
+  }
+}
