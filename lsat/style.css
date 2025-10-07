@@ -92,6 +92,94 @@ body {
     border-bottom: none;
 }
 
+/* Test Mode Selection */
+.test-mode-selection {
+    background: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+    margin: 20px 0;
+    text-align: left;
+}
+
+.test-mode-selection h3 {
+    color: #2c3e50;
+    margin-bottom: 15px;
+    font-size: 0.95em;
+}
+
+.mode-options {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.mode-option {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    padding: 8px;
+    border-radius: 6px;
+    transition: background-color 0.3s;
+}
+
+.mode-option:hover {
+    background: #e9ecef;
+}
+
+.mode-option input[type="radio"] {
+    margin-right: 10px;
+    accent-color: #2C3D4F;
+}
+
+.mode-label {
+    font-size: 0.9em;
+    color: #333;
+}
+
+.section-selection {
+    background: white;
+    padding: 15px;
+    border-radius: 6px;
+    border: 1px solid #dee2e6;
+    margin-top: 10px;
+}
+
+.section-selection h4 {
+    color: #2c3e50;
+    margin-bottom: 10px;
+    font-size: 0.9em;
+}
+
+.section-options {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.section-option {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    padding: 6px;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.section-option:hover {
+    background: #f8f9fa;
+}
+
+.section-option input[type="radio"] {
+    margin-right: 8px;
+    accent-color: #2C3D4F;
+}
+
+.section-label {
+    font-size: 0.85em;
+    color: #333;
+}
+
 /* JSON Upload Section */
 .json-upload-section {
     background: #f8f9fa;
@@ -294,14 +382,8 @@ body {
 
 .timer.warning {
     background: #f39c12;
-    animation: pulse 1s infinite;
 }
 
-@keyframes pulse {
-    0% { opacity: 1; }
-    50% { opacity: 0.7; }
-    100% { opacity: 1; }
-}
 
 /* Main Content */
 .test-content {
@@ -632,6 +714,7 @@ body {
 
 .question-number.flagged {
     /* No color change for flagged questions - only flag icon */
+    position: relative;
 }
 
 .question-number.flagged::after {
@@ -1054,4 +1137,51 @@ button:focus, .answer-choice:focus, .question-number:focus {
 
 #json-menu-link:hover {
     color: #1a2a3a;
+}
+
+/* Copy Summary Section */
+.copy-summary-section {
+    background: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+    margin: 20px 0;
+    text-align: left;
+    border: 2px solid #2C3D4F;
+}
+
+.copy-summary-section h3 {
+    color: #2c3e50;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.copy-summary-section p {
+    color: #666;
+    margin-bottom: 15px;
+    text-align: center;
+    font-size: 0.9em;
+}
+
+.summary-text-display {
+    background: white;
+    border: 1px solid #dee2e6;
+    border-radius: 6px;
+    padding: 15px;
+    margin-top: 15px;
+    font-family: 'Courier New', monospace;
+    font-size: 0.85em;
+    line-height: 1.4;
+    white-space: pre-wrap;
+    max-height: 300px;
+    overflow-y: auto;
+    display: none;
+}
+
+.summary-text-display.show {
+    display: block;
+}
+
+#copy-summary-btn {
+    width: 100%;
+    margin-bottom: 10px;
 }

@@ -1,12 +1,17 @@
-const optionsLast = {
+let optionsLast = {
     // https://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&user=p4pillio&api_key=KEY
     api: "https://ws.audioscrobbler.com/2.0/?format=json&",
     getRecentTracks: "method=user.getrecenttracks&",
     user: "user=p4pillio&",
-    apiKey: "api_key=" + getLastKey().toString(),
+    apiKey: "",
 };
 
 async function getLastTracks() {
+    // Initialize API key if not already set
+    if (!optionsLast.apiKey) {
+        const lastKey = await getLastKey();
+        optionsLast.apiKey = "api_key=" + lastKey.toString();
+    }
     const url = optionsLast.api + optionsLast.getRecentTracks + optionsLast.user + optionsLast.apiKey;
     let data = await fm_fetch(url);
     let currentTrack;

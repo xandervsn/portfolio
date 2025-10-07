@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LSAT Online Test Environment</title>
+    <link rel="icon" type="image/png" href="icon.png">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -24,6 +25,39 @@
                     <li>10-minute break after Section 2</li>
                 </ul>
             </div>
+            
+            <div class="test-mode-selection">
+                <h3>Test Mode:</h3>
+                <div class="mode-options">
+                    <label class="mode-option">
+                        <input type="radio" name="test-mode" value="full" checked>
+                        <span class="mode-label">Full Test (3 sections)</span>
+                    </label>
+                    <label class="mode-option">
+                        <input type="radio" name="test-mode" value="single">
+                        <span class="mode-label">1 Section Only</span>
+                    </label>
+                </div>
+                
+                <div id="section-selection" class="section-selection" style="display: none;">
+                    <h4>Select Section:</h4>
+                    <div class="section-options">
+                        <label class="section-option">
+                            <input type="radio" name="section-type" value="LR1">
+                            <span class="section-label">Logical Reasoning 1 (LR1)</span>
+                        </label>
+                        <label class="section-option">
+                            <input type="radio" name="section-type" value="LR2">
+                            <span class="section-label">Logical Reasoning 2 (LR2)</span>
+                        </label>
+                        <label class="section-option">
+                            <input type="radio" name="section-type" value="RC">
+                            <span class="section-label">Reading Comprehension (RC)</span>
+                        </label>
+                    </div>
+                </div>
+            </div>
+            
             <button id="begin-test-btn" class="btn-primary">Begin Test</button>
         </div>
     </div>
@@ -149,6 +183,14 @@
                 <ul id="test-summary-list">
                     <!-- Summary will be populated here -->
                 </ul>
+            </div>
+            <div class="copy-summary-section">
+                <h3>Copy-Paste Summary</h3>
+                <p>Click the button below to copy a detailed summary of your wrong answers to your clipboard:</p>
+                <button id="copy-summary-btn" class="btn-primary">Copy Summary to Clipboard</button>
+                <div id="summary-text" class="summary-text-display">
+                    <!-- Summary text will be populated here -->
+                </div>
             </div>
         </div>
     </div>

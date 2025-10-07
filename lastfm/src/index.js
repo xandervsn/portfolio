@@ -10,9 +10,9 @@ const optionsThis = {
     stopped: false,
 };
 
-const optionsLast = {
+let optionsLast = {
     api: "https://ws.audioscrobbler.com/2.0/?format=json&",
-    apiKey: "api_key=" + getLastKey().toString(),
+    apiKey: "",
     limit: "limit=200&",
     //overall | 7day | 1month | 3month | 6month | 12month 
     period: `period=${range.options[range.selectedIndex].value}&`,
@@ -23,22 +23,37 @@ const optionsLast = {
     user: "",
 };
 
-const optionsDeezer = {
+let optionsDeezer = {
 	method: 'GET',
 	headers: {
-		'X-RapidAPI-Key': getDeezerKey(),
+		'X-RapidAPI-Key': '',
 		'X-RapidAPI-Host': 'deezerdevs-deezer.p.rapidapi.com'
 	}
 };
 
-function init(input, artist_on_init, album_on_init, genre_on_init, deezer_on_init){
+async function init(input, artist_on_init, album_on_init, genre_on_init, deezer_on_init){
     optionsThis.artist_on = artist_on_init;
     optionsThis.album_on = album_on_init;
     optionsThis.genre_on = genre_on_init;
     optionsThis.deezer_on = deezer_on_init;
     optionsThis.stopped = false;
     optionsLast.user = input;
-    optionsLast.period = `period=${range.options[range.selectedIndex].value}&`
+    optionsLast.period = `period=${range.options[range.selectedIndex].value}&`;
+    
+    // Initialize API keys
+    try {
+        const lastKey = await getLastKey();
+        optionsLast.apiKey = "api_key=" + lastKey.toString();
+        
+        if (deezer_on_init) {
+            const deezerKey = await getDeezerKey();
+            optionsDeezer.headers['X-RapidAPI-Key'] = deezerKey;
+        }
+    } catch (error) {
+        console.error('Failed to initialize API keys:', error);
+        return;
+    }
+    
     scrape();
 }
 

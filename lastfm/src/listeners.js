@@ -11,14 +11,19 @@ const go = document.getElementById("button");
 const input = document.getElementById("input")
 
 
-go.onclick = () => {
-    init("user=" + input.value + "&", artist.checked, album.checked, genre.checked, deezer.checked)
-    clear();
-    tbody.textContent = "Loading";
-	arrays.artists = [];
-	arrays.tracks = [];
-	arrays.albums = [];
-	arrays.genres = [];
+go.onclick = async () => {
+    try {
+        await init("user=" + input.value + "&", artist.checked, album.checked, genre.checked, deezer.checked);
+        clear();
+        tbody.textContent = "Loading";
+        arrays.artists = [];
+        arrays.tracks = [];
+        arrays.albums = [];
+        arrays.genres = [];
+    } catch (error) {
+        console.error('Failed to initialize:', error);
+        tbody.textContent = "Error loading API keys. Please try again.";
+    }
 }
 
 stopBtn.onclick = () => {
