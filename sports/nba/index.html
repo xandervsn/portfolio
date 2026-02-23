@@ -1,0 +1,744 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="../main/imgs/icon.png">
+    <title>NBA Head-to-Head Records</title>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="sports-tabs">
+            <a href="#" class="sports-tab active">NBA</a>
+            <a href="../cfb/index.html" class="sports-tab">CFB</a>
+            <a href="https://github.com/xandervsn/NBA-Head-To-Head" class="sports-tab sports-tab-right" target="_blank" rel="noopener">Source code</a>
+        </div>
+
+        <div class="main-content">
+            <div class="visualization-container">
+                <div id="heatmap-container">
+                    <div class="loading">
+                        <div class="loading-spinner"></div>
+                        <p>Loading data...</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="controls">
+                <div class="filters-panel">
+                    <div class="filter-group">
+                        <label>Season/Year</label>
+                        <select id="year-filter">
+                            <option value="all">All Seasons</option>
+                            <!-- Will be populated dynamically -->
+                        </select>
+                    </div>
+                    <div class="filter-group">
+                        <label>Game Type</label>
+                        <div style="margin-top: 5px;">
+                            <label style="display: block; margin-bottom: 5px; font-weight: normal; padding-left: 0; padding-right: 0;">
+                                <input type="checkbox" class="game-type-checkbox" value="Regular Season" checked style="margin-right: 8px; margin-left: 0; vertical-align: baseline; width: auto;">
+                                <span style="vertical-align: baseline;">Regular Season</span>
+                            </label>
+                            <label style="display: block; margin-bottom: 5px; font-weight: normal; padding-left: 0; padding-right: 0;">
+                                <input type="checkbox" class="game-type-checkbox" value="Preseason" checked style="margin-right: 8px; margin-left: 0; vertical-align: baseline; width: auto;">
+                                <span style="vertical-align: baseline;">Preseason</span>
+                            </label>
+                            <label style="display: block; margin-bottom: 5px; font-weight: normal; padding-left: 0; padding-right: 0;">
+                                <input type="checkbox" class="game-type-checkbox" value="Playoffs" checked style="margin-right: 8px; margin-left: 0; vertical-align: baseline; width: auto;">
+                                <span style="vertical-align: baseline;">Playoffs</span>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="filter-group">
+                        <label>Conference</label>
+                        <select id="conference-filter">
+                            <option value="all">All</option>
+                            <option value="east">Eastern Conference</option>
+                            <option value="west">Western Conference</option>
+                        </select>
+                    </div>
+                    <div class="filter-group">
+                        <label>Team Filter</label>
+                        <select id="team-filter">
+                            <option value="all">All Teams</option>
+                            <!-- Will be populated dynamically -->
+                        </select>
+                    </div>
+                    <div class="filter-group">
+                        <label>Minimum Games</label>
+                        <input type="number" id="min-games-filter" value="0" min="0" step="1">
+                    </div>
+                    <div class="filter-group">
+                        <label>Season Range</label>
+                        <div style="margin-top: 5px;">
+                            <div style="display: table; width: 100%; margin-bottom: 10px;">
+                                <div style="display: table-cell; width: 50px; vertical-align: middle;">
+                                    <span id="year-min-display">-</span>
+                                </div>
+                                <div style="display: table-cell; width: auto; vertical-align: middle; padding: 0 8px;">
+                                    <input type="range" id="year-range-slider-min" min="0" max="100" value="0" step="1" style="width: 100%;">
+                                </div>
+                                <div style="display: table-cell; width: 50px; vertical-align: middle; text-align: right;">
+                                    <span id="year-max-display-min">-</span>
+                                </div>
+                            </div>
+                            <div style="display: table; width: 100%;">
+                                <div style="display: table-cell; width: 50px; vertical-align: middle;">
+                                    <span id="year-min-display-max">-</span>
+                                </div>
+                                <div style="display: table-cell; width: auto; vertical-align: middle; padding: 0 8px;">
+                                    <input type="range" id="year-range-slider-max" min="0" max="100" value="0" step="1" style="width: 100%;">
+                                </div>
+                                <div style="display: table-cell; width: 50px; vertical-align: middle; text-align: right;">
+                                    <span id="year-max-display">-</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div style="margin-top: 5px; font-size: 10px; color: #666;">
+                            <span id="year-range-text">All seasons</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="sports-footer">
+        Special thanks to <a href="https://interstate21.com/nba-logos/" target="_blank" rel="noopener">interstate21</a> for the NBA logo API.
+        And especially to Eoin A Moore for the <a href="https://www.kaggle.com/datasets/eoinamoore/historical-nba-data-and-player-box-scores/" target="_blank" rel="noopener">NBA dataset</a>. This would not be possible without them.
+    </footer>
+
+    <div class="tooltip" id="tooltip"></div>
+
+    <script>
+        // Global state
+        let rawData = [];
+        let yearByYearData = [];
+        let filteredData = [];
+        let teams = [];
+        let allTeams = [];
+        let currentHighlight = { row: null, col: null };
+        let availableYears = [];
+        let yearRange = { min: null, max: null };
+        
+        // Configuration
+        const config = {
+            cellSize: 25,
+            cellPadding: 0,
+            labelWidth: 120,
+            labelHeight: 20,
+            logoSizeAt30: 24,  // logo size when heatmap is 30×30 (reference scale)
+            colorScale: d3.scaleSequential(d3.interpolateRdYlGn)
+                .domain([0, 1])
+        };
+
+        // Team full name → 3-letter abbreviation (for nba_logos/XXX.png)
+        const teamToAbbr = {
+            'Atlanta Hawks': 'ATL', 'Boston Celtics': 'BOS', 'Brooklyn Nets': 'BKN',
+            'Charlotte Hornets': 'CHA', 'Chicago Bulls': 'CHI', 'Cleveland Cavaliers': 'CLE',
+            'Dallas Mavericks': 'DAL', 'Denver Nuggets': 'DEN', 'Detroit Pistons': 'DET',
+            'Golden State Warriors': 'GSW', 'Houston Rockets': 'HOU', 'Indiana Pacers': 'IND',
+            'Los Angeles Clippers': 'LAC', 'Los Angeles Lakers': 'LAL', 'Memphis Grizzlies': 'MEM',
+            'Miami Heat': 'MIA', 'Milwaukee Bucks': 'MIL', 'Minnesota Timberwolves': 'MIN',
+            'New Orleans Pelicans': 'NOP', 'New York Knicks': 'NYK', 'Oklahoma City Thunder': 'OKC',
+            'Orlando Magic': 'ORL', 'Philadelphia 76ers': 'PHI', 'Phoenix Suns': 'PHX',
+            'Portland Trail Blazers': 'POR', 'Sacramento Kings': 'SAC', 'San Antonio Spurs': 'SAS',
+            'Toronto Raptors': 'TOR', 'Utah Jazz': 'UTA', 'Washington Wizards': 'WAS'
+        };
+
+        // Conference membership (East / West) for Conference filter
+        const EAST_TEAMS = [
+            'Atlanta Hawks', 'Boston Celtics', 'Brooklyn Nets', 'Charlotte Hornets', 'Chicago Bulls',
+            'Cleveland Cavaliers', 'Detroit Pistons', 'Indiana Pacers', 'Miami Heat', 'Milwaukee Bucks',
+            'New York Knicks', 'Orlando Magic', 'Philadelphia 76ers', 'Toronto Raptors', 'Washington Wizards'
+        ];
+        const WEST_TEAMS = [
+            'Dallas Mavericks', 'Denver Nuggets', 'Golden State Warriors', 'Houston Rockets',
+            'Los Angeles Clippers', 'Los Angeles Lakers', 'Memphis Grizzlies', 'Minnesota Timberwolves',
+            'New Orleans Pelicans', 'Oklahoma City Thunder', 'Phoenix Suns', 'Portland Trail Blazers',
+            'Sacramento Kings', 'San Antonio Spurs', 'Utah Jazz'
+        ];
+        function logoPath(team) { return 'nba_logos/' + (teamToAbbr[team] || 'ATL') + '.png'; }
+        const bigLogoTeams = new Set(['LAL', 'LAC', 'POR', 'SAS']);
+        function logoScale(team) { return bigLogoTeams.has(teamToAbbr[team]) ? 1.3 : 1; }
+
+        // Helper function to lighten a color
+        function lightenColor(color, amount) {
+            const d3Color = d3.rgb(color);
+            return d3.rgb(
+                Math.min(255, d3Color.r + amount),
+                Math.min(255, d3Color.g + amount),
+                Math.min(255, d3Color.b + amount)
+            );
+        }
+
+        // Initialize
+        async function init() {
+            try {
+                await loadData();
+                setupFilters();
+                if (availableYears.length > 0) {
+                    setupYearSlider();
+                }
+                renderHeatmap();
+            } catch (error) {
+                console.error('Initialization error:', error);
+                document.getElementById('heatmap-container').innerHTML = 
+                    '<div class="no-data-message">Error loading data. Please ensure nba/data/nba_head_to_head_records.csv is available.</div>';
+            }
+        }
+
+        // Load CSV data
+        async function loadData() {
+            // Load aggregated data
+            const response = await fetch('data/nba_head_to_head_records.csv');
+            const csvText = await response.text();
+            rawData = d3.csvParse(csvText, d => ({
+                team: d.Team,
+                opponent: d.Opponent,
+                winPct: d.Win_Percentage === '' ? null : parseFloat(d.Win_Percentage) / 100,
+                wins: parseInt(d.Wins) || 0,
+                losses: parseInt(d.Losses) || 0,
+                totalGames: parseInt(d.Total_Games) || 0
+            }));
+
+            // Load year-by-year data
+            try {
+                const yearResponse = await fetch('data/nba_head_to_head_by_year.csv');
+                const yearCsvText = await yearResponse.text();
+                yearByYearData = d3.csvParse(yearCsvText, d => ({
+                    year: parseInt(d.year),
+                    gameType: d.gameType || 'Regular Season',
+                    team: d.team,
+                    opponent: d.opponent,
+                    winPct: parseFloat(d.win_pct) / 100,
+                    wins: parseInt(d.wins) || 0,
+                    losses: parseInt(d.losses) || 0,
+                    totalGames: parseInt(d.total_games) || 0
+                }));
+
+                // Extract available years
+                availableYears = [...new Set(yearByYearData.map(d => d.year))].sort((a, b) => a - b);
+                yearRange.min = availableYears[0];
+                yearRange.max = availableYears[availableYears.length - 1];
+
+                // Year slider will be set up in init() after loadData completes
+            } catch (error) {
+                console.warn('Year-by-year data not available:', error);
+                yearByYearData = [];
+            }
+
+            // Extract unique teams
+            const teamSet = new Set();
+            rawData.forEach(d => {
+                teamSet.add(d.team);
+                teamSet.add(d.opponent);
+            });
+            teams = Array.from(teamSet).sort();
+            allTeams = teams.slice();
+
+            filteredData = rawData;
+        }
+
+        // Setup year sliders (min and max)
+        function setupYearSlider() {
+            if (availableYears.length === 0) return;
+
+            const sliderMin = d3.select('#year-range-slider-min');
+            const sliderMax = d3.select('#year-range-slider-max');
+            
+            sliderMin.attr('min', 0)
+                     .attr('max', availableYears.length - 1)
+                     .attr('value', 0);
+            
+            sliderMax.attr('min', 0)
+                     .attr('max', availableYears.length - 1)
+                     .attr('value', availableYears.length - 1);
+
+            d3.select('#year-min-display').text(yearRange.min);
+            d3.select('#year-max-display-min').text(yearRange.min);
+            d3.select('#year-min-display-max').text(yearRange.min);
+            d3.select('#year-max-display').text(yearRange.max);
+            d3.select('#year-range-text').text(`All seasons (${yearRange.min}-${yearRange.max})`);
+
+            function updateYearRange() {
+                const minIndex = parseInt(sliderMin.property('value'));
+                const maxIndex = parseInt(sliderMax.property('value'));
+                
+                // Ensure min <= max
+                if (minIndex > maxIndex) {
+                    if (this.id === 'year-range-slider-min') {
+                        sliderMin.attr('value', maxIndex);
+                        const adjustedMin = availableYears[maxIndex];
+                        d3.select('#year-min-display').text(adjustedMin);
+                        d3.select('#year-max-display-min').text(adjustedMin);
+                        d3.select('#year-min-display-max').text(adjustedMin);
+                    } else {
+                        sliderMax.attr('value', minIndex);
+                        const adjustedMax = availableYears[minIndex];
+                        d3.select('#year-max-display').text(adjustedMax);
+                    }
+                }
+                
+                const finalMinIndex = parseInt(sliderMin.property('value'));
+                const finalMaxIndex = parseInt(sliderMax.property('value'));
+                const selectedMinYear = availableYears[finalMinIndex];
+                const selectedMaxYear = availableYears[finalMaxIndex];
+                
+                d3.select('#year-min-display').text(selectedMinYear);
+                d3.select('#year-max-display-min').text(selectedMinYear);
+                d3.select('#year-min-display-max').text(selectedMinYear);
+                d3.select('#year-max-display').text(selectedMaxYear);
+                
+                if (selectedMinYear === selectedMaxYear) {
+                    d3.select('#year-range-text').text(`Season ${selectedMinYear}`);
+                } else {
+                    d3.select('#year-range-text').text(`Seasons ${selectedMinYear}-${selectedMaxYear}`);
+                }
+                
+                applyFilters();
+            }
+
+            sliderMin.on('input', updateYearRange);
+            sliderMax.on('input', updateYearRange);
+        }
+
+        // Setup filter controls
+        function setupFilters() {
+            updateTeamFilterOptions();
+            // Populate year filter dropdown
+            if (availableYears.length > 0) {
+                const yearFilter = d3.select('#year-filter');
+                yearFilter.selectAll('option').filter((d, i) => i > 0).remove();
+                availableYears.forEach(year => {
+                    yearFilter.append('option')
+                        .attr('value', year)
+                        .text(year);
+                });
+            }
+
+            // Attach event listeners
+            d3.select('#conference-filter').on('change', function() {
+                updateTeamFilterOptions();
+                d3.select('#team-filter').property('value', 'all');
+                applyFilters();
+            });
+            d3.select('#team-filter').on('change', applyFilters);
+            d3.select('#min-games-filter').on('input', applyFilters);
+            d3.select('#year-range-slider-min').on('input', applyFilters);
+            d3.select('#year-range-slider-max').on('input', applyFilters);
+            d3.select('#year-filter').on('change', applyFilters);
+            d3.selectAll('.game-type-checkbox').on('change', applyFilters);
+        }
+
+        function updateTeamFilterOptions() {
+            const conference = d3.select('#conference-filter').property('value');
+            const conferenceTeams = conference === 'east' ? EAST_TEAMS : conference === 'west' ? WEST_TEAMS : allTeams;
+            const teamFilter = d3.select('#team-filter');
+            teamFilter.selectAll('option').remove();
+            teamFilter.append('option').attr('value', 'all').text('All Teams');
+            (conferenceTeams || []).forEach(team => {
+                teamFilter.append('option').attr('value', team).text(team);
+            });
+        }
+
+        // Apply filters (extensible for future filters)
+        function applyFilters() {
+            const selectedConference = d3.select('#conference-filter').property('value');
+            const selectedTeam = d3.select('#team-filter').property('value');
+            const minGames = parseInt(d3.select('#min-games-filter').property('value')) || 0;
+            const selectedYear = d3.select('#year-filter').property('value');
+            const sliderMinValue = parseInt(d3.select('#year-range-slider-min').property('value')) || 0;
+            const sliderMaxValue = parseInt(d3.select('#year-range-slider-max').property('value')) || (availableYears.length - 1);
+            
+            // Get selected game types from checkboxes
+            const selectedGameTypes = [];
+            d3.selectAll('.game-type-checkbox').each(function() {
+                if (d3.select(this).property('checked')) {
+                    selectedGameTypes.push(d3.select(this).property('value'));
+                }
+            });
+
+            // Determine year range: use specific year if selected, otherwise use slider range
+            let yearMin = yearRange.min;
+            let yearMax = null;
+            
+            if (selectedYear !== 'all' && !isNaN(parseInt(selectedYear))) {
+                // Specific year selected
+                yearMax = parseInt(selectedYear);
+                yearMin = parseInt(selectedYear);
+            } else {
+                // Use slider range (min and max)
+                if (availableYears.length > 0) {
+                    yearMin = availableYears[sliderMinValue];
+                    yearMax = availableYears[sliderMaxValue];
+                }
+            }
+
+            // If year-by-year data is available and year filter is active, use it
+            if (yearByYearData.length > 0 && yearMax !== null) {
+                // Filter year-by-year data by year range and game type
+                let yearFiltered = yearByYearData.filter(d => d.year >= yearMin && d.year <= yearMax);
+                
+                // Filter by game types (allow multiple)
+                if (selectedGameTypes.length > 0) {
+                    yearFiltered = yearFiltered.filter(d => selectedGameTypes.includes(d.gameType));
+                }
+
+                // Aggregate by team-opponent pair
+                const aggregated = {};
+                yearFiltered.forEach(d => {
+                    const key = `${d.team}|${d.opponent}`;
+                    if (!aggregated[key]) {
+                        aggregated[key] = {
+                            team: d.team,
+                            opponent: d.opponent,
+                            wins: 0,
+                            losses: 0,
+                            totalGames: 0
+                        };
+                    }
+                    aggregated[key].wins += d.wins;
+                    aggregated[key].losses += d.losses;
+                    aggregated[key].totalGames += d.totalGames;
+                });
+
+                // Convert to array and calculate win percentages
+                filteredData = Object.values(aggregated).map(d => ({
+                    team: d.team,
+                    opponent: d.opponent,
+                    wins: d.wins,
+                    losses: d.losses,
+                    totalGames: d.totalGames,
+                    winPct: d.totalGames > 0 ? d.wins / d.totalGames : null
+                }));
+            } else {
+                // Use raw aggregated data
+                filteredData = rawData.slice();
+            }
+
+            // Conference filter (East / West)
+            const conferenceTeamSet = selectedConference === 'east' ? new Set(EAST_TEAMS)
+                : selectedConference === 'west' ? new Set(WEST_TEAMS) : null;
+            if (conferenceTeamSet) {
+                filteredData = filteredData.filter(d =>
+                    conferenceTeamSet.has(d.team) && conferenceTeamSet.has(d.opponent)
+                );
+            }
+
+            // Apply other filters
+            filteredData = filteredData.filter(d => {
+                // Team filter
+                if (selectedTeam !== 'all') {
+                    if (d.team !== selectedTeam && d.opponent !== selectedTeam) {
+                        return false;
+                    }
+                }
+
+                // Minimum games filter
+                if (d.totalGames < minGames) {
+                    return false;
+                }
+
+                return true;
+            });
+
+            // Recalculate teams based on filtered data
+            const filteredTeamSet = new Set();
+            filteredData.forEach(d => {
+                filteredTeamSet.add(d.team);
+                filteredTeamSet.add(d.opponent);
+            });
+            teams = Array.from(filteredTeamSet).sort();
+
+            renderHeatmap();
+        }
+
+        // Render the heatmap
+        function renderHeatmap() {
+            const container = d3.select('#heatmap-container');
+            container.selectAll('*').remove();
+
+            if (filteredData.length === 0) {
+                container.html('<div class="no-data-message">No data matches the current filters.</div>');
+                return;
+            }
+
+            // Create SVG - fit to viewport (bigger heatmap, controls on right)
+            const margin = { top: 50, right: 50, bottom: 50, left: 100 };
+            const controlsWidth = 520; // Width of controls panel (500px + padding)
+            const viewportWidth = window.innerWidth - 40 - controlsWidth;
+            const viewportHeight = window.innerHeight - 150;
+            const availableWidth = viewportWidth - margin.left - margin.right;
+            const availableHeight = viewportHeight - margin.top - margin.bottom;
+            const effectiveGridSide = Math.min(availableWidth, availableHeight);
+            const n = teams.length;
+            // For n <= 32: grid fills viewport (same total size for 8x8 and 30x30). For n > 32: cell size fixed at 32-cell size so grid grows and scrolls.
+            const actualCellSize = effectiveGridSide / (n <= 32 ? n : 32);
+            const fontScale = actualCellSize / 25;
+            const cellLabelFont = Math.round(Math.max(5, Math.min(24, 6 * fontScale)));
+            const axisLabelFont = Math.round(Math.max(8, Math.min(24, 9 * fontScale)));
+            const titleFont = Math.round(Math.max(10, Math.min(14, 14 * fontScale)));
+
+            const logoSize = Math.round(actualCellSize);
+            margin.bottom = Math.max(50, 14 + logoSize + 14);
+            margin.left = Math.max(100, logoSize + 28);
+
+            const width = n * actualCellSize + margin.left + margin.right;
+            const height = n * actualCellSize + margin.top + margin.bottom;
+
+            const svg = container.append('svg')
+                .attr('width', width)
+                .attr('height', height);
+
+            const g = svg.append('g')
+                .attr('transform', `translate(${margin.left},${margin.top})`);
+
+            // Create data matrix
+            const dataMatrix = {};
+            filteredData.forEach(d => {
+                const key = `${d.team}|${d.opponent}`;
+                dataMatrix[key] = d;
+            });
+
+            // Create scales - no padding for flush cells
+            const xScale = d3.scaleBand()
+                .domain(teams)
+                .range([0, teams.length * actualCellSize])
+                .paddingInner(0);
+
+            const yScale = d3.scaleBand()
+                .domain(teams)
+                .range([0, teams.length * actualCellSize])
+                .paddingInner(0);
+
+            // Create cells
+            const cells = g.selectAll('.cell')
+                .data(teams.flatMap(team => 
+                    teams.map(opponent => ({
+                        team,
+                        opponent,
+                        data: dataMatrix[`${team}|${opponent}`]
+                    }))
+                ))
+                .enter()
+                .append('rect')
+                .attr('class', 'cell')
+                .attr('x', d => xScale(d.opponent))
+                .attr('y', d => yScale(d.team))
+                .attr('width', xScale.bandwidth())
+                .attr('height', yScale.bandwidth())
+                .each(function(d) {
+                    const cell = d3.select(this);
+                    let originalFill;
+                    if (!d.data || d.data.totalGames === 0) {
+                        originalFill = '#e0e0e0';
+                    } else {
+                        originalFill = config.colorScale(d.data.winPct);
+                    }
+                    cell.attr('fill', originalFill)
+                        .attr('data-original-fill', originalFill);
+                })
+                .attr('stroke', 'none')
+                .attr('stroke-width', 0)
+                .style('cursor', 'pointer')
+                .on('mouseenter', function(event, d) {
+                    highlightCell(d.team, d.opponent);
+                    showTooltip(event, d);
+                })
+                .on('mousemove', function(event) {
+                    moveTooltip(event);
+                })
+                .on('mouseleave', function() {
+                    clearHighlight();
+                    hideTooltip();
+                });
+
+            // Add labels to cells - only show percentage
+            g.selectAll('.cell-label')
+                .data(teams.flatMap(team => 
+                    teams.map(opponent => ({
+                        team,
+                        opponent,
+                        data: dataMatrix[`${team}|${opponent}`]
+                    }))
+                ))
+                .enter()
+                .append('text')
+                .attr('class', 'cell-label')
+                .attr('x', d => xScale(d.opponent) + xScale.bandwidth() / 2)
+                .attr('y', d => yScale(d.team) + yScale.bandwidth() / 2)
+                .attr('text-anchor', 'middle')
+                .attr('dominant-baseline', 'middle')
+                .style('font-size', cellLabelFont + 'px')
+                .text(d => {
+                    if (!d.data || d.data.totalGames === 0) return '';
+                    return `${(d.data.winPct * 100).toFixed(1)}%`;
+                })
+                .style('pointer-events', 'none');
+
+            const ls = logoSize;
+            const axisOffset = 10;
+
+            // X-axis (opponents) – no tick labels, thin line only
+            g.append('g')
+                .attr('class', 'axis')
+                .attr('transform', `translate(0,${teams.length * actualCellSize + axisOffset})`)
+                .call(d3.axisBottom(xScale).tickFormat(() => '').tickSize(0));
+
+            // X-axis logos (below grid)
+            const xLogos = g.append('g')
+                .attr('class', 'axis-logos-x')
+                .attr('transform', `translate(0,${teams.length * actualCellSize + axisOffset + 4})`)
+                .selectAll('g')
+                .data(teams)
+                .join('g')
+                .attr('transform', d => `translate(${xScale(d) + xScale.bandwidth() / 2 - ls / 2},0)`);
+            xLogos.append('image')
+                .attr('href', d => logoPath(d))
+                .attr('x', d => -ls * (logoScale(d) - 1) / 2)
+                .attr('y', d => -ls * (logoScale(d) - 1) / 2)
+                .attr('width', d => ls * logoScale(d))
+                .attr('height', d => ls * logoScale(d))
+                .attr('class', 'axis-tick');
+            xLogos.append('title').text(d => d);
+
+            // Y-axis (teams) – no tick labels
+            g.append('g')
+                .attr('class', 'axis')
+                .call(d3.axisLeft(yScale).tickFormat(() => '').tickSize(0));
+
+            // Y-axis logos (left of grid)
+            const yLogos = g.append('g')
+                .attr('class', 'axis-logos-y')
+                .attr('transform', `translate(-${ls + 6},0)`)
+                .selectAll('g')
+                .data(teams)
+                .join('g')
+                .attr('transform', d => `translate(0,${yScale(d) + yScale.bandwidth() / 2 - ls / 2})`);
+            yLogos.append('title').text(d => d);
+            yLogos.append('image')
+                .attr('href', d => logoPath(d))
+                .attr('x', d => -ls * (logoScale(d) - 1) / 2)
+                .attr('y', d => -ls * (logoScale(d) - 1) / 2)
+                .attr('width', d => ls * logoScale(d))
+                .attr('height', d => ls * logoScale(d))
+                .attr('class', 'axis-tick');
+            yLogos.append('title').text(d => d);
+
+            // Axis labels
+            g.append('text')
+                .attr('class', 'axis-label')
+                .attr('transform', 'rotate(-90)')
+                .attr('y', -100)
+                .attr('x', -teams.length * actualCellSize / 2)
+                .attr('text-anchor', 'middle')
+                .attr('font-size', axisLabelFont)
+                .text('Team');
+
+            g.append('text')
+                .attr('class', 'axis-label')
+                .attr('y', teams.length * actualCellSize + axisOffset + 4 + ls + 10)
+                .attr('x', teams.length * actualCellSize / 2)
+                .attr('text-anchor', 'middle')
+                .attr('font-size', axisLabelFont)
+                .text('Opponent');
+
+            // Title
+            svg.append('text')
+                .attr('x', width / 2)
+                .attr('y', 25)
+                .attr('text-anchor', 'middle')
+                .attr('class', 'axis-label')
+                .style('font-size', titleFont + 'px')
+                .style('font-weight', 'bold')
+                .text('Head-to-Head Win Percentage');
+        }
+
+        // Highlight cell, row, and column by increasing lightness
+        function highlightCell(team, opponent) {
+            currentHighlight = { row: team, col: opponent };
+            
+            d3.selectAll('.cell').each(function(d) {
+                const cell = d3.select(this);
+                const originalFill = cell.attr('data-original-fill') || cell.attr('fill');
+                let newFill = originalFill;
+                
+                if (d.team === team && d.opponent === opponent) {
+                    // Intersection - lighten more
+                    newFill = lightenColor(originalFill, 60);
+                } else if (d.team === team || d.opponent === opponent) {
+                    // Row or column - lighten
+                    newFill = lightenColor(originalFill, 40);
+                }
+                
+                cell.attr('fill', newFill);
+            });
+        }
+
+        // Clear highlights - restore original colors
+        function clearHighlight() {
+            currentHighlight = { row: null, col: null };
+            d3.selectAll('.cell').each(function() {
+                const cell = d3.select(this);
+                const originalFill = cell.attr('data-original-fill') || cell.attr('fill');
+                cell.attr('fill', originalFill);
+            });
+        }
+
+        // Show tooltip
+        function showTooltip(event, d) {
+            const tooltip = d3.select('#tooltip');
+            
+            if (!d.data || d.data.totalGames === 0) {
+                tooltip.html(`
+                    <h3>${d.team} vs ${d.opponent}</h3>
+                    <p>No games played</p>
+                `);
+            } else {
+                tooltip.html(`
+                    <h3>${d.team} vs ${d.opponent}</h3>
+                    <p><span class="highlight">Win %:</span> ${(d.data.winPct * 100).toFixed(2)}%</p>
+                    <p><span class="highlight">Record:</span> ${d.data.wins}-${d.data.losses}</p>
+                    <p><span class="highlight">Total Games:</span> ${d.data.totalGames}</p>
+                `);
+            }
+            
+            tooltip.classed('visible', true);
+            moveTooltip(event);
+        }
+
+        // Move tooltip with mouse
+        function moveTooltip(event) {
+            const tooltip = d3.select('#tooltip');
+            tooltip
+                .style('left', (event.pageX + 10) + 'px')
+                .style('top', (event.pageY - 10) + 'px');
+        }
+
+        // Hide tooltip
+        function hideTooltip() {
+            d3.select('#tooltip').classed('visible', false);
+        }
+
+
+
+        // Initialize on load
+        window.addEventListener('DOMContentLoaded', init);
+        
+        // Re-render on resize
+        let resizeTimeout;
+        window.addEventListener('resize', function() {
+            clearTimeout(resizeTimeout);
+            resizeTimeout = setTimeout(function() {
+                if (teams.length > 0) {
+                    renderHeatmap();
+                }
+            }, 250);
+        });
+    </script>
+</body>
+</html>

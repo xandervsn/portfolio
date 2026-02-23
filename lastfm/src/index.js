@@ -10,9 +10,9 @@ const optionsThis = {
     stopped: false,
 };
 
-let optionsLast = {
+const optionsLast = {
     api: "https://ws.audioscrobbler.com/2.0/?format=json&",
-    apiKey: "",
+    apiKey: "api_key=" + getLastKey().toString(),
     limit: "limit=200&",
     //overall | 7day | 1month | 3month | 6month | 12month 
     period: `period=${range.options[range.selectedIndex].value}&`,
@@ -23,37 +23,22 @@ let optionsLast = {
     user: "",
 };
 
-let optionsDeezer = {
+const optionsDeezer = {
 	method: 'GET',
 	headers: {
-		'X-RapidAPI-Key': '',
+		'X-RapidAPI-Key': getDeezerKey(),
 		'X-RapidAPI-Host': 'deezerdevs-deezer.p.rapidapi.com'
 	}
 };
 
-async function init(input, artist_on_init, album_on_init, genre_on_init, deezer_on_init){
+function init(input, artist_on_init, album_on_init, genre_on_init, deezer_on_init){
     optionsThis.artist_on = artist_on_init;
     optionsThis.album_on = album_on_init;
     optionsThis.genre_on = genre_on_init;
     optionsThis.deezer_on = deezer_on_init;
     optionsThis.stopped = false;
     optionsLast.user = input;
-    optionsLast.period = `period=${range.options[range.selectedIndex].value}&`;
-    
-    // Initialize API keys
-    try {
-        const lastKey = await getLastKey();
-        optionsLast.apiKey = "api_key=" + lastKey.toString();
-        
-        if (deezer_on_init) {
-            const deezerKey = await getDeezerKey();
-            optionsDeezer.headers['X-RapidAPI-Key'] = deezerKey;
-        }
-    } catch (error) {
-        console.error('Failed to initialize API keys:', error);
-        return;
-    }
-    
+    optionsLast.period = `period=${range.options[range.selectedIndex].value}&`
     scrape();
 }
 
@@ -222,7 +207,8 @@ async function scrape(){
             console.log(n)
             let appendMin = 100
             if (optionsThis.artist_on || optionsThis.genre_on) appendMin = 10
-            if (optionsThis.deezer_on) appendMin = 25
+            if (optionsThis.deezer_on) appendMin = 10
+            if (optionsThis.deezer_on && (optionsThis.artist_on || optionsThis.genre_on)) appendMin = 3
             if (n % appendMin == 0) {
                 elipses += ".";
                 if (elipses.length > 3) {

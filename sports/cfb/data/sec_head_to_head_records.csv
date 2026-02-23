@@ -1,0 +1,197 @@
+Team,Opponent,Win_Percentage,Wins,Losses,Ties,Total_Games
+Alabama,Alabama,,0,0,0,0
+Alabama,Arkansas,79.41,27,7,0,34
+Alabama,Auburn,61.45,51,32,1,84
+Alabama,Florida,67.44,29,14,0,43
+Alabama,Georgia,63.38,45,26,3,74
+Alabama,Kentucky,95.12,39,2,1,42
+Alabama,LSU,69.05,58,26,5,89
+Alabama,Mississippi State,83.5,86,17,3,106
+Alabama,Missouri,77.78,7,2,0,9
+Alabama,Ole Miss,86.15,56,9,2,67
+Alabama,South Carolina,83.33,15,3,0,18
+Alabama,Tennessee,61.0,61,39,7,107
+Alabama,Texas A&M,81.25,13,3,0,16
+Alabama,Vanderbilt,77.11,64,19,4,87
+Arkansas,Alabama,20.59,7,27,0,34
+Arkansas,Arkansas,,0,0,0,0
+Arkansas,Auburn,38.24,13,21,1,35
+Arkansas,Florida,23.08,3,10,0,13
+Arkansas,Georgia,25.0,4,12,0,16
+Arkansas,Kentucky,37.5,3,5,0,8
+Arkansas,LSU,33.82,23,45,2,70
+Arkansas,Mississippi State,54.29,19,16,1,36
+Arkansas,Missouri,23.53,4,13,0,17
+Arkansas,Ole Miss,52.11,37,34,1,72
+Arkansas,South Carolina,58.33,14,10,0,24
+Arkansas,Tennessee,33.33,7,14,0,21
+Arkansas,Texas A&M,53.85,42,36,3,81
+Arkansas,Vanderbilt,70.0,7,3,0,10
+Auburn,Alabama,38.55,32,51,1,84
+Auburn,Arkansas,61.76,21,13,1,35
+Auburn,Auburn,,0,0,0,0
+Auburn,Florida,53.01,44,39,2,85
+Auburn,Georgia,44.83,52,64,6,122
+Auburn,Kentucky,80.0,28,7,1,36
+Auburn,LSU,41.07,23,33,1,57
+Auburn,Mississippi State,67.02,63,31,3,97
+Auburn,Missouri,50.0,3,3,0,6
+Auburn,Ole Miss,72.92,35,13,0,48
+Auburn,South Carolina,76.92,10,3,1,14
+Auburn,Tennessee,56.0,28,22,3,53
+Auburn,Texas A&M,43.75,7,9,0,16
+Auburn,Vanderbilt,51.22,21,20,1,42
+Florida,Alabama,32.56,14,29,0,43
+Florida,Arkansas,76.92,10,3,0,13
+Florida,Auburn,46.99,39,44,2,85
+Florida,Florida,,0,0,0,0
+Florida,Georgia,43.14,44,58,2,104
+Florida,Kentucky,71.05,54,22,0,76
+Florida,LSU,49.28,34,35,3,72
+Florida,Mississippi State,65.45,36,19,2,57
+Florida,Missouri,46.15,6,7,0,13
+Florida,Ole Miss,50.0,13,13,1,27
+Florida,South Carolina,75.61,31,10,3,44
+Florida,Tennessee,58.18,32,23,0,55
+Florida,Texas A&M,37.5,3,5,0,8
+Florida,Vanderbilt,80.0,44,11,2,57
+Georgia,Alabama,36.62,26,45,3,74
+Georgia,Arkansas,75.0,12,4,0,16
+Georgia,Auburn,55.17,64,52,6,122
+Georgia,Florida,56.86,58,44,2,104
+Georgia,Georgia,,0,0,0,0
+Georgia,Kentucky,84.42,65,12,2,79
+Georgia,LSU,43.75,14,18,1,33
+Georgia,Mississippi State,78.57,22,6,0,28
+Georgia,Missouri,92.31,12,1,0,13
+Georgia,Ole Miss,69.39,34,15,1,50
+Georgia,South Carolina,73.24,52,19,2,73
+Georgia,Tennessee,57.69,30,22,2,54
+Georgia,Texas A&M,50.0,3,3,0,6
+Georgia,Vanderbilt,77.92,60,17,2,79
+Kentucky,Alabama,4.88,2,39,1,42
+Kentucky,Arkansas,62.5,5,3,0,8
+Kentucky,Auburn,20.0,7,28,1,36
+Kentucky,Florida,28.95,22,54,0,76
+Kentucky,Georgia,15.58,12,65,2,79
+Kentucky,Kentucky,,0,0,0,0
+Kentucky,LSU,29.82,17,40,1,58
+Kentucky,Mississippi State,49.02,25,26,0,51
+Kentucky,Missouri,64.29,9,5,0,14
+Kentucky,Ole Miss,32.61,15,31,1,47
+Kentucky,South Carolina,38.89,14,22,1,37
+Kentucky,Tennessee,22.94,25,84,9,118
+Kentucky,Texas A&M,33.33,1,2,0,3
+Kentucky,Vanderbilt,53.85,49,42,4,95
+LSU,Alabama,30.95,26,58,5,89
+LSU,Arkansas,66.18,45,23,2,70
+LSU,Auburn,58.93,33,23,1,57
+LSU,Florida,50.72,35,34,3,72
+LSU,Georgia,56.25,18,14,1,33
+LSU,Kentucky,70.18,40,17,1,58
+LSU,LSU,,0,0,0,0
+LSU,Mississippi State,66.67,74,37,3,114
+LSU,Missouri,50.0,2,2,0,4
+LSU,Ole Miss,60.95,64,41,4,109
+LSU,South Carolina,91.3,21,2,1,24
+LSU,Tennessee,32.26,10,21,3,34
+LSU,Texas A&M,60.0,36,24,3,63
+LSU,Vanderbilt,75.76,25,8,1,34
+Mississippi State,Alabama,16.5,17,86,3,106
+Mississippi State,Arkansas,45.71,16,19,1,36
+Mississippi State,Auburn,32.98,31,63,3,97
+Mississippi State,Florida,34.55,19,36,2,57
+Mississippi State,Georgia,21.43,6,22,0,28
+Mississippi State,Kentucky,50.98,26,25,0,51
+Mississippi State,LSU,33.33,37,74,3,114
+Mississippi State,Mississippi State,,0,0,0,0
+Mississippi State,Missouri,33.33,2,4,0,6
+Mississippi State,Ole Miss,41.23,47,67,5,119
+Mississippi State,South Carolina,41.18,7,10,0,17
+Mississippi State,Tennessee,34.04,16,31,1,48
+Mississippi State,Texas A&M,47.37,9,10,0,19
+Mississippi State,Vanderbilt,68.18,15,7,2,24
+Missouri,Alabama,22.22,2,7,0,9
+Missouri,Arkansas,76.47,13,4,0,17
+Missouri,Auburn,50.0,3,3,0,6
+Missouri,Florida,53.85,7,6,0,13
+Missouri,Georgia,7.69,1,12,0,13
+Missouri,Kentucky,35.71,5,9,0,14
+Missouri,LSU,50.0,2,2,0,4
+Missouri,Mississippi State,66.67,4,2,0,6
+Missouri,Missouri,,0,0,0,0
+Missouri,Ole Miss,87.5,7,1,0,8
+Missouri,South Carolina,62.5,10,6,0,16
+Missouri,Tennessee,50.0,6,6,0,12
+Missouri,Texas A&M,38.89,7,11,0,18
+Missouri,Vanderbilt,66.67,10,5,1,16
+Ole Miss,Alabama,13.85,9,56,2,67
+Ole Miss,Arkansas,47.89,34,37,1,72
+Ole Miss,Auburn,27.08,13,35,0,48
+Ole Miss,Florida,50.0,13,13,1,27
+Ole Miss,Georgia,30.61,15,34,1,50
+Ole Miss,Kentucky,67.39,31,15,1,47
+Ole Miss,LSU,39.05,41,64,4,109
+Ole Miss,Mississippi State,58.77,67,47,5,119
+Ole Miss,Missouri,12.5,1,7,0,8
+Ole Miss,Ole Miss,,0,0,0,0
+Ole Miss,South Carolina,57.89,11,8,0,19
+Ole Miss,Tennessee,32.31,21,44,1,66
+Ole Miss,Texas A&M,40.0,6,9,0,15
+Ole Miss,Vanderbilt,60.22,56,37,2,95
+South Carolina,Alabama,16.67,3,15,0,18
+South Carolina,Arkansas,41.67,10,14,0,24
+South Carolina,Auburn,23.08,3,10,1,14
+South Carolina,Florida,24.39,10,31,3,44
+South Carolina,Georgia,26.76,19,52,2,73
+South Carolina,Kentucky,61.11,22,14,1,37
+South Carolina,LSU,8.7,2,21,1,24
+South Carolina,Mississippi State,58.82,10,7,0,17
+South Carolina,Missouri,37.5,6,10,0,16
+South Carolina,Ole Miss,42.11,8,11,0,19
+South Carolina,South Carolina,,0,0,0,0
+South Carolina,Tennessee,27.5,11,29,2,42
+South Carolina,Texas A&M,16.67,2,10,0,12
+South Carolina,Vanderbilt,85.71,30,5,0,35
+Tennessee,Alabama,39.0,39,61,7,107
+Tennessee,Arkansas,66.67,14,7,0,21
+Tennessee,Auburn,44.0,22,28,3,53
+Tennessee,Florida,41.82,23,32,0,55
+Tennessee,Georgia,42.31,22,30,2,54
+Tennessee,Kentucky,77.06,84,25,9,118
+Tennessee,LSU,67.74,21,10,3,34
+Tennessee,Mississippi State,65.96,31,16,1,48
+Tennessee,Missouri,50.0,6,6,0,12
+Tennessee,Ole Miss,67.69,44,21,1,66
+Tennessee,South Carolina,72.5,29,11,2,42
+Tennessee,Tennessee,,0,0,0,0
+Tennessee,Texas A&M,60.0,3,2,0,5
+Tennessee,Vanderbilt,72.32,81,31,4,116
+Texas A&M,Alabama,18.75,3,13,0,16
+Texas A&M,Arkansas,46.15,36,42,3,81
+Texas A&M,Auburn,56.25,9,7,0,16
+Texas A&M,Florida,62.5,5,3,0,8
+Texas A&M,Georgia,50.0,3,3,0,6
+Texas A&M,Kentucky,66.67,2,1,0,3
+Texas A&M,LSU,40.0,24,36,3,63
+Texas A&M,Mississippi State,52.63,10,9,0,19
+Texas A&M,Missouri,61.11,11,7,0,18
+Texas A&M,Ole Miss,60.0,9,6,0,15
+Texas A&M,South Carolina,83.33,10,2,0,12
+Texas A&M,Tennessee,40.0,2,3,0,5
+Texas A&M,Texas A&M,,0,0,0,0
+Texas A&M,Vanderbilt,100.0,3,0,0,3
+Vanderbilt,Alabama,22.89,19,64,4,87
+Vanderbilt,Arkansas,30.0,3,7,0,10
+Vanderbilt,Auburn,48.78,20,21,1,42
+Vanderbilt,Florida,20.0,11,44,2,57
+Vanderbilt,Georgia,22.08,17,60,2,79
+Vanderbilt,Kentucky,46.15,42,49,4,95
+Vanderbilt,LSU,24.24,8,25,1,34
+Vanderbilt,Mississippi State,31.82,7,15,2,24
+Vanderbilt,Missouri,33.33,5,10,1,16
+Vanderbilt,Ole Miss,39.78,37,56,2,95
+Vanderbilt,South Carolina,14.29,5,30,0,35
+Vanderbilt,Tennessee,27.68,31,81,4,116
+Vanderbilt,Texas A&M,0.0,0,3,0,3
+Vanderbilt,Vanderbilt,,0,0,0,0

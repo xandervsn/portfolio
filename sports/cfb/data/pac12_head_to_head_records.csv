@@ -1,0 +1,145 @@
+Team,Opponent,Win_Percentage,Wins,Losses,Ties,Total_Games
+Arizona,Arizona,,0,0,0,0
+Arizona,Arizona State,48.86,43,45,1,89
+Arizona,California (Cal),55.88,19,15,2,36
+Arizona,Colorado,39.29,11,17,0,28
+Arizona,Oregon,36.96,17,29,0,46
+Arizona,Oregon State,60.98,25,16,1,42
+Arizona,Stanford,46.88,15,17,0,32
+Arizona,UCLA,40.0,18,27,2,47
+Arizona,USC,17.78,8,37,0,45
+Arizona,Utah,44.68,21,26,2,49
+Arizona,Washington,29.73,11,26,1,38
+Arizona,Washington State,59.57,28,19,0,47
+Arizona State,Arizona,51.14,45,43,1,89
+Arizona State,Arizona State,,0,0,0,0
+Arizona State,California (Cal),47.22,17,19,0,36
+Arizona State,Colorado,73.33,11,4,0,15
+Arizona State,Oregon,46.15,18,21,0,39
+Arizona State,Oregon State,65.22,30,16,1,47
+Arizona State,Stanford,52.94,18,16,0,34
+Arizona State,UCLA,41.03,16,23,1,40
+Arizona State,USC,35.0,14,26,0,40
+Arizona State,Utah,63.89,23,13,0,36
+Arizona State,Washington,56.41,22,17,0,39
+Arizona State,Washington State,64.44,29,16,2,47
+California (Cal),Arizona,44.12,15,19,2,36
+California (Cal),Arizona State,52.78,19,17,0,36
+California (Cal),California (Cal),,0,0,0,0
+California (Cal),Colorado,58.33,7,5,0,12
+California (Cal),Oregon,48.15,39,42,1,82
+California (Cal),Oregon State,51.95,40,37,0,77
+California (Cal),Stanford,45.45,45,54,6,105
+California (Cal),UCLA,37.63,35,58,1,94
+California (Cal),USC,30.1,31,72,5,108
+California (Cal),Utah,46.15,6,7,0,13
+California (Cal),Washington,42.71,41,55,3,99
+California (Cal),Washington State,62.03,49,30,5,84
+Colorado,Arizona,60.71,17,11,0,28
+Colorado,Arizona State,26.67,4,11,0,15
+Colorado,California (Cal),41.67,5,7,0,12
+Colorado,Colorado,,0,0,0,0
+Colorado,Oregon,36.0,9,16,0,25
+Colorado,Oregon State,42.86,6,8,0,14
+Colorado,Stanford,46.15,6,7,0,13
+Colorado,UCLA,26.32,5,14,0,19
+Colorado,USC,0.0,0,17,0,17
+Colorado,Utah,47.83,33,36,3,72
+Colorado,Washington,35.0,7,13,1,21
+Colorado,Washington State,42.86,6,8,0,14
+Oregon,Arizona,63.04,29,17,0,46
+Oregon,Arizona State,53.85,21,18,0,39
+Oregon,California (Cal),51.85,42,39,1,82
+Oregon,Colorado,64.0,16,9,0,25
+Oregon,Oregon,,0,0,0,0
+Oregon,Oregon State,55.34,57,46,6,109
+Oregon,Stanford,43.37,36,47,1,84
+Oregon,UCLA,45.21,33,40,0,73
+Oregon,USC,37.1,23,39,2,64
+Oregon,Utah,67.57,25,12,0,37
+Oregon,Washington,45.1,46,56,4,106
+Oregon,Washington State,58.43,52,37,6,95
+Oregon State,Arizona,39.02,16,25,1,42
+Oregon State,Arizona State,34.78,16,30,1,47
+Oregon State,California (Cal),48.05,37,40,0,77
+Oregon State,Colorado,57.14,8,6,0,14
+Oregon State,Oregon,44.66,46,57,6,109
+Oregon State,Oregon State,,0,0,0,0
+Oregon State,Stanford,32.18,28,59,3,90
+Oregon State,UCLA,29.51,18,43,4,65
+Oregon State,USC,14.67,11,64,4,79
+Oregon State,Utah,52.0,13,12,1,26
+Oregon State,Washington,34.41,32,61,2,95
+Oregon State,Washington State,44.0,44,56,3,103
+Stanford,Arizona,53.12,17,15,0,32
+Stanford,Arizona State,47.06,16,18,0,34
+Stanford,California (Cal),54.55,54,45,6,105
+Stanford,Colorado,53.85,7,6,0,13
+Stanford,Oregon,56.63,47,36,1,84
+Stanford,Oregon State,67.82,59,28,3,90
+Stanford,Stanford,,0,0,0,0
+Stanford,UCLA,46.74,43,49,3,95
+Stanford,USC,33.33,33,66,3,102
+Stanford,Utah,30.0,3,7,0,10
+Stanford,Washington,48.31,43,46,4,93
+Stanford,Washington State,56.94,41,31,1,73
+UCLA,Arizona,60.0,27,18,2,47
+UCLA,Arizona State,58.97,23,16,1,40
+UCLA,California (Cal),62.37,58,35,1,94
+UCLA,Colorado,73.68,14,5,0,19
+UCLA,Oregon,54.79,40,33,0,73
+UCLA,Oregon State,70.49,43,18,4,65
+UCLA,Stanford,53.26,49,43,3,95
+UCLA,UCLA,,0,0,0,0
+UCLA,USC,38.64,34,54,7,95
+UCLA,Utah,54.55,12,10,0,22
+UCLA,Washington,55.26,42,34,2,78
+UCLA,Washington State,67.74,42,20,1,63
+USC,Arizona,82.22,37,8,0,45
+USC,Arizona State,65.0,26,14,0,40
+USC,California (Cal),69.9,72,31,5,108
+USC,Colorado,100.0,17,0,0,17
+USC,Oregon,62.9,39,23,2,64
+USC,Oregon State,85.33,64,11,4,79
+USC,Stanford,66.67,66,33,3,102
+USC,UCLA,61.36,54,34,7,95
+USC,USC,,0,0,0,0
+USC,Utah,56.52,13,10,0,23
+USC,Washington,61.9,52,32,4,88
+USC,Washington State,86.3,63,10,4,77
+Utah,Arizona,55.32,26,21,2,49
+Utah,Arizona State,36.11,13,23,0,36
+Utah,California (Cal),53.85,7,6,0,13
+Utah,Colorado,52.17,36,33,3,72
+Utah,Oregon,32.43,12,25,0,37
+Utah,Oregon State,48.0,12,13,1,26
+Utah,Stanford,70.0,7,3,0,10
+Utah,UCLA,45.45,10,12,0,22
+Utah,USC,43.48,10,13,0,23
+Utah,Utah,,0,0,0,0
+Utah,Washington,12.5,2,14,0,16
+Utah,Washington State,55.0,11,9,0,20
+Washington,Arizona,70.27,26,11,1,38
+Washington,Arizona State,43.59,17,22,0,39
+Washington,California (Cal),57.29,55,41,3,99
+Washington,Colorado,65.0,13,7,1,21
+Washington,Oregon,54.9,56,46,4,106
+Washington,Oregon State,65.59,61,32,2,95
+Washington,Stanford,51.69,46,43,4,93
+Washington,UCLA,44.74,34,42,2,78
+Washington,USC,38.1,32,52,4,88
+Washington,Utah,87.5,14,2,0,16
+Washington,Washington,,0,0,0,0
+Washington,Washington State,68.32,69,32,4,105
+Washington State,Arizona,40.43,19,28,0,47
+Washington State,Arizona State,35.56,16,29,2,47
+Washington State,California (Cal),37.97,30,49,5,84
+Washington State,Colorado,57.14,8,6,0,14
+Washington State,Oregon,41.57,37,52,6,95
+Washington State,Oregon State,56.0,56,44,3,103
+Washington State,Stanford,43.06,31,41,1,73
+Washington State,UCLA,32.26,20,42,1,63
+Washington State,USC,13.7,10,63,4,77
+Washington State,Utah,45.0,9,11,0,20
+Washington State,Washington,31.68,32,69,4,105
+Washington State,Washington State,,0,0,0,0

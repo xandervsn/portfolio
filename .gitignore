@@ -5,3 +5,4 @@ lastfm/src/secret.js
 main/src/secret.js
 .git
 .*
+lsat/tests/*

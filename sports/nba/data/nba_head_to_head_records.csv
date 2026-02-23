@@ -1,0 +1,901 @@
+Team,Opponent,Win_Percentage,Wins,Losses,Total_Games
+Atlanta Hawks,Atlanta Hawks,,0,0,0
+Atlanta Hawks,Boston Celtics,38.4,182,292,474
+Atlanta Hawks,Brooklyn Nets,54.37,112,94,206
+Atlanta Hawks,Charlotte Hornets,54.43,86,72,158
+Atlanta Hawks,Chicago Bulls,45.55,133,159,292
+Atlanta Hawks,Cleveland Cavaliers,51.67,139,130,269
+Atlanta Hawks,Dallas Mavericks,53.26,49,43,92
+Atlanta Hawks,Denver Nuggets,51.46,53,50,103
+Atlanta Hawks,Detroit Pistons,48.9,244,255,499
+Atlanta Hawks,Golden State Warriors,48.76,157,165,322
+Atlanta Hawks,Houston Rockets,50.0,88,88,176
+Atlanta Hawks,Indiana Pacers,51.01,126,121,247
+Atlanta Hawks,Los Angeles Clippers,61.03,83,53,136
+Atlanta Hawks,Los Angeles Lakers,42.75,171,229,400
+Atlanta Hawks,Memphis Grizzlies,57.33,43,32,75
+Atlanta Hawks,Miami Heat,43.58,78,101,179
+Atlanta Hawks,Milwaukee Bucks,49.63,135,137,272
+Atlanta Hawks,Minnesota Timberwolves,61.97,44,27,71
+Atlanta Hawks,New Orleans Pelicans,60.32,38,25,63
+Atlanta Hawks,New York Knicks,50.85,210,203,413
+Atlanta Hawks,Oklahoma City Thunder,48.32,72,77,149
+Atlanta Hawks,Orlando Magic,50.59,86,84,170
+Atlanta Hawks,Philadelphia 76ers,48.93,205,214,419
+Atlanta Hawks,Phoenix Suns,45.83,66,78,144
+Atlanta Hawks,Portland Trail Blazers,48.06,62,67,129
+Atlanta Hawks,Sacramento Kings,50.61,166,162,328
+Atlanta Hawks,San Antonio Spurs,42.48,48,65,113
+Atlanta Hawks,Toronto Raptors,47.79,54,59,113
+Atlanta Hawks,Utah Jazz,48.7,56,59,115
+Atlanta Hawks,Washington Wizards,52.92,145,129,274
+Boston Celtics,Atlanta Hawks,61.6,292,182,474
+Boston Celtics,Boston Celtics,,0,0,0
+Boston Celtics,Brooklyn Nets,64.53,171,94,265
+Boston Celtics,Charlotte Hornets,64.54,91,50,141
+Boston Celtics,Chicago Bulls,56.93,156,118,274
+Boston Celtics,Cleveland Cavaliers,59.8,177,119,296
+Boston Celtics,Dallas Mavericks,54.84,51,42,93
+Boston Celtics,Denver Nuggets,60.95,64,41,105
+Boston Celtics,Detroit Pistons,62.95,282,166,448
+Boston Celtics,Golden State Warriors,60.1,229,152,381
+Boston Celtics,Houston Rockets,63.89,115,65,180
+Boston Celtics,Indiana Pacers,57.26,134,100,234
+Boston Celtics,Los Angeles Clippers,67.31,105,51,156
+Boston Celtics,Los Angeles Lakers,55.97,211,166,377
+Boston Celtics,Memphis Grizzlies,66.67,40,20,60
+Boston Celtics,Miami Heat,58.92,109,76,185
+Boston Celtics,Milwaukee Bucks,52.14,146,134,280
+Boston Celtics,Minnesota Timberwolves,66.67,48,24,72
+Boston Celtics,New Orleans Pelicans,58.0,29,21,50
+Boston Celtics,New York Knicks,60.34,359,236,595
+Boston Celtics,Oklahoma City Thunder,53.38,79,69,148
+Boston Celtics,Orlando Magic,57.14,92,69,161
+Boston Celtics,Philadelphia 76ers,57.5,349,258,607
+Boston Celtics,Phoenix Suns,57.53,84,62,146
+Boston Celtics,Portland Trail Blazers,60.63,77,50,127
+Boston Celtics,Sacramento Kings,61.93,205,126,331
+Boston Celtics,San Antonio Spurs,45.37,49,59,108
+Boston Celtics,Toronto Raptors,61.49,91,57,148
+Boston Celtics,Utah Jazz,58.04,65,47,112
+Boston Celtics,Washington Wizards,62.77,172,102,274
+Brooklyn Nets,Atlanta Hawks,45.63,94,112,206
+Brooklyn Nets,Boston Celtics,35.47,94,171,265
+Brooklyn Nets,Brooklyn Nets,,0,0,0
+Brooklyn Nets,Charlotte Hornets,55.07,76,62,138
+Brooklyn Nets,Chicago Bulls,46.04,93,109,202
+Brooklyn Nets,Cleveland Cavaliers,42.13,91,125,216
+Brooklyn Nets,Dallas Mavericks,38.2,34,55,89
+Brooklyn Nets,Denver Nuggets,44.66,46,57,103
+Brooklyn Nets,Detroit Pistons,43.32,94,123,217
+Brooklyn Nets,Golden State Warriors,41.18,42,60,102
+Brooklyn Nets,Houston Rockets,36.36,40,70,110
+Brooklyn Nets,Indiana Pacers,43.66,93,120,213
+Brooklyn Nets,Los Angeles Clippers,51.43,54,51,105
+Brooklyn Nets,Los Angeles Lakers,31.19,34,75,109
+Brooklyn Nets,Memphis Grizzlies,45.76,27,32,59
+Brooklyn Nets,Miami Heat,41.21,68,97,165
+Brooklyn Nets,Milwaukee Bucks,41.82,92,128,220
+Brooklyn Nets,Minnesota Timberwolves,42.47,31,42,73
+Brooklyn Nets,New Orleans Pelicans,50.98,26,25,51
+Brooklyn Nets,New York Knicks,47.22,119,133,252
+Brooklyn Nets,Oklahoma City Thunder,35.64,36,65,101
+Brooklyn Nets,Orlando Magic,43.8,60,77,137
+Brooklyn Nets,Philadelphia 76ers,41.38,108,153,261
+Brooklyn Nets,Phoenix Suns,48.08,50,54,104
+Brooklyn Nets,Portland Trail Blazers,30.0,30,70,100
+Brooklyn Nets,Sacramento Kings,46.6,48,55,103
+Brooklyn Nets,San Antonio Spurs,28.32,32,81,113
+Brooklyn Nets,Toronto Raptors,42.96,61,81,142
+Brooklyn Nets,Utah Jazz,34.62,36,68,104
+Brooklyn Nets,Washington Wizards,48.17,105,113,218
+Charlotte Hornets,Atlanta Hawks,45.57,72,86,158
+Charlotte Hornets,Boston Celtics,35.46,50,91,141
+Charlotte Hornets,Brooklyn Nets,44.93,62,76,138
+Charlotte Hornets,Charlotte Hornets,,0,0,0
+Charlotte Hornets,Chicago Bulls,36.24,54,95,149
+Charlotte Hornets,Cleveland Cavaliers,39.13,54,84,138
+Charlotte Hornets,Dallas Mavericks,35.53,27,49,76
+Charlotte Hornets,Denver Nuggets,43.06,31,41,72
+Charlotte Hornets,Detroit Pistons,49.64,69,70,139
+Charlotte Hornets,Golden State Warriors,45.83,33,39,72
+Charlotte Hornets,Houston Rockets,28.17,20,51,71
+Charlotte Hornets,Indiana Pacers,41.13,58,83,141
+Charlotte Hornets,Los Angeles Clippers,38.03,27,44,71
+Charlotte Hornets,Los Angeles Lakers,34.21,26,50,76
+Charlotte Hornets,Memphis Grizzlies,50.85,30,29,59
+Charlotte Hornets,Miami Heat,39.24,62,96,158
+Charlotte Hornets,Milwaukee Bucks,45.64,68,81,149
+Charlotte Hornets,Minnesota Timberwolves,61.97,44,27,71
+Charlotte Hornets,New Orleans Pelicans,32.61,15,31,46
+Charlotte Hornets,New York Knicks,42.66,61,82,143
+Charlotte Hornets,Oklahoma City Thunder,34.21,26,50,76
+Charlotte Hornets,Orlando Magic,46.58,68,78,146
+Charlotte Hornets,Philadelphia 76ers,45.59,62,74,136
+Charlotte Hornets,Phoenix Suns,36.11,26,46,72
+Charlotte Hornets,Portland Trail Blazers,28.57,20,50,70
+Charlotte Hornets,Sacramento Kings,54.29,38,32,70
+Charlotte Hornets,San Antonio Spurs,35.71,25,45,70
+Charlotte Hornets,Toronto Raptors,48.11,51,55,106
+Charlotte Hornets,Utah Jazz,33.78,25,49,74
+Charlotte Hornets,Washington Wizards,52.03,77,71,148
+Chicago Bulls,Atlanta Hawks,54.45,159,133,292
+Chicago Bulls,Boston Celtics,43.07,118,156,274
+Chicago Bulls,Brooklyn Nets,53.96,109,93,202
+Chicago Bulls,Charlotte Hornets,63.76,95,54,149
+Chicago Bulls,Chicago Bulls,,0,0,0
+Chicago Bulls,Cleveland Cavaliers,57.19,163,122,285
+Chicago Bulls,Dallas Mavericks,47.42,46,51,97
+Chicago Bulls,Denver Nuggets,44.64,50,62,112
+Chicago Bulls,Detroit Pistons,50.46,165,162,327
+Chicago Bulls,Golden State Warriors,50.57,89,87,176
+Chicago Bulls,Houston Rockets,48.68,74,78,152
+Chicago Bulls,Indiana Pacers,52.28,126,115,241
+Chicago Bulls,Los Angeles Clippers,53.85,70,60,130
+Chicago Bulls,Los Angeles Lakers,41.45,80,113,193
+Chicago Bulls,Memphis Grizzlies,56.72,38,29,67
+Chicago Bulls,Miami Heat,51.5,86,81,167
+Chicago Bulls,Milwaukee Bucks,49.68,157,159,316
+Chicago Bulls,Minnesota Timberwolves,54.65,47,39,86
+Chicago Bulls,New Orleans Pelicans,51.67,31,29,60
+Chicago Bulls,New York Knicks,54.01,155,132,287
+Chicago Bulls,Oklahoma City Thunder,50.59,86,84,170
+Chicago Bulls,Orlando Magic,52.45,75,68,143
+Chicago Bulls,Philadelphia 76ers,46.62,124,142,266
+Chicago Bulls,Phoenix Suns,48.08,75,81,156
+Chicago Bulls,Portland Trail Blazers,50.68,74,72,146
+Chicago Bulls,Sacramento Kings,50.84,91,88,179
+Chicago Bulls,San Antonio Spurs,41.75,43,60,103
+Chicago Bulls,Toronto Raptors,55.83,67,53,120
+Chicago Bulls,Utah Jazz,53.85,70,60,130
+Chicago Bulls,Washington Wizards,55.51,126,101,227
+Cleveland Cavaliers,Atlanta Hawks,48.33,130,139,269
+Cleveland Cavaliers,Boston Celtics,40.2,119,177,296
+Cleveland Cavaliers,Brooklyn Nets,57.87,125,91,216
+Cleveland Cavaliers,Charlotte Hornets,60.87,84,54,138
+Cleveland Cavaliers,Chicago Bulls,42.81,122,163,285
+Cleveland Cavaliers,Cleveland Cavaliers,,0,0,0
+Cleveland Cavaliers,Dallas Mavericks,53.76,50,43,93
+Cleveland Cavaliers,Denver Nuggets,46.53,47,54,101
+Cleveland Cavaliers,Detroit Pistons,47.08,129,145,274
+Cleveland Cavaliers,Golden State Warriors,42.86,63,84,147
+Cleveland Cavaliers,Houston Rockets,36.55,53,92,145
+Cleveland Cavaliers,Indiana Pacers,48.4,121,129,250
+Cleveland Cavaliers,Los Angeles Clippers,56.74,80,61,141
+Cleveland Cavaliers,Los Angeles Lakers,44.0,55,70,125
+Cleveland Cavaliers,Memphis Grizzlies,62.3,38,23,61
+Cleveland Cavaliers,Miami Heat,42.14,59,81,140
+Cleveland Cavaliers,Milwaukee Bucks,44.9,110,135,245
+Cleveland Cavaliers,Minnesota Timberwolves,60.56,43,28,71
+Cleveland Cavaliers,New Orleans Pelicans,48.0,24,26,50
+Cleveland Cavaliers,New York Knicks,44.76,111,137,248
+Cleveland Cavaliers,Oklahoma City Thunder,41.73,53,74,127
+Cleveland Cavaliers,Orlando Magic,51.66,78,73,151
+Cleveland Cavaliers,Philadelphia 76ers,49.0,122,127,249
+Cleveland Cavaliers,Phoenix Suns,41.94,52,72,124
+Cleveland Cavaliers,Portland Trail Blazers,45.19,61,74,135
+Cleveland Cavaliers,Sacramento Kings,48.46,63,67,130
+Cleveland Cavaliers,San Antonio Spurs,37.93,44,72,116
+Cleveland Cavaliers,Toronto Raptors,54.07,73,62,135
+Cleveland Cavaliers,Utah Jazz,46.15,54,63,117
+Cleveland Cavaliers,Washington Wizards,52.9,137,122,259
+Dallas Mavericks,Atlanta Hawks,46.74,43,49,92
+Dallas Mavericks,Boston Celtics,45.16,42,51,93
+Dallas Mavericks,Brooklyn Nets,61.8,55,34,89
+Dallas Mavericks,Charlotte Hornets,64.47,49,27,76
+Dallas Mavericks,Chicago Bulls,52.58,51,46,97
+Dallas Mavericks,Cleveland Cavaliers,46.24,43,50,93
+Dallas Mavericks,Dallas Mavericks,,0,0,0
+Dallas Mavericks,Denver Nuggets,50.24,105,104,209
+Dallas Mavericks,Detroit Pistons,50.52,49,48,97
+Dallas Mavericks,Golden State Warriors,51.3,99,94,193
+Dallas Mavericks,Houston Rockets,47.6,109,120,229
+Dallas Mavericks,Indiana Pacers,52.63,50,45,95
+Dallas Mavericks,Los Angeles Clippers,55.67,113,90,203
+Dallas Mavericks,Los Angeles Lakers,34.48,70,133,203
+Dallas Mavericks,Memphis Grizzlies,65.35,83,44,127
+Dallas Mavericks,Miami Heat,49.45,45,46,91
+Dallas Mavericks,Milwaukee Bucks,47.0,47,53,100
+Dallas Mavericks,Minnesota Timberwolves,56.29,85,66,151
+Dallas Mavericks,New Orleans Pelicans,61.0,61,39,100
+Dallas Mavericks,New York Knicks,53.76,50,43,93
+Dallas Mavericks,Oklahoma City Thunder,47.49,104,115,219
+Dallas Mavericks,Orlando Magic,58.02,47,34,81
+Dallas Mavericks,Philadelphia 76ers,48.91,45,47,92
+Dallas Mavericks,Phoenix Suns,43.84,89,114,203
+Dallas Mavericks,Portland Trail Blazers,48.76,98,103,201
+Dallas Mavericks,Sacramento Kings,54.5,115,96,211
+Dallas Mavericks,San Antonio Spurs,42.8,104,139,243
+Dallas Mavericks,Toronto Raptors,58.62,34,24,58
+Dallas Mavericks,Utah Jazz,45.87,100,118,218
+Dallas Mavericks,Washington Wizards,57.45,54,40,94
+Denver Nuggets,Atlanta Hawks,48.54,50,53,103
+Denver Nuggets,Boston Celtics,39.05,41,64,105
+Denver Nuggets,Brooklyn Nets,55.34,57,46,103
+Denver Nuggets,Charlotte Hornets,56.94,41,31,72
+Denver Nuggets,Chicago Bulls,55.36,62,50,112
+Denver Nuggets,Cleveland Cavaliers,53.47,54,47,101
+Denver Nuggets,Dallas Mavericks,49.76,104,105,209
+Denver Nuggets,Denver Nuggets,,0,0,0
+Denver Nuggets,Detroit Pistons,48.08,50,54,104
+Denver Nuggets,Golden State Warriors,53.88,118,101,219
+Denver Nuggets,Houston Rockets,48.39,105,112,217
+Denver Nuggets,Indiana Pacers,55.96,61,48,109
+Denver Nuggets,Los Angeles Clippers,55.98,131,103,234
+Denver Nuggets,Los Angeles Lakers,41.9,106,147,253
+Denver Nuggets,Memphis Grizzlies,62.73,69,41,110
+Denver Nuggets,Miami Heat,56.63,47,36,83
+Denver Nuggets,Milwaukee Bucks,62.5,75,45,120
+Denver Nuggets,Minnesota Timberwolves,58.19,103,74,177
+Denver Nuggets,New Orleans Pelicans,60.0,54,36,90
+Denver Nuggets,New York Knicks,51.49,52,49,101
+Denver Nuggets,Oklahoma City Thunder,45.68,111,132,243
+Denver Nuggets,Orlando Magic,50.0,38,38,76
+Denver Nuggets,Philadelphia 76ers,46.53,47,54,101
+Denver Nuggets,Phoenix Suns,46.96,108,122,230
+Denver Nuggets,Portland Trail Blazers,49.79,119,120,239
+Denver Nuggets,Sacramento Kings,52.88,110,98,208
+Denver Nuggets,San Antonio Spurs,38.27,93,150,243
+Denver Nuggets,Toronto Raptors,65.08,41,22,63
+Denver Nuggets,Utah Jazz,43.87,111,142,253
+Denver Nuggets,Washington Wizards,59.43,63,43,106
+Detroit Pistons,Atlanta Hawks,51.1,255,244,499
+Detroit Pistons,Boston Celtics,37.05,166,282,448
+Detroit Pistons,Brooklyn Nets,56.68,123,94,217
+Detroit Pistons,Charlotte Hornets,50.36,70,69,139
+Detroit Pistons,Chicago Bulls,49.54,162,165,327
+Detroit Pistons,Cleveland Cavaliers,52.92,145,129,274
+Detroit Pistons,Dallas Mavericks,49.48,48,49,97
+Detroit Pistons,Denver Nuggets,51.92,54,50,104
+Detroit Pistons,Detroit Pistons,,0,0,0
+Detroit Pistons,Golden State Warriors,46.63,152,174,326
+Detroit Pistons,Houston Rockets,50.33,77,76,153
+Detroit Pistons,Indiana Pacers,49.58,118,120,238
+Detroit Pistons,Los Angeles Clippers,56.15,73,57,130
+Detroit Pistons,Los Angeles Lakers,39.7,158,240,398
+Detroit Pistons,Memphis Grizzlies,43.28,29,38,67
+Detroit Pistons,Miami Heat,45.57,72,86,158
+Detroit Pistons,Milwaukee Bucks,45.57,139,166,305
+Detroit Pistons,Minnesota Timberwolves,48.1,38,41,79
+Detroit Pistons,New Orleans Pelicans,39.22,20,31,51
+Detroit Pistons,New York Knicks,44.73,191,236,427
+Detroit Pistons,Oklahoma City Thunder,48.08,75,81,156
+Detroit Pistons,Orlando Magic,54.84,85,70,155
+Detroit Pistons,Philadelphia 76ers,42.45,180,244,424
+Detroit Pistons,Phoenix Suns,49.01,74,77,151
+Detroit Pistons,Portland Trail Blazers,47.06,64,72,136
+Detroit Pistons,Sacramento Kings,50.27,188,186,374
+Detroit Pistons,San Antonio Spurs,36.75,43,74,117
+Detroit Pistons,Toronto Raptors,59.32,70,48,118
+Detroit Pistons,Utah Jazz,35.65,41,74,115
+Detroit Pistons,Washington Wizards,57.37,144,107,251
+Golden State Warriors,Atlanta Hawks,51.24,165,157,322
+Golden State Warriors,Boston Celtics,39.9,152,229,381
+Golden State Warriors,Brooklyn Nets,58.82,60,42,102
+Golden State Warriors,Charlotte Hornets,54.17,39,33,72
+Golden State Warriors,Chicago Bulls,49.43,87,89,176
+Golden State Warriors,Cleveland Cavaliers,57.14,84,63,147
+Golden State Warriors,Dallas Mavericks,48.7,94,99,193
+Golden State Warriors,Denver Nuggets,46.12,101,118,219
+Golden State Warriors,Detroit Pistons,53.37,174,152,326
+Golden State Warriors,Golden State Warriors,,0,0,0
+Golden State Warriors,Houston Rockets,48.34,131,140,271
+Golden State Warriors,Indiana Pacers,46.15,48,56,104
+Golden State Warriors,Los Angeles Clippers,57.25,154,115,269
+Golden State Warriors,Los Angeles Lakers,40.66,211,308,519
+Golden State Warriors,Memphis Grizzlies,54.4,68,57,125
+Golden State Warriors,Miami Heat,50.0,38,38,76
+Golden State Warriors,Milwaukee Bucks,41.07,69,99,168
+Golden State Warriors,Minnesota Timberwolves,55.86,81,64,145
+Golden State Warriors,New Orleans Pelicans,67.39,62,30,92
+Golden State Warriors,New York Knicks,53.52,190,165,355
+Golden State Warriors,Oklahoma City Thunder,45.92,135,159,294
+Golden State Warriors,Orlando Magic,50.0,37,37,74
+Golden State Warriors,Philadelphia 76ers,46.98,171,193,364
+Golden State Warriors,Phoenix Suns,42.61,124,167,291
+Golden State Warriors,Portland Trail Blazers,51.25,144,137,281
+Golden State Warriors,Sacramento Kings,53.15,236,208,444
+Golden State Warriors,San Antonio Spurs,41.04,87,125,212
+Golden State Warriors,Toronto Raptors,56.06,37,29,66
+Golden State Warriors,Utah Jazz,45.58,103,123,226
+Golden State Warriors,Washington Wizards,61.43,86,54,140
+Houston Rockets,Atlanta Hawks,50.0,88,88,176
+Houston Rockets,Boston Celtics,36.11,65,115,180
+Houston Rockets,Brooklyn Nets,63.64,70,40,110
+Houston Rockets,Charlotte Hornets,71.83,51,20,71
+Houston Rockets,Chicago Bulls,51.32,78,74,152
+Houston Rockets,Cleveland Cavaliers,63.45,92,53,145
+Houston Rockets,Dallas Mavericks,52.4,120,109,229
+Houston Rockets,Denver Nuggets,51.61,112,105,217
+Houston Rockets,Detroit Pistons,49.67,76,77,153
+Houston Rockets,Golden State Warriors,51.66,140,131,271
+Houston Rockets,Houston Rockets,,0,0,0
+Houston Rockets,Indiana Pacers,56.64,64,49,113
+Houston Rockets,Los Angeles Clippers,58.3,137,98,235
+Houston Rockets,Los Angeles Lakers,38.08,107,174,281
+Houston Rockets,Memphis Grizzlies,59.7,80,54,134
+Houston Rockets,Miami Heat,44.58,37,46,83
+Houston Rockets,Milwaukee Bucks,45.77,65,77,142
+Houston Rockets,Minnesota Timberwolves,62.42,93,56,149
+Houston Rockets,New Orleans Pelicans,57.58,57,42,99
+Houston Rockets,New York Knicks,50.3,84,83,167
+Houston Rockets,Oklahoma City Thunder,48.5,146,155,301
+Houston Rockets,Orlando Magic,57.47,50,37,87
+Houston Rockets,Philadelphia 76ers,49.08,80,83,163
+Houston Rockets,Phoenix Suns,50.79,128,124,252
+Houston Rockets,Portland Trail Blazers,54.77,132,109,241
+Houston Rockets,Sacramento Kings,59.22,151,104,255
+Houston Rockets,San Antonio Spurs,47.74,127,139,266
+Houston Rockets,Toronto Raptors,55.38,36,29,65
+Houston Rockets,Utah Jazz,48.73,134,141,275
+Houston Rockets,Washington Wizards,60.0,81,54,135
+Indiana Pacers,Atlanta Hawks,48.99,121,126,247
+Indiana Pacers,Boston Celtics,42.74,100,134,234
+Indiana Pacers,Brooklyn Nets,56.34,120,93,213
+Indiana Pacers,Charlotte Hornets,58.87,83,58,141
+Indiana Pacers,Chicago Bulls,47.72,115,126,241
+Indiana Pacers,Cleveland Cavaliers,51.6,129,121,250
+Indiana Pacers,Dallas Mavericks,47.37,45,50,95
+Indiana Pacers,Denver Nuggets,44.04,48,61,109
+Indiana Pacers,Detroit Pistons,50.42,120,118,238
+Indiana Pacers,Golden State Warriors,53.85,56,48,104
+Indiana Pacers,Houston Rockets,43.36,49,64,113
+Indiana Pacers,Indiana Pacers,,0,0,0
+Indiana Pacers,Los Angeles Clippers,61.0,61,39,100
+Indiana Pacers,Los Angeles Lakers,33.94,37,72,109
+Indiana Pacers,Memphis Grizzlies,56.52,39,30,69
+Indiana Pacers,Miami Heat,53.33,88,77,165
+Indiana Pacers,Milwaukee Bucks,47.28,113,126,239
+Indiana Pacers,Minnesota Timberwolves,61.63,53,33,86
+Indiana Pacers,New Orleans Pelicans,57.38,35,26,61
+Indiana Pacers,New York Knicks,49.61,127,129,256
+Indiana Pacers,Oklahoma City Thunder,46.43,52,60,112
+Indiana Pacers,Orlando Magic,54.9,84,69,153
+Indiana Pacers,Philadelphia 76ers,44.75,98,121,219
+Indiana Pacers,Phoenix Suns,45.1,46,56,102
+Indiana Pacers,Portland Trail Blazers,38.83,40,63,103
+Indiana Pacers,Sacramento Kings,56.31,58,45,103
+Indiana Pacers,San Antonio Spurs,42.86,48,64,112
+Indiana Pacers,Toronto Raptors,51.26,61,58,119
+Indiana Pacers,Utah Jazz,50.0,52,52,104
+Indiana Pacers,Washington Wizards,55.77,116,92,208
+Los Angeles Clippers,Atlanta Hawks,38.97,53,83,136
+Los Angeles Clippers,Boston Celtics,32.69,51,105,156
+Los Angeles Clippers,Brooklyn Nets,48.57,51,54,105
+Los Angeles Clippers,Charlotte Hornets,61.97,44,27,71
+Los Angeles Clippers,Chicago Bulls,46.15,60,70,130
+Los Angeles Clippers,Cleveland Cavaliers,43.26,61,80,141
+Los Angeles Clippers,Dallas Mavericks,44.33,90,113,203
+Los Angeles Clippers,Denver Nuggets,44.02,103,131,234
+Los Angeles Clippers,Detroit Pistons,43.85,57,73,130
+Los Angeles Clippers,Golden State Warriors,42.75,115,154,269
+Los Angeles Clippers,Houston Rockets,41.7,98,137,235
+Los Angeles Clippers,Indiana Pacers,39.0,39,61,100
+Los Angeles Clippers,Los Angeles Clippers,,0,0,0
+Los Angeles Clippers,Los Angeles Lakers,37.21,96,162,258
+Los Angeles Clippers,Memphis Grizzlies,51.97,66,61,127
+Los Angeles Clippers,Miami Heat,45.45,35,42,77
+Los Angeles Clippers,Milwaukee Bucks,42.64,55,74,129
+Los Angeles Clippers,Minnesota Timberwolves,50.0,70,70,140
+Los Angeles Clippers,New Orleans Pelicans,45.12,37,45,82
+Los Angeles Clippers,New York Knicks,47.18,67,75,142
+Los Angeles Clippers,Oklahoma City Thunder,36.33,89,156,245
+Los Angeles Clippers,Orlando Magic,54.79,40,33,73
+Los Angeles Clippers,Philadelphia 76ers,45.21,66,80,146
+Los Angeles Clippers,Phoenix Suns,41.54,113,159,272
+Los Angeles Clippers,Portland Trail Blazers,40.3,108,160,268
+Los Angeles Clippers,Sacramento Kings,47.18,117,131,248
+Los Angeles Clippers,San Antonio Spurs,30.88,63,141,204
+Los Angeles Clippers,Toronto Raptors,48.44,31,33,64
+Los Angeles Clippers,Utah Jazz,43.57,105,136,241
+Los Angeles Clippers,Washington Wizards,44.44,56,70,126
+Los Angeles Lakers,Atlanta Hawks,57.25,229,171,400
+Los Angeles Lakers,Boston Celtics,44.03,166,211,377
+Los Angeles Lakers,Brooklyn Nets,68.81,75,34,109
+Los Angeles Lakers,Charlotte Hornets,65.79,50,26,76
+Los Angeles Lakers,Chicago Bulls,58.55,113,80,193
+Los Angeles Lakers,Cleveland Cavaliers,56.0,70,55,125
+Los Angeles Lakers,Dallas Mavericks,65.52,133,70,203
+Los Angeles Lakers,Denver Nuggets,58.1,147,106,253
+Los Angeles Lakers,Detroit Pistons,60.3,240,158,398
+Los Angeles Lakers,Golden State Warriors,59.34,308,211,519
+Los Angeles Lakers,Houston Rockets,61.92,174,107,281
+Los Angeles Lakers,Indiana Pacers,66.06,72,37,109
+Los Angeles Lakers,Los Angeles Clippers,62.79,162,96,258
+Los Angeles Lakers,Los Angeles Lakers,,0,0,0
+Los Angeles Lakers,Memphis Grizzlies,63.87,76,43,119
+Los Angeles Lakers,Miami Heat,55.56,45,36,81
+Los Angeles Lakers,Milwaukee Bucks,55.95,94,74,168
+Los Angeles Lakers,Minnesota Timberwolves,62.66,99,59,158
+Los Angeles Lakers,New Orleans Pelicans,66.29,59,30,89
+Los Angeles Lakers,New York Knicks,57.88,191,139,330
+Los Angeles Lakers,Oklahoma City Thunder,59.05,186,129,315
+Los Angeles Lakers,Orlando Magic,65.38,51,27,78
+Los Angeles Lakers,Philadelphia 76ers,51.52,169,159,328
+Los Angeles Lakers,Phoenix Suns,55.46,198,159,357
+Los Angeles Lakers,Portland Trail Blazers,55.84,172,136,308
+Los Angeles Lakers,Sacramento Kings,62.57,321,192,513
+Los Angeles Lakers,San Antonio Spurs,52.8,132,118,250
+Los Angeles Lakers,Toronto Raptors,62.3,38,23,61
+Los Angeles Lakers,Utah Jazz,57.54,145,107,252
+Los Angeles Lakers,Washington Wizards,62.69,84,50,134
+Memphis Grizzlies,Atlanta Hawks,42.67,32,43,75
+Memphis Grizzlies,Boston Celtics,33.33,20,40,60
+Memphis Grizzlies,Brooklyn Nets,54.24,32,27,59
+Memphis Grizzlies,Charlotte Hornets,49.15,29,30,59
+Memphis Grizzlies,Chicago Bulls,43.28,29,38,67
+Memphis Grizzlies,Cleveland Cavaliers,37.7,23,38,61
+Memphis Grizzlies,Dallas Mavericks,34.65,44,83,127
+Memphis Grizzlies,Denver Nuggets,37.27,41,69,110
+Memphis Grizzlies,Detroit Pistons,56.72,38,29,67
+Memphis Grizzlies,Golden State Warriors,45.6,57,68,125
+Memphis Grizzlies,Houston Rockets,40.3,54,80,134
+Memphis Grizzlies,Indiana Pacers,43.48,30,39,69
+Memphis Grizzlies,Los Angeles Clippers,48.03,61,66,127
+Memphis Grizzlies,Los Angeles Lakers,36.13,43,76,119
+Memphis Grizzlies,Memphis Grizzlies,,0,0,0
+Memphis Grizzlies,Miami Heat,46.38,32,37,69
+Memphis Grizzlies,Milwaukee Bucks,58.21,39,28,67
+Memphis Grizzlies,Minnesota Timberwolves,50.81,63,61,124
+Memphis Grizzlies,New Orleans Pelicans,50.0,47,47,94
+Memphis Grizzlies,New York Knicks,49.12,28,29,57
+Memphis Grizzlies,Oklahoma City Thunder,35.46,50,91,141
+Memphis Grizzlies,Orlando Magic,52.11,37,34,71
+Memphis Grizzlies,Philadelphia 76ers,52.46,32,29,61
+Memphis Grizzlies,Phoenix Suns,41.74,48,67,115
+Memphis Grizzlies,Portland Trail Blazers,46.09,53,62,115
+Memphis Grizzlies,Sacramento Kings,46.85,52,59,111
+Memphis Grizzlies,San Antonio Spurs,34.01,50,97,147
+Memphis Grizzlies,Toronto Raptors,47.54,29,32,61
+Memphis Grizzlies,Utah Jazz,37.93,44,72,116
+Memphis Grizzlies,Washington Wizards,54.84,34,28,62
+Miami Heat,Atlanta Hawks,56.42,101,78,179
+Miami Heat,Boston Celtics,41.08,76,109,185
+Miami Heat,Brooklyn Nets,58.79,97,68,165
+Miami Heat,Charlotte Hornets,60.76,96,62,158
+Miami Heat,Chicago Bulls,48.5,81,86,167
+Miami Heat,Cleveland Cavaliers,57.86,81,59,140
+Miami Heat,Dallas Mavericks,50.55,46,45,91
+Miami Heat,Denver Nuggets,43.37,36,47,83
+Miami Heat,Detroit Pistons,54.43,86,72,158
+Miami Heat,Golden State Warriors,50.0,38,38,76
+Miami Heat,Houston Rockets,55.42,46,37,83
+Miami Heat,Indiana Pacers,46.67,77,88,165
+Miami Heat,Los Angeles Clippers,54.55,42,35,77
+Miami Heat,Los Angeles Lakers,44.44,36,45,81
+Miami Heat,Memphis Grizzlies,53.62,37,32,69
+Miami Heat,Miami Heat,,0,0,0
+Miami Heat,Milwaukee Bucks,58.17,89,64,153
+Miami Heat,Minnesota Timberwolves,48.0,36,39,75
+Miami Heat,New Orleans Pelicans,54.93,39,32,71
+Miami Heat,New York Knicks,48.6,87,92,179
+Miami Heat,Oklahoma City Thunder,43.37,36,47,83
+Miami Heat,Orlando Magic,53.89,90,77,167
+Miami Heat,Philadelphia 76ers,52.76,86,77,163
+Miami Heat,Phoenix Suns,46.67,35,40,75
+Miami Heat,Portland Trail Blazers,41.33,31,44,75
+Miami Heat,Sacramento Kings,64.47,49,27,76
+Miami Heat,San Antonio Spurs,42.86,45,60,105
+Miami Heat,Toronto Raptors,58.47,69,49,118
+Miami Heat,Utah Jazz,47.44,37,41,78
+Miami Heat,Washington Wizards,67.72,107,51,158
+Milwaukee Bucks,Atlanta Hawks,50.37,137,135,272
+Milwaukee Bucks,Boston Celtics,47.86,134,146,280
+Milwaukee Bucks,Brooklyn Nets,58.18,128,92,220
+Milwaukee Bucks,Charlotte Hornets,54.36,81,68,149
+Milwaukee Bucks,Chicago Bulls,50.32,159,157,316
+Milwaukee Bucks,Cleveland Cavaliers,55.1,135,110,245
+Milwaukee Bucks,Dallas Mavericks,53.0,53,47,100
+Milwaukee Bucks,Denver Nuggets,37.5,45,75,120
+Milwaukee Bucks,Detroit Pistons,54.43,166,139,305
+Milwaukee Bucks,Golden State Warriors,58.93,99,69,168
+Milwaukee Bucks,Houston Rockets,54.23,77,65,142
+Milwaukee Bucks,Indiana Pacers,52.72,126,113,239
+Milwaukee Bucks,Los Angeles Clippers,57.36,74,55,129
+Milwaukee Bucks,Los Angeles Lakers,44.05,74,94,168
+Milwaukee Bucks,Memphis Grizzlies,41.79,28,39,67
+Milwaukee Bucks,Miami Heat,41.83,64,89,153
+Milwaukee Bucks,Milwaukee Bucks,,0,0,0
+Milwaukee Bucks,Minnesota Timberwolves,47.37,45,50,95
+Milwaukee Bucks,New Orleans Pelicans,38.0,19,31,50
+Milwaukee Bucks,New York Knicks,52.87,129,115,244
+Milwaukee Bucks,Oklahoma City Thunder,49.4,82,84,166
+Milwaukee Bucks,Orlando Magic,58.87,83,58,141
+Milwaukee Bucks,Philadelphia 76ers,51.6,145,136,281
+Milwaukee Bucks,Phoenix Suns,50.62,82,80,162
+Milwaukee Bucks,Portland Trail Blazers,58.7,81,57,138
+Milwaukee Bucks,Sacramento Kings,62.73,101,60,161
+Milwaukee Bucks,San Antonio Spurs,46.6,48,55,103
+Milwaukee Bucks,Toronto Raptors,53.23,66,58,124
+Milwaukee Bucks,Utah Jazz,46.09,53,62,115
+Milwaukee Bucks,Washington Wizards,58.02,123,89,212
+Minnesota Timberwolves,Atlanta Hawks,38.03,27,44,71
+Minnesota Timberwolves,Boston Celtics,33.33,24,48,72
+Minnesota Timberwolves,Brooklyn Nets,57.53,42,31,73
+Minnesota Timberwolves,Charlotte Hornets,38.03,27,44,71
+Minnesota Timberwolves,Chicago Bulls,45.35,39,47,86
+Minnesota Timberwolves,Cleveland Cavaliers,39.44,28,43,71
+Minnesota Timberwolves,Dallas Mavericks,43.71,66,85,151
+Minnesota Timberwolves,Denver Nuggets,41.81,74,103,177
+Minnesota Timberwolves,Detroit Pistons,51.9,41,38,79
+Minnesota Timberwolves,Golden State Warriors,44.14,64,81,145
+Minnesota Timberwolves,Houston Rockets,37.58,56,93,149
+Minnesota Timberwolves,Indiana Pacers,38.37,33,53,86
+Minnesota Timberwolves,Los Angeles Clippers,50.0,70,70,140
+Minnesota Timberwolves,Los Angeles Lakers,37.34,59,99,158
+Minnesota Timberwolves,Memphis Grizzlies,49.19,61,63,124
+Minnesota Timberwolves,Miami Heat,52.0,39,36,75
+Minnesota Timberwolves,Milwaukee Bucks,52.63,50,45,95
+Minnesota Timberwolves,Minnesota Timberwolves,,0,0,0
+Minnesota Timberwolves,New Orleans Pelicans,50.62,41,40,81
+Minnesota Timberwolves,New York Knicks,46.67,35,40,75
+Minnesota Timberwolves,Oklahoma City Thunder,34.81,55,103,158
+Minnesota Timberwolves,Orlando Magic,38.03,27,44,71
+Minnesota Timberwolves,Philadelphia 76ers,51.39,37,35,72
+Minnesota Timberwolves,Phoenix Suns,37.68,52,86,138
+Minnesota Timberwolves,Portland Trail Blazers,34.03,49,95,144
+Minnesota Timberwolves,Sacramento Kings,53.1,77,68,145
+Minnesota Timberwolves,San Antonio Spurs,32.0,48,102,150
+Minnesota Timberwolves,Toronto Raptors,35.38,23,42,65
+Minnesota Timberwolves,Utah Jazz,38.26,57,92,149
+Minnesota Timberwolves,Washington Wizards,43.66,31,40,71
+New Orleans Pelicans,Atlanta Hawks,39.68,25,38,63
+New Orleans Pelicans,Boston Celtics,42.0,21,29,50
+New Orleans Pelicans,Brooklyn Nets,49.02,25,26,51
+New Orleans Pelicans,Charlotte Hornets,67.39,31,15,46
+New Orleans Pelicans,Chicago Bulls,48.33,29,31,60
+New Orleans Pelicans,Cleveland Cavaliers,52.0,26,24,50
+New Orleans Pelicans,Dallas Mavericks,39.0,39,61,100
+New Orleans Pelicans,Denver Nuggets,40.0,36,54,90
+New Orleans Pelicans,Detroit Pistons,60.78,31,20,51
+New Orleans Pelicans,Golden State Warriors,32.61,30,62,92
+New Orleans Pelicans,Houston Rockets,42.42,42,57,99
+New Orleans Pelicans,Indiana Pacers,42.62,26,35,61
+New Orleans Pelicans,Los Angeles Clippers,54.88,45,37,82
+New Orleans Pelicans,Los Angeles Lakers,33.71,30,59,89
+New Orleans Pelicans,Memphis Grizzlies,50.0,47,47,94
+New Orleans Pelicans,Miami Heat,45.07,32,39,71
+New Orleans Pelicans,Milwaukee Bucks,62.0,31,19,50
+New Orleans Pelicans,Minnesota Timberwolves,49.38,40,41,81
+New Orleans Pelicans,New Orleans Pelicans,,0,0,0
+New Orleans Pelicans,New York Knicks,50.0,25,25,50
+New Orleans Pelicans,Oklahoma City Thunder,38.89,35,55,90
+New Orleans Pelicans,Orlando Magic,41.54,27,38,65
+New Orleans Pelicans,Philadelphia 76ers,49.06,26,27,53
+New Orleans Pelicans,Phoenix Suns,45.45,40,48,88
+New Orleans Pelicans,Portland Trail Blazers,51.16,44,42,86
+New Orleans Pelicans,Sacramento Kings,54.65,47,39,86
+New Orleans Pelicans,San Antonio Spurs,36.27,37,65,102
+New Orleans Pelicans,Toronto Raptors,40.0,20,30,50
+New Orleans Pelicans,Utah Jazz,39.51,32,49,81
+New Orleans Pelicans,Washington Wizards,52.83,28,25,53
+New York Knicks,Atlanta Hawks,49.15,203,210,413
+New York Knicks,Boston Celtics,39.66,236,359,595
+New York Knicks,Brooklyn Nets,52.78,133,119,252
+New York Knicks,Charlotte Hornets,57.34,82,61,143
+New York Knicks,Chicago Bulls,45.99,132,155,287
+New York Knicks,Cleveland Cavaliers,55.24,137,111,248
+New York Knicks,Dallas Mavericks,46.24,43,50,93
+New York Knicks,Denver Nuggets,48.51,49,52,101
+New York Knicks,Detroit Pistons,55.27,236,191,427
+New York Knicks,Golden State Warriors,46.48,165,190,355
+New York Knicks,Houston Rockets,49.7,83,84,167
+New York Knicks,Indiana Pacers,50.39,129,127,256
+New York Knicks,Los Angeles Clippers,52.82,75,67,142
+New York Knicks,Los Angeles Lakers,42.12,139,191,330
+New York Knicks,Memphis Grizzlies,50.88,29,28,57
+New York Knicks,Miami Heat,51.4,92,87,179
+New York Knicks,Milwaukee Bucks,47.13,115,129,244
+New York Knicks,Minnesota Timberwolves,53.33,40,35,75
+New York Knicks,New Orleans Pelicans,50.0,25,25,50
+New York Knicks,New York Knicks,,0,0,0
+New York Knicks,Oklahoma City Thunder,47.55,68,75,143
+New York Knicks,Orlando Magic,49.28,68,70,138
+New York Knicks,Philadelphia 76ers,44.65,238,295,533
+New York Knicks,Phoenix Suns,47.89,68,74,142
+New York Knicks,Portland Trail Blazers,44.44,56,70,126
+New York Knicks,Sacramento Kings,48.75,156,164,320
+New York Knicks,San Antonio Spurs,43.36,49,64,113
+New York Knicks,Toronto Raptors,45.8,60,71,131
+New York Knicks,Utah Jazz,50.0,56,56,112
+New York Knicks,Washington Wizards,57.72,157,115,272
+Oklahoma City Thunder,Atlanta Hawks,51.68,77,72,149
+Oklahoma City Thunder,Boston Celtics,46.62,69,79,148
+Oklahoma City Thunder,Brooklyn Nets,64.36,65,36,101
+Oklahoma City Thunder,Charlotte Hornets,65.79,50,26,76
+Oklahoma City Thunder,Chicago Bulls,49.41,84,86,170
+Oklahoma City Thunder,Cleveland Cavaliers,58.27,74,53,127
+Oklahoma City Thunder,Dallas Mavericks,52.51,115,104,219
+Oklahoma City Thunder,Denver Nuggets,54.32,132,111,243
+Oklahoma City Thunder,Detroit Pistons,51.92,81,75,156
+Oklahoma City Thunder,Golden State Warriors,54.08,159,135,294
+Oklahoma City Thunder,Houston Rockets,51.5,155,146,301
+Oklahoma City Thunder,Indiana Pacers,53.57,60,52,112
+Oklahoma City Thunder,Los Angeles Clippers,63.67,156,89,245
+Oklahoma City Thunder,Los Angeles Lakers,40.95,129,186,315
+Oklahoma City Thunder,Memphis Grizzlies,64.54,91,50,141
+Oklahoma City Thunder,Miami Heat,56.63,47,36,83
+Oklahoma City Thunder,Milwaukee Bucks,50.6,84,82,166
+Oklahoma City Thunder,Minnesota Timberwolves,65.19,103,55,158
+Oklahoma City Thunder,New Orleans Pelicans,61.11,55,35,90
+Oklahoma City Thunder,New York Knicks,52.45,75,68,143
+Oklahoma City Thunder,Oklahoma City Thunder,,0,0,0
+Oklahoma City Thunder,Orlando Magic,63.89,46,26,72
+Oklahoma City Thunder,Philadelphia 76ers,51.33,77,73,150
+Oklahoma City Thunder,Phoenix Suns,47.46,140,155,295
+Oklahoma City Thunder,Portland Trail Blazers,53.26,155,136,291
+Oklahoma City Thunder,Sacramento Kings,60.89,165,106,271
+Oklahoma City Thunder,San Antonio Spurs,46.61,110,126,236
+Oklahoma City Thunder,Toronto Raptors,61.02,36,23,59
+Oklahoma City Thunder,Utah Jazz,56.73,139,106,245
+Oklahoma City Thunder,Washington Wizards,59.06,75,52,127
+Orlando Magic,Atlanta Hawks,49.41,84,86,170
+Orlando Magic,Boston Celtics,42.86,69,92,161
+Orlando Magic,Brooklyn Nets,56.2,77,60,137
+Orlando Magic,Charlotte Hornets,53.42,78,68,146
+Orlando Magic,Chicago Bulls,47.55,68,75,143
+Orlando Magic,Cleveland Cavaliers,48.34,73,78,151
+Orlando Magic,Dallas Mavericks,41.98,34,47,81
+Orlando Magic,Denver Nuggets,50.0,38,38,76
+Orlando Magic,Detroit Pistons,45.16,70,85,155
+Orlando Magic,Golden State Warriors,50.0,37,37,74
+Orlando Magic,Houston Rockets,42.53,37,50,87
+Orlando Magic,Indiana Pacers,45.1,69,84,153
+Orlando Magic,Los Angeles Clippers,45.21,33,40,73
+Orlando Magic,Los Angeles Lakers,34.62,27,51,78
+Orlando Magic,Memphis Grizzlies,47.89,34,37,71
+Orlando Magic,Miami Heat,46.11,77,90,167
+Orlando Magic,Milwaukee Bucks,41.13,58,83,141
+Orlando Magic,Minnesota Timberwolves,61.97,44,27,71
+Orlando Magic,New Orleans Pelicans,58.46,38,27,65
+Orlando Magic,New York Knicks,50.72,70,68,138
+Orlando Magic,Oklahoma City Thunder,36.11,26,46,72
+Orlando Magic,Orlando Magic,,0,0,0
+Orlando Magic,Philadelphia 76ers,58.71,91,64,155
+Orlando Magic,Phoenix Suns,42.25,30,41,71
+Orlando Magic,Portland Trail Blazers,42.47,31,42,73
+Orlando Magic,Sacramento Kings,44.44,32,40,72
+Orlando Magic,San Antonio Spurs,34.52,29,55,84
+Orlando Magic,Toronto Raptors,43.59,51,66,117
+Orlando Magic,Utah Jazz,36.99,27,46,73
+Orlando Magic,Washington Wizards,57.93,84,61,145
+Philadelphia 76ers,Atlanta Hawks,51.07,214,205,419
+Philadelphia 76ers,Boston Celtics,42.5,258,349,607
+Philadelphia 76ers,Brooklyn Nets,58.62,153,108,261
+Philadelphia 76ers,Charlotte Hornets,54.41,74,62,136
+Philadelphia 76ers,Chicago Bulls,53.38,142,124,266
+Philadelphia 76ers,Cleveland Cavaliers,51.0,127,122,249
+Philadelphia 76ers,Dallas Mavericks,51.09,47,45,92
+Philadelphia 76ers,Denver Nuggets,53.47,54,47,101
+Philadelphia 76ers,Detroit Pistons,57.55,244,180,424
+Philadelphia 76ers,Golden State Warriors,53.02,193,171,364
+Philadelphia 76ers,Houston Rockets,50.92,83,80,163
+Philadelphia 76ers,Indiana Pacers,55.25,121,98,219
+Philadelphia 76ers,Los Angeles Clippers,54.79,80,66,146
+Philadelphia 76ers,Los Angeles Lakers,48.48,159,169,328
+Philadelphia 76ers,Memphis Grizzlies,47.54,29,32,61
+Philadelphia 76ers,Miami Heat,47.24,77,86,163
+Philadelphia 76ers,Milwaukee Bucks,48.4,136,145,281
+Philadelphia 76ers,Minnesota Timberwolves,48.61,35,37,72
+Philadelphia 76ers,New Orleans Pelicans,50.94,27,26,53
+Philadelphia 76ers,New York Knicks,55.35,295,238,533
+Philadelphia 76ers,Oklahoma City Thunder,48.67,73,77,150
+Philadelphia 76ers,Orlando Magic,41.29,64,91,155
+Philadelphia 76ers,Philadelphia 76ers,,0,0,0
+Philadelphia 76ers,Phoenix Suns,43.97,62,79,141
+Philadelphia 76ers,Portland Trail Blazers,50.38,66,65,131
+Philadelphia 76ers,Sacramento Kings,57.14,184,138,322
+Philadelphia 76ers,San Antonio Spurs,44.35,51,64,115
+Philadelphia 76ers,Toronto Raptors,45.52,66,79,145
+Philadelphia 76ers,Utah Jazz,46.9,53,60,113
+Philadelphia 76ers,Washington Wizards,60.5,170,111,281
+Phoenix Suns,Atlanta Hawks,54.17,78,66,144
+Phoenix Suns,Boston Celtics,42.47,62,84,146
+Phoenix Suns,Brooklyn Nets,51.92,54,50,104
+Phoenix Suns,Charlotte Hornets,63.89,46,26,72
+Phoenix Suns,Chicago Bulls,51.92,81,75,156
+Phoenix Suns,Cleveland Cavaliers,58.06,72,52,124
+Phoenix Suns,Dallas Mavericks,56.16,114,89,203
+Phoenix Suns,Denver Nuggets,53.04,122,108,230
+Phoenix Suns,Detroit Pistons,50.99,77,74,151
+Phoenix Suns,Golden State Warriors,57.39,167,124,291
+Phoenix Suns,Houston Rockets,49.21,124,128,252
+Phoenix Suns,Indiana Pacers,54.9,56,46,102
+Phoenix Suns,Los Angeles Clippers,58.46,159,113,272
+Phoenix Suns,Los Angeles Lakers,44.54,159,198,357
+Phoenix Suns,Memphis Grizzlies,58.26,67,48,115
+Phoenix Suns,Miami Heat,53.33,40,35,75
+Phoenix Suns,Milwaukee Bucks,49.38,80,82,162
+Phoenix Suns,Minnesota Timberwolves,62.32,86,52,138
+Phoenix Suns,New Orleans Pelicans,54.55,48,40,88
+Phoenix Suns,New York Knicks,52.11,74,68,142
+Phoenix Suns,Oklahoma City Thunder,52.54,155,140,295
+Phoenix Suns,Orlando Magic,57.75,41,30,71
+Phoenix Suns,Philadelphia 76ers,56.03,79,62,141
+Phoenix Suns,Phoenix Suns,,0,0,0
+Phoenix Suns,Portland Trail Blazers,53.92,158,135,293
+Phoenix Suns,Sacramento Kings,57.73,168,123,291
+Phoenix Suns,San Antonio Spurs,47.97,118,128,246
+Phoenix Suns,Toronto Raptors,60.0,36,24,60
+Phoenix Suns,Utah Jazz,53.19,125,110,235
+Phoenix Suns,Washington Wizards,55.65,64,51,115
+Portland Trail Blazers,Atlanta Hawks,51.94,67,62,129
+Portland Trail Blazers,Boston Celtics,39.37,50,77,127
+Portland Trail Blazers,Brooklyn Nets,70.0,70,30,100
+Portland Trail Blazers,Charlotte Hornets,71.43,50,20,70
+Portland Trail Blazers,Chicago Bulls,49.32,72,74,146
+Portland Trail Blazers,Cleveland Cavaliers,54.81,74,61,135
+Portland Trail Blazers,Dallas Mavericks,51.24,103,98,201
+Portland Trail Blazers,Denver Nuggets,50.21,120,119,239
+Portland Trail Blazers,Detroit Pistons,52.94,72,64,136
+Portland Trail Blazers,Golden State Warriors,48.75,137,144,281
+Portland Trail Blazers,Houston Rockets,45.23,109,132,241
+Portland Trail Blazers,Indiana Pacers,61.17,63,40,103
+Portland Trail Blazers,Los Angeles Clippers,59.7,160,108,268
+Portland Trail Blazers,Los Angeles Lakers,44.16,136,172,308
+Portland Trail Blazers,Memphis Grizzlies,53.91,62,53,115
+Portland Trail Blazers,Miami Heat,58.67,44,31,75
+Portland Trail Blazers,Milwaukee Bucks,41.3,57,81,138
+Portland Trail Blazers,Minnesota Timberwolves,65.97,95,49,144
+Portland Trail Blazers,New Orleans Pelicans,48.84,42,44,86
+Portland Trail Blazers,New York Knicks,55.56,70,56,126
+Portland Trail Blazers,Oklahoma City Thunder,46.74,136,155,291
+Portland Trail Blazers,Orlando Magic,57.53,42,31,73
+Portland Trail Blazers,Philadelphia 76ers,49.62,65,66,131
+Portland Trail Blazers,Phoenix Suns,46.08,135,158,293
+Portland Trail Blazers,Portland Trail Blazers,,0,0,0
+Portland Trail Blazers,Sacramento Kings,61.0,158,101,259
+Portland Trail Blazers,San Antonio Spurs,46.95,100,113,213
+Portland Trail Blazers,Toronto Raptors,60.0,39,26,65
+Portland Trail Blazers,Utah Jazz,46.67,126,144,270
+Portland Trail Blazers,Washington Wizards,56.64,64,49,113
+Sacramento Kings,Atlanta Hawks,49.39,162,166,328
+Sacramento Kings,Boston Celtics,38.07,126,205,331
+Sacramento Kings,Brooklyn Nets,53.4,55,48,103
+Sacramento Kings,Charlotte Hornets,45.71,32,38,70
+Sacramento Kings,Chicago Bulls,49.16,88,91,179
+Sacramento Kings,Cleveland Cavaliers,51.54,67,63,130
+Sacramento Kings,Dallas Mavericks,45.5,96,115,211
+Sacramento Kings,Denver Nuggets,47.12,98,110,208
+Sacramento Kings,Detroit Pistons,49.73,186,188,374
+Sacramento Kings,Golden State Warriors,46.85,208,236,444
+Sacramento Kings,Houston Rockets,40.78,104,151,255
+Sacramento Kings,Indiana Pacers,43.69,45,58,103
+Sacramento Kings,Los Angeles Clippers,52.82,131,117,248
+Sacramento Kings,Los Angeles Lakers,37.43,192,321,513
+Sacramento Kings,Memphis Grizzlies,53.15,59,52,111
+Sacramento Kings,Miami Heat,35.53,27,49,76
+Sacramento Kings,Milwaukee Bucks,37.27,60,101,161
+Sacramento Kings,Minnesota Timberwolves,46.9,68,77,145
+Sacramento Kings,New Orleans Pelicans,45.35,39,47,86
+Sacramento Kings,New York Knicks,51.25,164,156,320
+Sacramento Kings,Oklahoma City Thunder,39.11,106,165,271
+Sacramento Kings,Orlando Magic,55.56,40,32,72
+Sacramento Kings,Philadelphia 76ers,42.86,138,184,322
+Sacramento Kings,Phoenix Suns,42.27,123,168,291
+Sacramento Kings,Portland Trail Blazers,39.0,101,158,259
+Sacramento Kings,Sacramento Kings,,0,0,0
+Sacramento Kings,San Antonio Spurs,35.41,74,135,209
+Sacramento Kings,Toronto Raptors,51.61,32,30,62
+Sacramento Kings,Utah Jazz,45.57,108,129,237
+Sacramento Kings,Washington Wizards,55.56,75,60,135
+San Antonio Spurs,Atlanta Hawks,57.52,65,48,113
+San Antonio Spurs,Boston Celtics,54.63,59,49,108
+San Antonio Spurs,Brooklyn Nets,71.68,81,32,113
+San Antonio Spurs,Charlotte Hornets,64.29,45,25,70
+San Antonio Spurs,Chicago Bulls,58.25,60,43,103
+San Antonio Spurs,Cleveland Cavaliers,62.07,72,44,116
+San Antonio Spurs,Dallas Mavericks,57.2,139,104,243
+San Antonio Spurs,Denver Nuggets,61.73,150,93,243
+San Antonio Spurs,Detroit Pistons,63.25,74,43,117
+San Antonio Spurs,Golden State Warriors,58.96,125,87,212
+San Antonio Spurs,Houston Rockets,52.26,139,127,266
+San Antonio Spurs,Indiana Pacers,57.14,64,48,112
+San Antonio Spurs,Los Angeles Clippers,69.12,141,63,204
+San Antonio Spurs,Los Angeles Lakers,47.2,118,132,250
+San Antonio Spurs,Memphis Grizzlies,65.99,97,50,147
+San Antonio Spurs,Miami Heat,57.14,60,45,105
+San Antonio Spurs,Milwaukee Bucks,53.4,55,48,103
+San Antonio Spurs,Minnesota Timberwolves,68.0,102,48,150
+San Antonio Spurs,New Orleans Pelicans,63.73,65,37,102
+San Antonio Spurs,New York Knicks,56.64,64,49,113
+San Antonio Spurs,Oklahoma City Thunder,53.39,126,110,236
+San Antonio Spurs,Orlando Magic,65.48,55,29,84
+San Antonio Spurs,Philadelphia 76ers,55.65,64,51,115
+San Antonio Spurs,Phoenix Suns,52.03,128,118,246
+San Antonio Spurs,Portland Trail Blazers,53.05,113,100,213
+San Antonio Spurs,Sacramento Kings,64.59,135,74,209
+San Antonio Spurs,San Antonio Spurs,,0,0,0
+San Antonio Spurs,Toronto Raptors,66.1,39,20,59
+San Antonio Spurs,Utah Jazz,55.83,134,106,240
+San Antonio Spurs,Washington Wizards,61.79,76,47,123
+Toronto Raptors,Atlanta Hawks,52.21,59,54,113
+Toronto Raptors,Boston Celtics,38.51,57,91,148
+Toronto Raptors,Brooklyn Nets,57.04,81,61,142
+Toronto Raptors,Charlotte Hornets,51.89,55,51,106
+Toronto Raptors,Chicago Bulls,44.17,53,67,120
+Toronto Raptors,Cleveland Cavaliers,45.93,62,73,135
+Toronto Raptors,Dallas Mavericks,41.38,24,34,58
+Toronto Raptors,Denver Nuggets,34.92,22,41,63
+Toronto Raptors,Detroit Pistons,40.68,48,70,118
+Toronto Raptors,Golden State Warriors,43.94,29,37,66
+Toronto Raptors,Houston Rockets,44.62,29,36,65
+Toronto Raptors,Indiana Pacers,48.74,58,61,119
+Toronto Raptors,Los Angeles Clippers,51.56,33,31,64
+Toronto Raptors,Los Angeles Lakers,37.7,23,38,61
+Toronto Raptors,Memphis Grizzlies,52.46,32,29,61
+Toronto Raptors,Miami Heat,41.53,49,69,118
+Toronto Raptors,Milwaukee Bucks,46.77,58,66,124
+Toronto Raptors,Minnesota Timberwolves,64.62,42,23,65
+Toronto Raptors,New Orleans Pelicans,60.0,30,20,50
+Toronto Raptors,New York Knicks,54.2,71,60,131
+Toronto Raptors,Oklahoma City Thunder,38.98,23,36,59
+Toronto Raptors,Orlando Magic,56.41,66,51,117
+Toronto Raptors,Philadelphia 76ers,54.48,79,66,145
+Toronto Raptors,Phoenix Suns,40.0,24,36,60
+Toronto Raptors,Portland Trail Blazers,40.0,26,39,65
+Toronto Raptors,Sacramento Kings,48.39,30,32,62
+Toronto Raptors,San Antonio Spurs,33.9,20,39,59
+Toronto Raptors,Toronto Raptors,,0,0,0
+Toronto Raptors,Utah Jazz,40.0,24,36,60
+Toronto Raptors,Washington Wizards,61.36,81,51,132
+Utah Jazz,Atlanta Hawks,51.3,59,56,115
+Utah Jazz,Boston Celtics,41.96,47,65,112
+Utah Jazz,Brooklyn Nets,65.38,68,36,104
+Utah Jazz,Charlotte Hornets,66.22,49,25,74
+Utah Jazz,Chicago Bulls,46.15,60,70,130
+Utah Jazz,Cleveland Cavaliers,53.85,63,54,117
+Utah Jazz,Dallas Mavericks,54.13,118,100,218
+Utah Jazz,Denver Nuggets,56.13,142,111,253
+Utah Jazz,Detroit Pistons,64.35,74,41,115
+Utah Jazz,Golden State Warriors,54.42,123,103,226
+Utah Jazz,Houston Rockets,51.27,141,134,275
+Utah Jazz,Indiana Pacers,50.0,52,52,104
+Utah Jazz,Los Angeles Clippers,56.43,136,105,241
+Utah Jazz,Los Angeles Lakers,42.46,107,145,252
+Utah Jazz,Memphis Grizzlies,62.07,72,44,116
+Utah Jazz,Miami Heat,52.56,41,37,78
+Utah Jazz,Milwaukee Bucks,53.91,62,53,115
+Utah Jazz,Minnesota Timberwolves,61.74,92,57,149
+Utah Jazz,New Orleans Pelicans,60.49,49,32,81
+Utah Jazz,New York Knicks,50.0,56,56,112
+Utah Jazz,Oklahoma City Thunder,43.27,106,139,245
+Utah Jazz,Orlando Magic,63.01,46,27,73
+Utah Jazz,Philadelphia 76ers,53.1,60,53,113
+Utah Jazz,Phoenix Suns,46.81,110,125,235
+Utah Jazz,Portland Trail Blazers,53.33,144,126,270
+Utah Jazz,Sacramento Kings,54.43,129,108,237
+Utah Jazz,San Antonio Spurs,44.17,106,134,240
+Utah Jazz,Toronto Raptors,60.0,36,24,60
+Utah Jazz,Utah Jazz,,0,0,0
+Utah Jazz,Washington Wizards,53.91,62,53,115
+Washington Wizards,Atlanta Hawks,47.08,129,145,274
+Washington Wizards,Boston Celtics,37.23,102,172,274
+Washington Wizards,Brooklyn Nets,51.83,113,105,218
+Washington Wizards,Charlotte Hornets,47.97,71,77,148
+Washington Wizards,Chicago Bulls,44.49,101,126,227
+Washington Wizards,Cleveland Cavaliers,47.1,122,137,259
+Washington Wizards,Dallas Mavericks,42.55,40,54,94
+Washington Wizards,Denver Nuggets,40.57,43,63,106
+Washington Wizards,Detroit Pistons,42.63,107,144,251
+Washington Wizards,Golden State Warriors,38.57,54,86,140
+Washington Wizards,Houston Rockets,40.0,54,81,135
+Washington Wizards,Indiana Pacers,44.23,92,116,208
+Washington Wizards,Los Angeles Clippers,55.56,70,56,126
+Washington Wizards,Los Angeles Lakers,37.31,50,84,134
+Washington Wizards,Memphis Grizzlies,45.16,28,34,62
+Washington Wizards,Miami Heat,32.28,51,107,158
+Washington Wizards,Milwaukee Bucks,41.98,89,123,212
+Washington Wizards,Minnesota Timberwolves,56.34,40,31,71
+Washington Wizards,New Orleans Pelicans,47.17,25,28,53
+Washington Wizards,New York Knicks,42.28,115,157,272
+Washington Wizards,Oklahoma City Thunder,40.94,52,75,127
+Washington Wizards,Orlando Magic,42.07,61,84,145
+Washington Wizards,Philadelphia 76ers,39.5,111,170,281
+Washington Wizards,Phoenix Suns,44.35,51,64,115
+Washington Wizards,Portland Trail Blazers,43.36,49,64,113
+Washington Wizards,Sacramento Kings,44.44,60,75,135
+Washington Wizards,San Antonio Spurs,38.21,47,76,123
+Washington Wizards,Toronto Raptors,38.64,51,81,132
+Washington Wizards,Utah Jazz,46.09,53,62,115
+Washington Wizards,Washington Wizards,,0,0,0

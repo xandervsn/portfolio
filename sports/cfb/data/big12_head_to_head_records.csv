@@ -1,0 +1,197 @@
+Team,Opponent,Win_Percentage,Wins,Losses,Ties,Total_Games
+BYU,BYU,,0,0,0,0
+BYU,Baylor,60.0,3,2,0,5
+BYU,Cincinnati,100.0,4,0,0,4
+BYU,Houston,100.0,4,0,0,4
+BYU,Iowa State,16.67,1,5,0,6
+BYU,Kansas,0.0,0,3,0,3
+BYU,Kansas State,55.56,5,4,0,9
+BYU,Oklahoma,66.67,2,1,0,3
+BYU,Oklahoma State,25.0,1,3,0,4
+BYU,TCU,46.15,6,7,0,13
+BYU,Texas,66.67,4,2,0,6
+BYU,Texas Tech,25.0,1,3,0,4
+BYU,UCF,80.0,4,1,0,5
+BYU,West Virginia,33.33,1,2,0,3
+Baylor,BYU,40.0,2,3,0,5
+Baylor,Baylor,,0,0,0,0
+Baylor,Cincinnati,50.0,1,1,0,2
+Baylor,Houston,50.0,15,15,1,31
+Baylor,Iowa State,52.17,12,11,0,23
+Baylor,Kansas,82.61,19,4,0,23
+Baylor,Kansas State,50.0,11,11,0,22
+Baylor,Oklahoma,15.62,5,27,0,32
+Baylor,Oklahoma State,47.73,21,23,0,44
+Baylor,TCU,45.45,50,60,5,115
+Baylor,Texas,26.17,28,79,5,112
+Baylor,Texas Tech,51.22,42,40,1,83
+Baylor,UCF,66.67,2,1,0,3
+Baylor,West Virginia,38.46,5,8,0,13
+Cincinnati,BYU,0.0,0,4,0,4
+Cincinnati,Baylor,50.0,1,1,0,2
+Cincinnati,Cincinnati,,0,0,0,0
+Cincinnati,Houston,50.0,15,15,0,30
+Cincinnati,Iowa State,33.33,1,2,0,3
+Cincinnati,Kansas,50.0,2,2,0,4
+Cincinnati,Kansas State,57.14,4,3,0,7
+Cincinnati,Oklahoma,0.0,0,3,0,3
+Cincinnati,Oklahoma State,40.0,2,3,0,5
+Cincinnati,TCU,40.0,2,3,0,5
+Cincinnati,Texas,,0,0,0,0
+Cincinnati,Texas Tech,0.0,0,1,1,2
+Cincinnati,UCF,54.55,6,5,0,11
+Cincinnati,West Virginia,14.29,3,18,1,22
+Houston,BYU,0.0,0,4,0,4
+Houston,Baylor,50.0,15,15,1,31
+Houston,Cincinnati,50.0,15,15,0,30
+Houston,Houston,,0,0,0,0
+Houston,Iowa State,0.0,0,1,0,1
+Houston,Kansas,0.0,0,5,0,5
+Houston,Kansas State,50.0,1,1,0,2
+Houston,Oklahoma,20.0,1,4,0,5
+Houston,Oklahoma State,52.38,11,10,1,22
+Houston,TCU,50.0,14,14,0,28
+Houston,Texas,29.17,7,17,2,26
+Houston,Texas Tech,51.43,18,17,1,36
+Houston,UCF,33.33,4,8,0,12
+Houston,West Virginia,50.0,1,1,0,2
+Iowa State,BYU,83.33,5,1,0,6
+Iowa State,Baylor,47.83,11,12,0,23
+Iowa State,Cincinnati,66.67,2,1,0,3
+Iowa State,Houston,100.0,1,0,0,1
+Iowa State,Iowa State,,0,0,0,0
+Iowa State,Kansas,46.94,46,52,6,104
+Iowa State,Kansas State,52.38,55,50,4,109
+Iowa State,Oklahoma,8.05,7,80,2,89
+Iowa State,Oklahoma State,39.29,22,34,3,59
+Iowa State,TCU,43.75,7,9,0,16
+Iowa State,Texas,23.81,5,16,0,21
+Iowa State,Texas Tech,36.36,8,14,0,22
+Iowa State,UCF,100.0,1,0,0,1
+Iowa State,West Virginia,50.0,6,6,0,12
+Kansas,BYU,100.0,3,0,0,3
+Kansas,Baylor,17.39,4,19,0,23
+Kansas,Cincinnati,50.0,2,2,0,4
+Kansas,Houston,100.0,5,0,0,5
+Kansas,Iowa State,53.06,52,46,6,104
+Kansas,Kansas,,0,0,0,0
+Kansas,Kansas State,55.08,65,53,5,123
+Kansas,Oklahoma,25.93,28,80,6,114
+Kansas,Oklahoma State,43.06,31,41,3,75
+Kansas,TCU,25.0,9,27,4,40
+Kansas,Texas,18.18,4,18,0,22
+Kansas,Texas Tech,7.69,2,24,0,26
+Kansas,UCF,100.0,2,0,0,2
+Kansas,West Virginia,21.43,3,11,0,14
+Kansas State,BYU,44.44,4,5,0,9
+Kansas State,Baylor,50.0,11,11,0,22
+Kansas State,Cincinnati,42.86,3,4,0,7
+Kansas State,Houston,50.0,1,1,0,2
+Kansas State,Iowa State,47.62,50,55,4,109
+Kansas State,Kansas,44.92,53,65,5,123
+Kansas State,Kansas State,,0,0,0,0
+Kansas State,Oklahoma,22.45,22,76,4,102
+Kansas State,Oklahoma State,37.68,26,43,0,69
+Kansas State,TCU,57.89,11,8,0,19
+Kansas State,Texas,41.67,10,14,0,24
+Kansas State,Texas Tech,60.0,15,10,0,25
+Kansas State,UCF,100.0,3,0,0,3
+Kansas State,West Virginia,57.14,8,6,0,14
+Oklahoma,BYU,33.33,1,2,0,3
+Oklahoma,Baylor,84.38,27,5,0,32
+Oklahoma,Cincinnati,100.0,3,0,0,3
+Oklahoma,Houston,80.0,4,1,0,5
+Oklahoma,Iowa State,91.95,80,7,2,89
+Oklahoma,Kansas,74.07,80,28,6,114
+Oklahoma,Kansas State,77.55,76,22,4,102
+Oklahoma,Oklahoma,,0,0,0,0
+Oklahoma,Oklahoma State,80.95,85,20,7,112
+Oklahoma,TCU,75.0,18,6,0,24
+Oklahoma,Texas,45.13,51,62,5,118
+Oklahoma,Texas Tech,76.67,23,7,0,30
+Oklahoma,UCF,100.0,1,0,0,1
+Oklahoma,West Virginia,80.0,12,3,0,15
+Oklahoma State,BYU,75.0,3,1,0,4
+Oklahoma State,Baylor,52.27,23,21,0,44
+Oklahoma State,Cincinnati,60.0,3,2,0,5
+Oklahoma State,Houston,47.62,10,11,1,22
+Oklahoma State,Iowa State,60.71,34,22,3,59
+Oklahoma State,Kansas,56.94,41,31,3,75
+Oklahoma State,Kansas State,62.32,43,26,0,69
+Oklahoma State,Oklahoma,19.05,20,85,7,112
+Oklahoma State,Oklahoma State,,0,0,0,0
+Oklahoma State,TCU,53.12,17,15,2,34
+Oklahoma State,Texas,28.95,11,27,0,38
+Oklahoma State,Texas Tech,48.98,24,25,3,52
+Oklahoma State,UCF,0.0,0,2,0,2
+Oklahoma State,West Virginia,62.5,10,6,0,16
+TCU,BYU,53.85,7,6,0,13
+TCU,Baylor,54.55,60,50,5,115
+TCU,Cincinnati,60.0,3,2,0,5
+TCU,Houston,50.0,14,14,0,28
+TCU,Iowa State,56.25,9,7,0,16
+TCU,Kansas,75.0,27,9,4,40
+TCU,Kansas State,42.11,8,11,0,19
+TCU,Oklahoma,25.0,6,18,0,24
+TCU,Oklahoma State,46.88,15,17,2,34
+TCU,TCU,,0,0,0,0
+TCU,Texas,31.11,28,62,1,91
+TCU,Texas Tech,48.44,31,33,3,67
+TCU,UCF,0.0,0,1,0,1
+TCU,West Virginia,42.86,6,8,0,14
+Texas,BYU,33.33,2,4,0,6
+Texas,Baylor,73.83,79,28,5,112
+Texas,Cincinnati,,0,0,0,0
+Texas,Houston,70.83,17,7,2,26
+Texas,Iowa State,76.19,16,5,0,21
+Texas,Kansas,81.82,18,4,0,22
+Texas,Kansas State,58.33,14,10,0,24
+Texas,Oklahoma,54.87,62,51,5,118
+Texas,Oklahoma State,71.05,27,11,0,38
+Texas,TCU,68.89,62,28,1,91
+Texas,Texas,,0,0,0,0
+Texas,Texas Tech,75.34,55,18,0,73
+Texas,UCF,100.0,2,0,0,2
+Texas,West Virginia,50.0,6,6,0,12
+Texas Tech,BYU,75.0,3,1,0,4
+Texas Tech,Baylor,48.78,40,42,1,83
+Texas Tech,Cincinnati,100.0,1,0,1,2
+Texas Tech,Houston,48.57,17,18,1,36
+Texas Tech,Iowa State,63.64,14,8,0,22
+Texas Tech,Kansas,92.31,24,2,0,26
+Texas Tech,Kansas State,40.0,10,15,0,25
+Texas Tech,Oklahoma,23.33,7,23,0,30
+Texas Tech,Oklahoma State,51.02,25,24,3,52
+Texas Tech,TCU,51.56,33,31,3,67
+Texas Tech,Texas,24.66,18,55,0,73
+Texas Tech,Texas Tech,,0,0,0,0
+Texas Tech,UCF,100.0,2,0,0,2
+Texas Tech,West Virginia,53.33,8,7,0,15
+UCF,BYU,20.0,1,4,0,5
+UCF,Baylor,33.33,1,2,0,3
+UCF,Cincinnati,45.45,5,6,0,11
+UCF,Houston,66.67,8,4,0,12
+UCF,Iowa State,0.0,0,1,0,1
+UCF,Kansas,0.0,0,2,0,2
+UCF,Kansas State,0.0,0,3,0,3
+UCF,Oklahoma,0.0,0,1,0,1
+UCF,Oklahoma State,100.0,2,0,0,2
+UCF,TCU,100.0,1,0,0,1
+UCF,Texas,0.0,0,2,0,2
+UCF,Texas Tech,0.0,0,2,0,2
+UCF,UCF,,0,0,0,0
+UCF,West Virginia,20.0,1,4,0,5
+West Virginia,BYU,66.67,2,1,0,3
+West Virginia,Baylor,61.54,8,5,0,13
+West Virginia,Cincinnati,85.71,18,3,1,22
+West Virginia,Houston,50.0,1,1,0,2
+West Virginia,Iowa State,50.0,6,6,0,12
+West Virginia,Kansas,78.57,11,3,0,14
+West Virginia,Kansas State,42.86,6,8,0,14
+West Virginia,Oklahoma,20.0,3,12,0,15
+West Virginia,Oklahoma State,37.5,6,10,0,16
+West Virginia,TCU,57.14,8,6,0,14
+West Virginia,Texas,50.0,6,6,0,12
+West Virginia,Texas Tech,46.67,7,8,0,15
+West Virginia,UCF,80.0,4,1,0,5
+West Virginia,West Virginia,,0,0,0,0
