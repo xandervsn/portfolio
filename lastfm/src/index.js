@@ -12,7 +12,6 @@ const optionsThis = {
 
 const optionsLast = {
     api: "https://ws.audioscrobbler.com/2.0/?format=json&",
-    apiKey: "api_key=" + getLastKey().toString(),
     limit: "limit=200&",
     //overall | 7day | 1month | 3month | 6month | 12month 
     period: `period=${range.options[range.selectedIndex].value}&`,
@@ -21,14 +20,6 @@ const optionsLast = {
     artist: "artist=&",
     track: "track=&",
     user: "",
-};
-
-const optionsDeezer = {
-	method: 'GET',
-	headers: {
-		'X-RapidAPI-Key': getDeezerKey(),
-		'X-RapidAPI-Host': 'deezerdevs-deezer.p.rapidapi.com'
-	}
 };
 
 function init(input, artist_on_init, album_on_init, genre_on_init, deezer_on_init){
@@ -87,7 +78,7 @@ async function scrape(){
     elipses = ""
     for(let i = 0; i < pages; i++){
         let page = `page=${i + 1}&`;
-        let url = optionsLast.api + optionsLast.user + page + optionsLast.period + optionsLast.getTopTracks + optionsLast.limit + optionsLast.apiKey;
+        let url = optionsLast.api + optionsLast.user + page + optionsLast.period + optionsLast.getTopTracks + optionsLast.limit;
         let user_data = await fm_fetch(url);
         pages = user_data.toptracks["@attr"].totalPages
         let tracks = user_data.toptracks.track.length
@@ -125,7 +116,7 @@ async function scrape(){
             if(optionsThis.genre_on || (optionsThis.album_on)) {
                 optionsLast.artist = "artist=" + artist + "&";
                 optionsLast.track = "track=" + track.split('.')[0].replaceAll(" ", "+") + "&";
-                url = optionsLast.api + optionsLast.getInfo + optionsLast.artist + optionsLast.track + optionsLast.apiKey;
+                url = optionsLast.api + optionsLast.getInfo + optionsLast.artist + optionsLast.track;
                 try { 
                     const track_data = await fm_fetch(url); 
 
@@ -237,18 +228,6 @@ function mkarr(map, array){
         array.push(e);
     });
     array.sort((a, b) => b.playtime - a.playtime);
-}
-
-async function deezer_fetch(url){
-    const res = await fetch(url, optionsDeezer)
-    const data = await res.json()
-    return data;
-}
-
-async function fm_fetch(url){
-    const res = await fetch(url)
-    const data = await res.json()
-    return data;
 }
 
 function stop(){

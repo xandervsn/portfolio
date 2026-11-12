@@ -1,2 +1,8 @@
 name = "portfolio"
 compatibility_date = "2025-09-21"
+pages_build_output_dir = "."
+
+[[kv_namespaces]]
+binding = "RANKSUM_KV"
+id = "4f96445ab642463a88095146a8549f43"
+preview_id = "4f96445ab642463a88095146a8549f43"

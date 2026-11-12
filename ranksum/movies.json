@@ -1,0 +1,854 @@
+{
+  "albums": [
+    {
+      "id": "a9ab2cae-fc03-4e49-bd4e-b9882716193b",
+      "title": "It's a Wonderful Life",
+      "artist": "Frank Capra",
+      "notes": "Never gets old;\n\nPeople act as though this movie is sappy but it's actually quite profound. The idea it has about the moral duty to do the right thing—to sacrifice your own dreams for others—and how the reward for this action will be found in other people's lives, not in your own, is not at all standard.",
+      "genres": [],
+      "favoriteSongs": [],
+      "leastFavoriteSongs": [],
+      "score": 10
+    },
+    {
+      "id": "c0c7c6cb-c787-491c-8c71-d8c27dde1b2b",
+      "title": "Everything Everywhere All at Once",
+      "artist": "The Daniels",
+      "notes": "Perfectly earnest",
+      "favoriteSongs": [],
+      "leastFavoriteSongs": [],
+      "score": 9.25,
+      "genres": []
+    },
+    {
+      "id": "c82f5d33-5080-4845-b1e9-bfdcfafb19dc",
+      "title": "Tenet",
+      "artist": "Christopher Nolan",
+      "notes": "Conceptually incredible;\n\nThe rare Nolan movie where the themes are just as confused as the plot, which (and this is the only movie of his where this is the case), actually works in the film's favor. Nolan basically puts no effort at all into making any of his characters interesting at an emotional level, and yet The Protagonist and Neil's relationship is captivating. For reasons unclear, even to me, there isn't a scene out of this movie where I'm not rapt.",
+      "genres": [],
+      "favoriteSongs": [],
+      "leastFavoriteSongs": [],
+      "score": 8.93
+    },
+    {
+      "id": "4ac9c15e-5628-4e5c-b016-be2736700302",
+      "title": "Aftersun",
+      "artist": "Charlotte Wells",
+      "notes": "So glad I went in blind; it really is an amazing credit to the ambience and environment of the film that you're able to tell something's off before the more explicit scenes. The realization—not that Calum was depressed, which is (I thought) clear from the first few scenes—but that he is going to kill himself immediately after this trip, hits you like a ton of bricks. For me, this realization occurred in the rug store; the idea of spending money you don't have permeates this film, and Calum spending money he doesn't have on rugs—which he says represent stories—is quite a beautiful metaphor for the vacation itself. I thought the symbolism of the sky and its contrast with the ocean was also quite effective, as was seeing Sophie's desire to fly and Calum's desire to dive. \n\nIt's not 100% bleak though, and while the moment of hope are few and far between, the idea that Sophie hasn't yet learned to dive—perhaps that she never will—is extremely powerful. Sophie and Calum live under the same sky. Just an extraordinary film. Probably even better on the rewatch when you can contextualize every scene in what it means for Calum.",
+      "genres": [],
+      "favoriteSongs": [],
+      "leastFavoriteSongs": [],
+      "score": 8.79
+    },
+    {
+      "id": "1008756f-0161-41d9-8944-e735f4751e04",
+      "title": "Interstellar",
+      "artist": "Christopher Nolan",
+      "notes": "Nolan at his best;\n\nNolan has no idea what subtlety is but I think that, if the theme of the film itself is novel or interesting to me, it can carry the narrative by itself. The extent to which Interstellar believes in love is quite moving.",
+      "genres": [],
+      "favoriteSongs": [],
+      "leastFavoriteSongs": [],
+      "score": 8.64
+    },
+    {
+      "id": "88251fe9-4d65-4412-829f-c3fa340d001a",
+      "title": "The Empire Strikes Back",
+      "artist": "Irvin Kershner",
+      "notes": "I seriously need C-3PO dead. Yoda is so wise I wish they didn’t character-assassinate him in Episode 2. Shocking to imagine some of these scenes were shot in 1980; one of the few “””older””” movies where it doesn’t even matter that they didn’t have modern color grading or technology it just looks that good. Luke v Vader in the carbon-freezing chamber looks unbelievably beautiful.",
+      "genres": [],
+      "favoriteSongs": [],
+      "leastFavoriteSongs": [],
+      "score": 8.5
+    },
+    {
+      "id": "b776b9ea-1104-4643-972a-a3b027218427",
+      "title": "Spider-Man: Into the Spiderverse",
+      "artist": "Justin K. Thompson, Kemp Powers …",
+      "notes": "",
+      "genres": [],
+      "favoriteSongs": [],
+      "leastFavoriteSongs": [],
+      "score": 8.36
+    },
+    {
+      "id": "410fa129-2e50-490e-bf60-5960d55e4980",
+      "title": "Star Wars: A New Hope",
+      "artist": "George Lucas",
+      "notes": "They should wipe C3PO again but permanently. I might be the only person on earth who thinks this but his ass was probably the only part of the movie I didn't love. R2D2 clears by a country mile.",
+      "genres": [],
+      "favoriteSongs": [],
+      "leastFavoriteSongs": [],
+      "score": 8.21
+    },
+    {
+      "id": "9fb5242e-9b89-4d31-a3da-ee2ec5eff493",
+      "title": "Look Back",
+      "artist": "Tatsuki Fujimoto",
+      "notes": "Fujimoto does it again;\n\nFujimoto is probably one of (if not fully) my favorite artists. I adore the way he plays with narrative structure. I don't adore the way he is so obviously terrified of love, but man, does he take you along for that ride.",
+      "genres": [],
+      "favoriteSongs": [],
+      "leastFavoriteSongs": [],
+      "score": 8.07
+    },
+    {
+      "id": "1ff3a90f-e2d7-4051-8f2a-b56618175ac1",
+      "title": "Guardians of the Galaxy Vol. 3",
+      "artist": "James Gunn",
+      "notes": "",
+      "genres": [],
+      "favoriteSongs": [],
+      "leastFavoriteSongs": [],
+      "score": 7.95
+    },
+    {
+      "id": "5792b53b-31eb-4977-b611-2a7c7dac2926",
+      "title": "The Odyssey",
+      "artist": "Christopher Nolan",
+      "notes": "Probably my dream Odyssey adaptation. Not necessarily faithful to the letter, but to the spirit. The reason The Odyssey is such an interesting piece is because of what it represents (that being an encapsulation of the Ancient Greek worldview). Nolan making it more individualist and secular—in other words, westernizing it—is the ideal experience. Nolan lowkey being a chud makes better, in fact. I also have thoughts about reinterpreting The Odyssey as an apocalypse myth but they're unclear even to me.\n\nThematically, however, Nolan stumbles; he tries to have his cake and eat it too. Xenia—Zeus' Law—is described as the idea to \"treat others how you'd want to be treated, because they may be a god in disguise.\" While the idea of hospitality due to potential godhood is present in the original Greek xenia, the Golden Rule is not; it was appended to appeal to our Western sensibilities. Also for this reason, the slaughter of the women co-conspirators to the suitors is not shown (Nolan has admitted this himself), and some suitors kneel to Odysseus and are therefore spared. The story itself is contextualized as far more secular and individualistic than the original, and Odysseus' shame for the Greeks' wanton destruction of Troy is the driving force of the film. In essence, Nolan westernizes the morality of the Odyssey.",
+      "genres": [],
+      "favoriteSongs": [],
+      "leastFavoriteSongs": [],
+      "score": 7.85
+    },
+    {
+      "id": "1ddbc499-9886-43a1-b52e-00ebcf634611",
+      "title": "Chainsaw Man – The Movie: Reze Arc",
+      "artist": "Tatsuki Fujimoto",
+      "notes": "KILL TATSUKI FUJIMOTO;\n\nFujimoto's character work is unparalleled. Every single character seemingly serves as a metaphor, foil, and personification of an idea at the same time. AND THE ENDING TO PART 2 WAS GOOD!",
+      "genres": [],
+      "favoriteSongs": [],
+      "leastFavoriteSongs": [],
+      "score": 7.75
+    },
+    {
+      "id": "e6094faa-b60c-4cf5-894c-1ec147228b23",
+      "title": "The Nice Guys",
+      "artist": "Shane Black",
+      "notes": "",
+      "genres": [],
+      "favoriteSongs": [],
+      "leastFavoriteSongs": [],
+      "score": 7.65
+    },
+    {
+      "id": "ae39d276-c713-4196-a06a-3ad9c48844cc",
+      "title": "Spider-Man: Across the Spider-Verse",
+      "artist": "Sony Animation",
+      "notes": "Incomplete. When Beyond drops, this movie will either be a 10/10 or completely ruined. We shall wait and see.",
+      "genres": [],
+      "favoriteSongs": [],
+      "leastFavoriteSongs": [],
+      "score": 7.55
+    },
+    {
+      "id": "d15cd395-12b7-4aaa-a2a1-e81a33486735",
+      "title": "RRR",
+      "artist": "SS Rajamouli",
+      "notes": "Roller coaster;\n\nGenuinely one of the best action movies ever. I've forced like half a dozen of my friends to watch this and every single time we're ALL locked in the whole time. A lot of movies could take notes on how straight RRR plays its absurdity.",
+      "genres": [],
+      "favoriteSongs": [],
+      "leastFavoriteSongs": [],
+      "score": 7.45
+    },
+    {
+      "id": "4265540b-f17c-40c1-b0eb-2fde14999fbc",
+      "title": "Past Lives",
+      "artist": "Celine Song",
+      "notes": "Feels almost too real;\n\nThe way that Hae Sung clings to the safety of inyeon leaves a pit in my stomach. I suppose it rather reveals a pit in my stomach I didn't know was there.",
+      "genres": [],
+      "favoriteSongs": [],
+      "leastFavoriteSongs": [],
+      "score": 7.35
+    },
+    {
+      "id": "f40c18d9-8612-4971-af79-9c20999cd190",
+      "title": "Guardians of the Galaxy Vol. 2",
+      "artist": "James Gunn",
+      "notes": "",
+      "genres": [],
+      "favoriteSongs": [],
+      "leastFavoriteSongs": [],
+      "score": 7.25
+    },
+    {
+      "id": "873def46-b940-4569-9173-0633850f3a53",
+      "title": "Captain America: The Winter Soldier",
+      "artist": "The Russo Brothers",
+      "notes": "",
+      "genres": [],
+      "favoriteSongs": [],
+      "leastFavoriteSongs": [],
+      "score": 7.15
+    },
+    {
+      "id": "217138fe-6484-499a-aa4d-1c30899ae62e",
+      "title": "Guardians of the Galaxy",
+      "artist": "James Gunn",
+      "notes": "",
+      "genres": [],
+      "favoriteSongs": [],
+      "leastFavoriteSongs": [],
+      "score": 7.05
+    },
+    {
+      "id": "a4a6af4c-ce37-41df-92af-c00d31afd3d0",
+      "title": "Avengers: Infinity War",
+      "artist": "The Russo Brothers",
+      "notes": "",
+      "genres": [],
+      "favoriteSongs": [],
+      "leastFavoriteSongs": [],
+      "score": 6.97
+    },
+    {
+      "id": "1d6f9eab-1455-4d58-bb8a-d94e91f30976",
+      "title": "Avatar Aang: The Last Airbender",
+      "artist": "Lauren Montgomery",
+      "notes": "",
+      "genres": [],
+      "favoriteSongs": [],
+      "leastFavoriteSongs": [],
+      "score": 6.91
+    },
+    {
+      "id": "cab2fbc8-40a1-4b48-bb25-d2dcbe37c6e6",
+      "title": "Moonlight",
+      "artist": "Barry Jenkins",
+      "notes": "I don't know;\n\nI think this is a film you either get, or you don't. I don't, which I suppose shouldn't be a shock. It was quite beautiful but I unfortunately just wasn't able to connect with it emotionally.",
+      "genres": [],
+      "favoriteSongs": [],
+      "leastFavoriteSongs": [],
+      "score": 6.84
+    },
+    {
+      "id": "06616e62-23e5-4bb0-a962-a6d4db5b67e3",
+      "title": "The Perks of Being a Wallflower",
+      "artist": "Stephen Chbosky",
+      "notes": "Bit segmented;\n\nI struggle to understand this movie as an entire body of work. It feels less like a consistent narrative and more like a series of really good short films. REALLY good short films. I don't know. ",
+      "genres": [],
+      "favoriteSongs": [],
+      "leastFavoriteSongs": [],
+      "score": 6.78
+    },
+    {
+      "id": "f5c203be-5b0a-476d-8aa3-4161b5c7172b",
+      "title": "Thor: Ragnarok",
+      "artist": "Taika Waititi",
+      "notes": "",
+      "genres": [],
+      "favoriteSongs": [],
+      "leastFavoriteSongs": [],
+      "score": 6.72
+    },
+    {
+      "id": "551957c9-d61f-4ee3-9d97-bab8d1a254ed",
+      "title": "Star Wars: Revenge of the Sith",
+      "artist": "George Lucas",
+      "notes": "Anakin goes from a normal-ish guy to chopping up younglings in like a week. He betrays his adoptive father/brother, the love of his life, and his religion, for some guy we’ve barely seen him ever interact with. Obi-Wan saves the film and his tragedy is much more compelling. ",
+      "genres": [],
+      "favoriteSongs": [],
+      "leastFavoriteSongs": [],
+      "score": 6.66
+    },
+    {
+      "id": "dd92aebb-2514-45cc-ae53-8ca974106297",
+      "title": "Return of the Jedi",
+      "artist": "Richard Marquand",
+      "notes": "Believe it or not Leia freeing Han occurs 40 minutes into the movie; what precedes this is unknowable. About 1/3 of this are the best scenes ever put to film. “I am a Jedi, like my father before me” and the thematic importance of Luke preparing to die in the Death Star is so powerful I almost can’t believe it takes place in the same film as Max Rebo. It’s a shame the remaining 2/3 range from boring to genuinely unwatchable (kill all Ewoks)\n\n",
+      "genres": [],
+      "favoriteSongs": [],
+      "leastFavoriteSongs": [],
+      "score": 6.59
+    },
+    {
+      "id": "3dd3a8c7-82f1-47ca-9e43-260ae1731c8b",
+      "title": "Backrooms",
+      "artist": "Kane Parsons",
+      "notes": "Extremely meditative;\n\nThe Backrooms, as a metaphor, are a bit muddled: it can represent the safety (or the fear) of routine, or mental illness, or nostalgia, or AI, etc. I suppose that's kind of the point, though, isn't it? I don't really \"get\" liminality—I feel the same way looking at \"liminal spaces\" slideshows as I do looking at advertisements, which is to say, I feel nothing at all—but Backrooms was able to give me that feeling. The Backrooms can be understood as anything; The Backrooms are beyond understanding. ",
+      "genres": [],
+      "favoriteSongs": [],
+      "leastFavoriteSongs": [],
+      "score": 6.53
+    },
+    {
+      "id": "beba0852-e4f8-4b80-b835-c627377a82be",
+      "title": "Minari",
+      "artist": "Lee Isaac Chung",
+      "notes": "",
+      "genres": [],
+      "favoriteSongs": [],
+      "leastFavoriteSongs": [],
+      "score": 6.47
+    },
+    {
+      "id": "c6293b46-d59d-47fb-8f4e-4a76ad11a867",
+      "title": "One Battle After Another",
+      "artist": "Paul Thomas Anderson",
+      "notes": "Frantic; \n\nA very good action movie with great performances and cinematography. Bob’s incompetence and complete lack of agency takes some getting used to; I’m not sure if I was ever endeared to it, so some of the more emotional moments fell flat for me. I also feel like the ending was a bit unearned.",
+      "genres": [],
+      "favoriteSongs": [],
+      "leastFavoriteSongs": [],
+      "score": 6.41
+    },
+    {
+      "id": "052fba9b-f7af-4da4-81d1-062fa6e0d4a5",
+      "title": "Obsession",
+      "artist": "Corey Baker",
+      "notes": "Telegraphed;\n\nProbably the investigative horror plot structure of The Ring taken to its absolute peak. There aren't really any jumpscares: every scare is a bit telegraphed, which actually works in the film's favor. It's like listening to the thunk-thunk-thunk of a rollercoaster on the incline; half of the enjoyment of the ride is going up. Sadly it means that the plot is a bit predictable.",
+      "genres": [],
+      "favoriteSongs": [],
+      "leastFavoriteSongs": [],
+      "score": 6.34
+    },
+    {
+      "id": "cf6192b1-02c6-4f42-bfea-e05c6f88f373",
+      "title": "The Suicide Squad",
+      "artist": "James Gunn",
+      "notes": "",
+      "genres": [],
+      "favoriteSongs": [],
+      "leastFavoriteSongs": [],
+      "score": 6.28
+    },
+    {
+      "id": "9dda78e6-aa2b-4380-978f-a137f33da80c",
+      "title": "Spider-Man: Homecoming",
+      "artist": "Jon Watts",
+      "notes": "",
+      "genres": [],
+      "favoriteSongs": [],
+      "leastFavoriteSongs": [],
+      "score": 6.22
+    },
+    {
+      "id": "bf586931-019f-4cef-ab95-149c93333afb",
+      "title": "Skyfall",
+      "artist": "James Bond",
+      "notes": "Maybe all Bond movies are just like that. Javier Bardem gives the performance of a lifetime in support of the most convoluted plots ever. ",
+      "genres": [],
+      "favoriteSongs": [],
+      "leastFavoriteSongs": [],
+      "score": 6.16
+    },
+    {
+      "id": "da91d322-698a-4900-8d14-78f5baba0a11",
+      "title": "Thunderbolts",
+      "artist": "Jake Schreier",
+      "notes": "",
+      "genres": [],
+      "favoriteSongs": [],
+      "leastFavoriteSongs": [],
+      "score": 6.09
+    },
+    {
+      "id": "02630121-6aa7-47c1-b675-54b50a07baec",
+      "title": "Black Panther",
+      "artist": "Ryan Coogler",
+      "notes": "",
+      "genres": [],
+      "favoriteSongs": [],
+      "leastFavoriteSongs": [],
+      "score": 6.03
+    },
+    {
+      "id": "8e22a1e9-4f1f-4e33-a674-a961f4321253",
+      "title": "Captain America: Civil War",
+      "artist": "The Russo Brothers",
+      "notes": "",
+      "genres": [],
+      "favoriteSongs": [],
+      "leastFavoriteSongs": [],
+      "score": 5.97
+    },
+    {
+      "id": "c9c678e5-defe-4499-865e-4ab3fa329d72",
+      "title": "Avengers: Endgame",
+      "artist": "The Russo Brothers",
+      "notes": "",
+      "genres": [],
+      "favoriteSongs": [],
+      "leastFavoriteSongs": [],
+      "score": 5.91
+    },
+    {
+      "id": "35b5faa6-408f-463e-83b6-a3f8afad0edd",
+      "title": "Doctor Strange",
+      "artist": "Scott Derrickson",
+      "notes": "",
+      "genres": [],
+      "favoriteSongs": [],
+      "leastFavoriteSongs": [],
+      "score": 5.85
+    },
+    {
+      "id": "c4e6244b-0990-4f38-9d3f-0bb07efc6cfe",
+      "title": "The Fantastic 4: First Steps",
+      "artist": "Matt Shakman",
+      "notes": "",
+      "genres": [],
+      "favoriteSongs": [],
+      "leastFavoriteSongs": [],
+      "score": 5.79
+    },
+    {
+      "id": "f896680e-9e76-4d81-be41-d7e5d5ebb2dd",
+      "title": "The Avengers",
+      "artist": "Joss Whedon",
+      "notes": "",
+      "genres": [],
+      "favoriteSongs": [],
+      "leastFavoriteSongs": [],
+      "score": 5.74
+    },
+    {
+      "id": "9be92bd9-4c42-42d7-bfab-2710f22a8c87",
+      "title": "Shang-Chi and the Legend of the Ten Rings",
+      "artist": "Destin Daniel Cretton",
+      "notes": "",
+      "genres": [],
+      "favoriteSongs": [],
+      "leastFavoriteSongs": [],
+      "score": 5.68
+    },
+    {
+      "id": "6899a95a-0000-4449-8711-a6c8b43f5dcf",
+      "title": "Iron Man",
+      "artist": "Jon Favreau",
+      "notes": "",
+      "genres": [],
+      "favoriteSongs": [],
+      "leastFavoriteSongs": [],
+      "score": 5.62
+    },
+    {
+      "id": "5e5490b2-534a-4393-ac59-32dfdd9bbcf5",
+      "title": "Eternals",
+      "artist": "Chloé Zhao",
+      "notes": "",
+      "genres": [],
+      "favoriteSongs": [],
+      "leastFavoriteSongs": [],
+      "score": 5.56
+    },
+    {
+      "id": "76bb1e04-0ba3-440c-9141-3795a5fa7909",
+      "title": "Spectre",
+      "artist": "James Bond",
+      "notes": "Yeah they're all like that. Just a bunch of amazing actors giving career performances in service of incomprehensible evil schemes. Feel like they're hitting their stride.",
+      "genres": [],
+      "favoriteSongs": [],
+      "leastFavoriteSongs": [],
+      "score": 5.5
+    },
+    {
+      "id": "d0f9a556-386e-4710-bd00-c82c74d9aa2e",
+      "title": "Ant-Man",
+      "artist": "Peyton Reed",
+      "notes": "",
+      "genres": [],
+      "favoriteSongs": [],
+      "leastFavoriteSongs": [],
+      "score": 5.44
+    },
+    {
+      "id": "9d18e901-0e0f-41c5-9cec-ff5970c589e2",
+      "title": "Casino Royale",
+      "artist": "James Bond",
+      "notes": "Really good plane movie. It's like 3 movies shoved into 1. I also feel like it's really low stakes for a James Bond movie. Like the whole bit is that they have to stop a guy from winning a $100M poker match because the guy acts as a banker for terrorists. An evil banker? $100M? Surely there are better things to deal with.",
+      "genres": [],
+      "favoriteSongs": [],
+      "leastFavoriteSongs": [],
+      "score": 5.38
+    },
+    {
+      "id": "aa10567a-dd6f-481a-b9b0-8fe1ae0c9f4c",
+      "title": "Wonder Woman",
+      "artist": "Patty Jenkins",
+      "notes": "",
+      "genres": [],
+      "favoriteSongs": [],
+      "leastFavoriteSongs": [],
+      "score": 5.32
+    },
+    {
+      "id": "e4634c32-de9d-4905-9fe0-7b4a78d918fc",
+      "title": "Ant-Man and the Wasp",
+      "artist": "Peyton Reed",
+      "notes": "",
+      "genres": [],
+      "favoriteSongs": [],
+      "leastFavoriteSongs": [],
+      "score": 5.26
+    },
+    {
+      "id": "a8de71c6-5002-4244-94e3-aa9a7225131d",
+      "title": "Captain America: The First Avenger",
+      "artist": "Joe Johnston",
+      "notes": "",
+      "genres": [],
+      "favoriteSongs": [],
+      "leastFavoriteSongs": [],
+      "score": 5.21
+    },
+    {
+      "id": "d2d8fbf7-53fa-4610-83f5-6b81ed4c4675",
+      "title": "Captain Marvel",
+      "artist": "Ryan Fleck, Anna Boden",
+      "notes": "",
+      "genres": [],
+      "favoriteSongs": [],
+      "leastFavoriteSongs": [],
+      "score": 5.15
+    },
+    {
+      "id": "96df8192-2e76-4a5c-9743-c6a8d1fec0bc",
+      "title": "No Time to Die",
+      "artist": "James Bond",
+      "notes": "I hope the next James Bond is American",
+      "genres": [],
+      "favoriteSongs": [],
+      "leastFavoriteSongs": [],
+      "score": 5.09
+    },
+    {
+      "id": "dd68cf30-d834-4f93-a88e-1819546a8296",
+      "title": "Avengers: Age of Ultron",
+      "artist": "Joss Whedon",
+      "notes": "",
+      "genres": [],
+      "favoriteSongs": [],
+      "leastFavoriteSongs": [],
+      "score": 5.03
+    },
+    {
+      "id": "e6e994ac-22d4-426b-9a8b-a804f887c2de",
+      "title": "Spider-Man: Far From Home",
+      "artist": "Jon Watts",
+      "notes": "",
+      "genres": [],
+      "favoriteSongs": [],
+      "leastFavoriteSongs": [],
+      "score": 4.96
+    },
+    {
+      "id": "db9102d1-4458-4448-ae4d-36977bd9a850",
+      "title": "Black Widow",
+      "artist": "Cate Shortland",
+      "notes": "",
+      "genres": [],
+      "favoriteSongs": [],
+      "leastFavoriteSongs": [],
+      "score": 4.88
+    },
+    {
+      "id": "86b1d144-afac-4e2d-90a2-6270c89e6604",
+      "title": "Black Panther: Wakanda Forever",
+      "artist": "Ryan Coogler",
+      "notes": "",
+      "genres": [],
+      "favoriteSongs": [],
+      "leastFavoriteSongs": [],
+      "score": 4.81
+    },
+    {
+      "id": "159e6f54-7e78-4b7f-930b-68550647caa2",
+      "title": "Uncharted",
+      "artist": "Tom Holland",
+      "notes": "The last setpiece of this movie is so insane and out of left field I myself didn’t believe what I was seeing",
+      "genres": [],
+      "favoriteSongs": [],
+      "leastFavoriteSongs": [],
+      "score": 4.73
+    },
+    {
+      "id": "b385022a-154d-43e1-b7e1-b867d18ea317",
+      "title": "Supergirl",
+      "artist": "Craig Gillespie",
+      "notes": "",
+      "genres": [],
+      "favoriteSongs": [],
+      "leastFavoriteSongs": [],
+      "score": 4.65
+    },
+    {
+      "id": "b9d3638c-d84a-433f-9217-ac44b10770f3",
+      "title": "Deadpool & Wolverine",
+      "artist": "Shawn Levy",
+      "notes": "",
+      "genres": [],
+      "favoriteSongs": [],
+      "leastFavoriteSongs": [],
+      "score": 4.58
+    },
+    {
+      "id": "680a3fe8-8bc1-4359-852b-35d0f29de9b7",
+      "title": "Iron Man 3",
+      "artist": "Shane Black",
+      "notes": "",
+      "genres": [],
+      "favoriteSongs": [],
+      "leastFavoriteSongs": [],
+      "score": 4.5
+    },
+    {
+      "id": "127cf663-6515-4743-9457-617b536d6eb2",
+      "title": "Star Wars: Attack of the Clones",
+      "artist": "George Lucas",
+      "notes": "Obi-Wan Kenobi discovers a secret, unauthorized clone army; the system this army was built in was deliberately scrubbed from the Jedi archives; the man who ordered this army died 10 years ago; the Jedi believe he must have died prior to placing this order; the model for these clones is a bounty hunter, recruited in secret, directly implicated in the attempted assassination of a senator; he also serves Count Dooku, who the Jedi discover is a Sith Lord.\n\nDespite all this, the Jedi still use the secret unauthorized army ordered by a dead man based on an assassin working for a Sith Lord.\n\nAnd continue to, even after the direct threat at Geonosis is dealt with.\n\nYeah these guys deserved to die.\n\nAlso like 1/5 of the movie (Anakin-Padme Naboo scenes) is genuinely unwatchable.",
+      "genres": [],
+      "favoriteSongs": [],
+      "leastFavoriteSongs": [],
+      "score": 4.42
+    },
+    {
+      "id": "fefd05a8-fed7-47a2-8f16-91273d996cdd",
+      "title": "Spider-Man: No Way Home",
+      "artist": "Jon Watts",
+      "notes": "",
+      "genres": [],
+      "favoriteSongs": [],
+      "leastFavoriteSongs": [],
+      "score": 4.35
+    },
+    {
+      "id": "cb21a1e3-42d2-4ab8-abd8-608fbfd940f4",
+      "title": "Masters of the Universe",
+      "artist": "Travis Knight",
+      "notes": "Could've played it 20% more straight;\n\nSo many otherwise great moments were undercut by humor. This movie has the bones of a really excellent action-adventure (some really interesting ideas of moral duty and masculinity are explored; they certainly could've been explored more), I just wish it was more sure of itself.",
+      "genres": [],
+      "favoriteSongs": [],
+      "leastFavoriteSongs": [],
+      "score": 4.27
+    },
+    {
+      "id": "ca677cfd-6358-4223-904a-d8688710b9fe",
+      "title": "Iron Man 2",
+      "artist": "Jon Favreau",
+      "notes": "",
+      "genres": [],
+      "favoriteSongs": [],
+      "leastFavoriteSongs": [],
+      "score": 4.19
+    },
+    {
+      "id": "f315a4ae-0691-4caf-af6b-17331cf52897",
+      "title": "Thor",
+      "artist": "Kenneth Branagh",
+      "notes": "",
+      "genres": [],
+      "favoriteSongs": [],
+      "leastFavoriteSongs": [],
+      "score": 4.12
+    },
+    {
+      "id": "22f0fa62-29f6-4543-a6df-131a330796a9",
+      "title": "Aquaman",
+      "artist": "James Wan",
+      "notes": "",
+      "genres": [],
+      "favoriteSongs": [],
+      "leastFavoriteSongs": [],
+      "score": 4.04
+    },
+    {
+      "id": "c911a0af-d67e-4b0c-b768-d80cb103b11f",
+      "title": "Shazam!",
+      "artist": "David F. Sandberg",
+      "notes": "",
+      "genres": [],
+      "favoriteSongs": [],
+      "leastFavoriteSongs": [],
+      "score": 3.94
+    },
+    {
+      "id": "3ca5c610-3344-43af-ba5b-53a94f5277a4",
+      "title": "Zack Snyder’s Justice League",
+      "artist": "Zack Snyder",
+      "notes": "",
+      "genres": [],
+      "favoriteSongs": [],
+      "leastFavoriteSongs": [],
+      "score": 3.83
+    },
+    {
+      "id": "e66a28a1-32ec-4ec8-a699-8b1fd16e9415",
+      "title": "Black Adam",
+      "artist": "Jaume Collet-Serra",
+      "notes": "",
+      "genres": [],
+      "favoriteSongs": [],
+      "leastFavoriteSongs": [],
+      "score": 3.72
+    },
+    {
+      "id": "67da647f-40a7-4aa6-841c-d619b817bbe4",
+      "title": "Doctor Strange in the Multiverse of Madness",
+      "artist": "Sam Raimi",
+      "notes": "",
+      "genres": [],
+      "favoriteSongs": [],
+      "leastFavoriteSongs": [],
+      "score": 3.61
+    },
+    {
+      "id": "6b914920-bc33-4df0-830c-bc0dfc8f5ede",
+      "title": "Thor: The Dark World",
+      "artist": "Alan Taylor",
+      "notes": "",
+      "genres": [],
+      "favoriteSongs": [],
+      "leastFavoriteSongs": [],
+      "score": 3.5
+    },
+    {
+      "id": "140e1f32-8122-479e-be6b-9ff0e7b2a22d",
+      "title": "Captain America: Brave New World",
+      "artist": "Julius Onah",
+      "notes": "",
+      "genres": [],
+      "favoriteSongs": [],
+      "leastFavoriteSongs": [],
+      "score": 3.39
+    },
+    {
+      "id": "35f73e77-fee3-4488-81af-9737c8970e2c",
+      "title": "Star Wars: The Phantom Menace",
+      "artist": "George Lucas",
+      "notes": "Honestly not as boring as I remembered. I think the dialogue is so incomprehensively bad that I couldn’t look away. Like seeing a car crash happen in real time. Lucas does this bizarre thing where every line is separated by a full second of dead air. I don’t think anything makes sense diegetically.",
+      "genres": [],
+      "favoriteSongs": [],
+      "leastFavoriteSongs": [],
+      "score": 3.28
+    },
+    {
+      "id": "29a19470-bbb3-48f2-aed3-46150a6dfc3f",
+      "title": "Ant-Man and the Wasp: Quantumania",
+      "artist": "Peyton Reed",
+      "notes": "",
+      "genres": [],
+      "favoriteSongs": [],
+      "leastFavoriteSongs": [],
+      "score": 3.17
+    },
+    {
+      "id": "04305815-5f3b-4ff2-934f-df600f0baf96",
+      "title": "Spiders on a Plane",
+      "artist": "Ben J. Williams",
+      "notes": "Shockingly well done; I was blasted watching this but I feel like the practical effects were actually really good",
+      "genres": [],
+      "favoriteSongs": [],
+      "leastFavoriteSongs": [],
+      "score": 3.06
+    },
+    {
+      "id": "c1d94394-9a79-4ee7-a1af-d2441be8b0be",
+      "title": "Man of Steel",
+      "artist": "Zack Snyder",
+      "notes": "",
+      "genres": [],
+      "favoriteSongs": [],
+      "leastFavoriteSongs": [],
+      "score": 2.92
+    },
+    {
+      "id": "8a236328-e804-405b-acc6-81a95fa9997d",
+      "title": "The Incredible Hulk",
+      "artist": "Louis Leterrier",
+      "notes": "",
+      "genres": [],
+      "favoriteSongs": [],
+      "leastFavoriteSongs": [],
+      "score": 2.75
+    },
+    {
+      "id": "a418594d-c107-4f6e-ae5e-643f8bf18e89",
+      "title": "Batman v Superman: Dawn of Justice",
+      "artist": "Zack Snyder",
+      "notes": "",
+      "genres": [],
+      "favoriteSongs": [],
+      "leastFavoriteSongs": [],
+      "score": 2.58
+    },
+    {
+      "id": "bac736ae-2dd0-4e1b-9bab-5c7ad7a036ad",
+      "title": "Wonder Woman 1984",
+      "artist": "Patty Jenkins",
+      "notes": "",
+      "genres": [],
+      "favoriteSongs": [],
+      "leastFavoriteSongs": [],
+      "score": 2.42
+    },
+    {
+      "id": "249a8b38-f34f-4e7d-8fee-cc32173d9112",
+      "title": "Smile",
+      "artist": "Parker Finn",
+      "notes": "Bit of an evil movie;\n\nIt was a fine enough horror (basically the 150th The Ring knockoff), though it was a little bit odd when the character representing trauma stared dead at the camera and said \"i'll be with you forever\". I was rolling my eyes whenever the big evil third-act monster was on screen.\n",
+      "genres": [],
+      "favoriteSongs": [],
+      "leastFavoriteSongs": [],
+      "score": 2.25
+    },
+    {
+      "id": "0cf9d066-f209-4a82-8c44-d006901703b1",
+      "title": "The Ring",
+      "artist": "Gore Verbinski",
+      "notes": "I watched this too late; \n\nThe Ring popularized its horror-mystery ticking-clock plot structure, so I suppose I must give it some flowers, but man, has that plot structure gotten old. Through no fault of its own, the movie is quite predictable. It's also not that scary.",
+      "genres": [],
+      "favoriteSongs": [],
+      "leastFavoriteSongs": [],
+      "score": 2.08
+    },
+    {
+      "id": "4fdfe269-9c2d-4d34-8f9c-d8323c0d29eb",
+      "title": "Star Wars: The Mandalorian and Grogu",
+      "artist": "Jon Favreau",
+      "notes": "Clunky;\n\nThe title is clunky, the performances are clunky, the action is clunky, etc. More importantly to me, it is obsessed with saying nothing at all—with putting Mando through ethical dilemmas that aren't dilemmas at all, and actually have quite obvious solutions. There is not a single actual character in the movie.",
+      "genres": [],
+      "favoriteSongs": [],
+      "leastFavoriteSongs": [],
+      "score": 1.83
+    },
+    {
+      "id": "e40ebf68-f6bc-41ee-8fea-a130b553270e",
+      "title": "Justice League",
+      "artist": "Zack Snyder, Joss Whedon",
+      "notes": "",
+      "genres": [],
+      "favoriteSongs": [],
+      "leastFavoriteSongs": [],
+      "score": 1.5
+    },
+    {
+      "id": "42c42d6e-1896-4c0b-bc25-35b167145517",
+      "title": "Thor: Love and Thunder",
+      "artist": "Taika Waititi",
+      "notes": "",
+      "genres": [],
+      "favoriteSongs": [],
+      "leastFavoriteSongs": [],
+      "score": 1.17
+    },
+    {
+      "id": "56b4c652-c393-4711-923b-8a372d6636fa",
+      "title": "Star Wars: The Force Awakens",
+      "artist": "JJ Abrams",
+      "notes": "This is how Star Wars dies—with thundering applause. \n\nEvery criticism levied against Disney Star Wars—how Luke's character was handled, how the shows are completely aimless, how the original 6 movies seem to not matter at all—can trace its origin directly to this movie. The decision to bring back the Empire as the First Order, to completely destroy the New Republic and bring back the Rebellion as the Resistance, and to undo all the character development experienced by the original trio make for a sequel trilogy that was doomed to be awful from its conception. If the Prequels were bad movies with a good overarching plot, the Sequels are fine movies with the worst overarching plot ever put to film.\n\nThe only way for the status quo established in this film to make any sense is for the following to have occurred over the past 30 years: the Republic must have grown complacent and allowed a militant fascist group to grow under its watch; a great Jedi master must have failed as a teacher, and allowed the Dark Side to corrupt a powerful Force user; and a powerful Force-user must have been seduced by the promises of a charismatic supreme leader. We have already seen ALL OF THESE THEMES! The Force Awakens introduces NOTHING new to Star Wars—no new themes, character arcs, and—for all the talk about how at least this movie is pretty—no new visuals either! JJ Abrams' cowardice makes me sick. We meet 3 main characters: Character A, a talented Resistance fighter, loyal to the cause, who hides an important document in a droid before requiring rescue, Character B, someone who, deep down, is a good person and wants to do the right thing (possibly motivated by the desire to impress a girl), but is more focused on survival than anything else, Character C, a Force-sensitive aspiring pilot from a desert planet with a heart of gold, yearning for familial connection, and Character D, a Sith, corrupted by the pursuit of power and in service of an all-powerful enemy, who is secretly related to some of our main cast. Wow, these guys sound familiar!\n\nDespite ripping every single concept wholesale from A New Hope—an incredible movie—The Force Awakens manages to cheapen them all, resulting in a stale, unemotional heap of garbage. It does this, ironically enough, by exhibiting JJ Abrams' single act of courage: the desire to one-up the original trilogy. Instead of being a good pilot with limited experience, made great by Force-sensitivity, Rey—a character who has NEVER piloted ANYTHING in her life—is able to expertly fly the Millennium Falcon, on the same level as Han Solo, in fact! It takes Luke an entire movie before he's able to move a lightsaber a few feet to defeat the Wampa, but Rey is able to move a lightsaber out of Kyle Ren's grasp after a few hours! Han Solo's return in A New Hope, foreshadowed and thematically relevant, is replaced by Fin's return, which results in nothing, and is a fake decision that is actively forced out of him, motivated, not by the desire to do good in general, but the desire to save a friend (and, again, very weirdly, love interest??)! Alternatively, it's replaced by Poe's return, which comes out of nowhere, and isn't thematically relevant at all! Take your pick! They're both horrible! The reveal of Kylo Ren as Ben Solo is done, not as a huge twist, in which we can see the relevant characters' full emotions, but by Snoke, a character we've never seen before, to a completely emotionless Kyle Ren! These actions serve only to cheapen the film, and to remind me of much better movies that I could be watching instead. Instead of a battle station, shrouded in mystery and hyped up for an hour before its use, Starkiller Base is not only able to destroy the ENTIRE NEW REPUBLIC, it's barely acknowledged at all prior to its use! JJ Abrams manages to make the deaths of hundreds of billions people and the destruction of the New Republic feel like nothing at all. The Republic, the center of Star Wars for the past 6 films, is discarded like an old toy, thrown to the ground with the same passion as closing a popup ad.\n\nThis is a movie that personally offends me. It says nothing of interest at all thematically, and it manages to do it while making a movie whose plot is as convenient as it is convoluted, whose character work ranges from meh to awful, and who spits on the very concept of Star Wars. If you need any more proof, this piece of shit grossing $2 billion and being met with generally positive reviews unleashed COVID-19, a plague designed specifically to kill the movie theater industry as punishment for our bad taste.\n\nYes, I think The Force Awakens is the worst Star Wars movie. At least the themes of the Prequels are interesting, even if they aren't represented well in-movie. At least the shittiness of Episode 9 are confined to the movie, and the galaxy can pretend it never happened. There is no getting around The Force Awakens. It is the film equivalent of the Elephant's Foot, an immoveable object forever poisoning the well of Star Wars. \n\nAlso Gracie Abrams' last album was terrible. Ripping off better artists and creating pastiches with all the original charm and authenticity removed runs in the family, I guess.",
+      "genres": [],
+      "favoriteSongs": [],
+      "leastFavoriteSongs": [],
+      "score": 0.75
+    },
+    {
+      "id": "264af849-b89f-426e-bc67-ad7c3d9cfffd",
+      "title": "Suicide Squad",
+      "artist": "David Ayer",
+      "notes": "",
+      "genres": [],
+      "favoriteSongs": [],
+      "leastFavoriteSongs": [],
+      "score": 0
+    }
+  ]
+}

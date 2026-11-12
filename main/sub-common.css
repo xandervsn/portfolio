@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Lato:wght@700&display=swap');
+
+.portfolio-back {
+    position: fixed;
+    left: 0.75rem;
+    bottom: 0.75rem;
+    z-index: 1000;
+    display: inline-flex;
+    align-items: baseline;
+    text-decoration: none;
+    line-height: 1;
+    font-family: 'Archivo Black', sans-serif;
+    font-style: italic;
+    font-size: 1.1rem;
+    letter-spacing: -0.02em;
+    opacity: 0.85;
+    transition: opacity 0.15s ease;
+}
+
+.portfolio-back:hover {
+    opacity: 1;
+}
+
+.portfolio-back .logo-dot {
+    color: #858074;
+}
+
+.portfolio-back .logo-xyz {
+    color: #b98383;
+}

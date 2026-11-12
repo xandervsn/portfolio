@@ -1,0 +1,416 @@
+{
+  "albums": [
+    {
+      "id": "c0c7c6cb-c787-491c-8c71-d8c27dde1b2b",
+      "title": "Birdie",
+      "artist": "Slaughter Beach, Dog",
+      "notes": "My favorite album, ever. So deeply personal. Every lyric is a window into a life I feel I've lived. \n\"Man it cuts like a dull knife \\ \nWhen you're young and you're told \\ \n'Makes sense when you're older' \\ \nDarling, let's get old\"\nIs probably my favorite lyric ever. The next 5 are also on Acolyte. The next 10 are on the rest of the album. There is no other piece of art I've seen that has so accurately depicted the melancholy beautify of life.",
+      "favoriteSongs": [
+        "Phoenix",
+        "Gold and Green",
+        "Pretty O.K.",
+        "Acolyte"
+      ],
+      "leastFavoriteSongs": [],
+      "score": 10,
+      "genres": [
+        "Indie Rock",
+        "Midwest Emo",
+        "Indie Folk"
+      ]
+    },
+    {
+      "id": "8c216706-5ac8-4341-bbdd-2ed77a8a3de6",
+      "title": "CALL ME IF YOU GET LOST: The Estate Sale",
+      "artist": "Tyler, The Creator",
+      "notes": "SO, SO GOOD. Sonically my favorite album. If I had to listen to 1 album for the rest of my life it's this.",
+      "favoriteSongs": [
+        "ALL OF THEM"
+      ],
+      "leastFavoriteSongs": [],
+      "score": 8.25,
+      "genres": [
+        "Hip Hop",
+        "Neo-Soul"
+      ]
+    },
+    {
+      "id": "3449cb37-23c5-47f5-8f74-7655f15c7f0d",
+      "title": "Blush",
+      "artist": "Kevin Abstract",
+      "notes": "No other album covers as many sounds so well",
+      "favoriteSongs": [
+        "ALL OF THEM"
+      ],
+      "leastFavoriteSongs": [],
+      "score": 7.75,
+      "genres": [
+        "Pop Rap",
+        "Neo-Soul",
+        "Alternative R&B"
+      ]
+    },
+    {
+      "id": "5518bbee-a9c7-4577-8911-dc1d703f4b49",
+      "title": "Blonde",
+      "artist": "Frank Ocean",
+      "notes": "I miss you king",
+      "favoriteSongs": [
+        "ALL OF THEM (except for Seigfried. Sorry)"
+      ],
+      "leastFavoriteSongs": [],
+      "score": 7.25,
+      "genres": [
+        "Alternative R&B",
+        "Neo-Soul"
+      ]
+    },
+    {
+      "id": "3db89804-b2b5-4cb5-9e49-77ab03e83573",
+      "title": "IGOR",
+      "artist": "Tyler, The Creator",
+      "notes": "Classic. Nothing can be said about this album that hasn't already been said (by me, in the 1,000 word essay I wrote for Mr. Cole)",
+      "favoriteSongs": [
+        "IGOR'S THEME",
+        "EARFQUAKE",
+        "I THINK",
+        "NEW MAGIC WAND",
+        "A BOY IS A GUN*",
+        "PUPPET",
+        "GONE GONE / THANK YOU",
+        "ARE WE STILL FRIENDS?"
+      ],
+      "leastFavoriteSongs": [],
+      "score": 6.88,
+      "genres": [
+        "Alternative R&B",
+        "Neo-Soul",
+        "Hip Hop"
+      ]
+    },
+    {
+      "id": "7a9ba7fe-88ee-4155-81b9-d05c0367ab86",
+      "title": "fishmonger",
+      "artist": "underscores",
+      "notes": "It feels like underscores makes music specifically for me. If you were to distill all the weird quirks and personal preferences I have about music, and made that into an album, you would get fishmonger.",
+      "favoriteSongs": [
+        "70%",
+        "Second hand embarrassment",
+        "Bozo bozo bozo",
+        "Spoiled little brat",
+        "Your favorite sidekick"
+      ],
+      "leastFavoriteSongs": [],
+      "score": 6.63,
+      "genres": [
+        "Hyperpop",
+        "Indie Pop"
+      ]
+    },
+    {
+      "id": "7075ebb3-6919-45d5-b191-29cf52a719b1",
+      "title": "Ants From Up There",
+      "artist": "Black Country, New Road",
+      "notes": "I get it now",
+      "favoriteSongs": [
+        "Concorde",
+        "Good Will Hunting",
+        "The Place Where He Inserted the Blade",
+        "Snow Globes"
+      ],
+      "leastFavoriteSongs": [],
+      "score": 6.38,
+      "genres": [
+        "Art Rock",
+        "Post-Rock",
+        "Indie Rock"
+      ]
+    },
+    {
+      "id": "df3798b0-f99c-4686-a8e3-fff794f5c768",
+      "title": "Ivory (Marfil)",
+      "artist": "Omar Apollo",
+      "notes": "I have probably sung along to this album more than any other. ",
+      "favoriteSongs": [
+        "Talk",
+        "No Good Reason",
+        "Invincible",
+        "Endlessly",
+        "Tamagotchi",
+        "Evergreen",
+        "Bad Life",
+        "Archetype",
+        "Pretty Boy"
+      ],
+      "leastFavoriteSongs": [],
+      "score": 6.13,
+      "genres": [
+        "Alternative R&B",
+        "Neo-Soul"
+      ]
+    },
+    {
+      "id": "b1184be0-5ec1-4d72-8eb2-d3f0d122ccf6",
+      "title": "Luv 4 Rent",
+      "artist": "Smino",
+      "notes": "Good weed knocking at your door!!",
+      "favoriteSongs": [
+        "No L's",
+        "90 Proof",
+        "Pro Freak",
+        "Settle Down",
+        "Pudgy"
+      ],
+      "leastFavoriteSongs": [],
+      "score": 5.88,
+      "genres": [
+        "Hip Hop",
+        "Pop Rap",
+        "Alternative R&B",
+        "Neo-Soul"
+      ]
+    },
+    {
+      "id": "b228d4e1-6f8c-4bf9-9d3b-5094d47559e2",
+      "title": "Sunburn",
+      "artist": "Dominic Fike",
+      "notes": "Bit poppy but fuck it we're poptimists now",
+      "favoriteSongs": [
+        "Ant Pile",
+        "Think Fast",
+        "Sick",
+        "Dancing in the Courthouse",
+        "Bodies",
+        "Sunburn",
+        "Pasture Child",
+        "Frisky",
+        "Dark"
+      ],
+      "leastFavoriteSongs": [],
+      "score": 5.63,
+      "genres": [
+        "Alt-Pop",
+        "Indie Pop",
+        "Pop Rap",
+        "Alternative R&B"
+      ]
+    },
+    {
+      "id": "117106ec-4053-49ff-8fd5-96a5a1708dc5",
+      "title": "Mr. Morale & the Big Steppers",
+      "artist": "Kendrick Lamar",
+      "notes": "So many \"dunkable\" moments but this is a really special and personal album. Might be my favorite Kendrick but that changes on a day-to-day basis.",
+      "favoriteSongs": [
+        "N95",
+        "Die Hard",
+        "Father Time",
+        "Rich Spirit",
+        "Purple Hearts",
+        "Savior - Interlude",
+        "Auntie Diaries",
+        "Mr. Morale",
+        "Mirror"
+      ],
+      "leastFavoriteSongs": [],
+      "score": 5.38,
+      "genres": [
+        "Hip Hop",
+        "Conscious Hip Hop",
+        "Pop Rap"
+      ]
+    },
+    {
+      "id": "02062480-8ed5-45b1-8d2f-272f2b97bc94",
+      "title": "Late Registration",
+      "artist": "Kanye West",
+      "notes": "Heard 'Em Say is Kanye's best song",
+      "favoriteSongs": [
+        "Heard 'Em Say",
+        "Touch The Sky",
+        "Gold Digger",
+        "Roses",
+        "Diamonds from Sierra Leone - Remix",
+        "We Major",
+        "Hey Mama",
+        "Gone",
+        "Late"
+      ],
+      "leastFavoriteSongs": [],
+      "score": 5.13,
+      "genres": [
+        "Hip Hop",
+        "Pop Rap",
+        "Conscious Hip Hop"
+      ]
+    },
+    {
+      "id": "8153159b-60ff-469a-89bd-5fbb5ea78b42",
+      "title": "Sports",
+      "artist": "Modern Baseball",
+      "notes": "I miss Modern Baseball",
+      "favoriteSongs": [
+        "Re-Do",
+        "Tears Over Beers",
+        "The Weekend",
+        "I Think You Were In My Profile Picture Once",
+        "Re-Done",
+        "Coals"
+      ],
+      "leastFavoriteSongs": [],
+      "score": 4.83,
+      "genres": [
+        "Midwest Emo",
+        "Indie Folk"
+      ]
+    },
+    {
+      "id": "ce1fe3b9-8f93-4284-958b-51beed8ef404",
+      "title": "Graduation",
+      "artist": "Kanye West",
+      "notes": "He made Graduation.",
+      "favoriteSongs": [
+        "Good Morning",
+        "Champion",
+        "Stronger",
+        "I Wonder",
+        "Good Life",
+        "Flashing Lights",
+        "The Glory",
+        "Homecoming",
+        "Good Night"
+      ],
+      "leastFavoriteSongs": [
+        "Barry Bonds",
+        "Drunk and Hot Girls"
+      ],
+      "score": 4.5,
+      "genres": [
+        "Hip Hop",
+        "Pop Rap"
+      ]
+    },
+    {
+      "id": "26216fdd-b869-49b4-aa7a-60d9406e64f6",
+      "title": "My Beautiful Dark Twisted Fantasy",
+      "artist": "Kanye West",
+      "notes": "In my high school music theory class Mr. Rust put on Dark Fantasy to show us layering or something and all the geeks started snickering during the \"Can we get much higher\" part because of the One Piece memes and I was just seething in the corner because I was on 2020 RapTok",
+      "favoriteSongs": [
+        "Dark Fantasy",
+        "POWER",
+        "All Of The Lights",
+        "Devil In A New Dress",
+        "Runaway",
+        "Lost In The World"
+      ],
+      "leastFavoriteSongs": [],
+      "score": 4.17,
+      "genres": [
+        "Pop Rap",
+        "Hip Hop"
+      ]
+    },
+    {
+      "id": "d7489f83-92b2-4872-b0ea-52114345c9ec",
+      "title": "channel ORANGE",
+      "artist": "Frank Ocean",
+      "notes": "Perhaps not as timeless as his more personal stuff but his personal stuff is the best music ever so that's a high bar to clear",
+      "favoriteSongs": [
+        "Fertilizer",
+        "Super Rich Kids",
+        "Pyramids",
+        "Lost",
+        "Monks",
+        "Forest Gump"
+      ],
+      "leastFavoriteSongs": [],
+      "score": 3.75,
+      "genres": [
+        "Alternative R&B",
+        "Neo-Soul"
+      ]
+    },
+    {
+      "id": "a2fbc899-7a49-413b-850b-23acac6ed0e4",
+      "title": "quinn",
+      "artist": "osquinn",
+      "notes": "UN-DER-RATED. Bit peaky but those peaks are a 10",
+      "favoriteSongs": [
+        "two door tiffany",
+        "oh",
+        "song about imAGINARY PEOPLE",
+        "I've heard that song before"
+      ],
+      "leastFavoriteSongs": [],
+      "score": 3.25,
+      "genres": [
+        "Hip Hop",
+        "Experimental Hip Hop",
+        "Sound Collage"
+      ]
+    },
+    {
+      "id": "3032aff8-2013-476e-adfc-4aa90c4bef30",
+      "title": "DAMN.",
+      "artist": "Kendrick Lamar",
+      "notes": "Just an absurd amount of hits. Zero misses, but also not a lot of peak (especially for Kendrick)",
+      "favoriteSongs": [
+        "DNA.",
+        "YAH.",
+        "ELEMENT.",
+        "FEEL.",
+        "LOYALTY.",
+        "PRIDE.",
+        "HUMBLE.",
+        "LUST.",
+        "LOVE.",
+        "XXX.",
+        "GOD."
+      ],
+      "leastFavoriteSongs": [],
+      "score": 2.5,
+      "genres": [
+        "Hip Hop",
+        "Conscious Hip Hop",
+        "Pop Rap"
+      ]
+    },
+    {
+      "id": "89318ca5-253d-4c34-8eb7-2c6121c4e1c3",
+      "title": "Flower Boy",
+      "artist": "Tyler, The Creator",
+      "notes": "Hate to hate but this album isn't very timeless. It occupied a huge part of my life for a very long time—the first 2 seconds off Glitter transport me instantly to my sophomore year of high school—but not much outside of that. Overplayed? Perhaps; but I think that truly great songs aren't really overplayed.",
+      "genres": [
+        "Hip Hop",
+        "Neo-Soul"
+      ],
+      "favoriteSongs": [
+        "See You Again",
+        "Who Dat Boy",
+        "Pothole",
+        "Boredom",
+        "911 / Mr. Lonely",
+        "Glitter"
+      ],
+      "leastFavoriteSongs": [],
+      "score": 1.5
+    },
+    {
+      "id": "2b7327ea-c43b-40e7-9309-6bbd564a1b49",
+      "title": "boneyard aka fearmonger",
+      "artist": "underscores",
+      "notes": "Ears not really trained for dubstep; maybe someday I'll get it",
+      "favoriteSongs": [
+        "Girls and boys",
+        "Heck",
+        "Loansharks"
+      ],
+      "leastFavoriteSongs": [],
+      "score": 0,
+      "genres": [
+        "Indietronica",
+        "Indie Rock",
+        "Hyperpop"
+      ]
+    }
+  ]
+}

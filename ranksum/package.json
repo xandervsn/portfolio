@@ -1,0 +1,16 @@
+{
+  "name": "ranksum",
+  "version": "1.0.0",
+  "description": "Ranked review app (movies & albums) — production runs on Cloudflare Pages",
+  "private": true,
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}

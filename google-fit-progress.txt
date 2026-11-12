@@ -1,0 +1,116 @@
+Google Fit / Google Health integration — progress notes
+======================================================
+Removed from the live site on 2026-11-11 so the homepage redesign could drop the
+"Most Recent Run" widget. This file preserves what was built so it can be restored.
+
+Goal
+----
+Show the most recent run on the portfolio homepage:
+  - distance (miles)
+  - duration
+  - pace (/mi)
+  - GPS route polyline (when available)
+
+Data source
+-----------
+Google Health API v4 (not the older Fitness REST API):
+  https://health.googleapis.com/v4
+
+OAuth scopes used (get_token.js):
+  https://www.googleapis.com/auth/googlehealth.activity_and_fitness.readonly
+  https://www.googleapis.com/auth/googlehealth.location.readonly
+  https://www.googleapis.com/auth/googlehealth.health_metrics_and_measurements.readonly
+
+Redirect URI for local token exchange:
+  http://localhost:8080
+
+Cloudflare / Wrangler secrets that were required
+-----------------------------------------------
+  GOOGLE_CLIENT_ID
+  GOOGLE_CLIENT_SECRET
+  GOOGLE_REFRESH_TOKEN
+
+Token flow
+----------
+1. Run get_token.js with GOOGLE_CLIENT_ID / GOOGLE_CLIENT_SECRET in the env.
+2. Open the printed Google OAuth URL, approve, copy ?code= from the redirect.
+3. Script exchanges the code at https://oauth2.googleapis.com/token.
+4. Store the refresh_token as Wrangler/Pages secret GOOGLE_REFRESH_TOKEN.
+5. At request time, _worker.js refreshed an access_token via grant_type=refresh_token.
+
+API surface that existed
+------------------------
+Worker routes (Pages Function _worker.js):
+  GET /api/run
+  GET /api/heartrate   (alias → same handler)
+  GET /heartrate       (alias → same handler)
+  ?format=html         → small HTML debug page
+  Accept: text/html    → same HTML page
+  default              → JSON
+
+Frontend:
+  main/src/run.js      — polled /api/run every 300s, rendered the run quarter
+  main/src/api.js      — fetchMostRecentRun()
+  index.html           — .run-quarter widget (route SVG + distance/time/pace)
+  style.css            — .run-* styles; bg image main/imgs/bg_heartrate.png
+
+Worker behavior (high level)
+----------------------------
+1. getGoogleAccessToken(env) via OAuth refresh.
+2. fetchExerciseDataPoints — GET
+   /users/me/dataTypes/exercise/dataPoints?pageSize=25
+   Paginate up to 8 pages; stop early once a run is found.
+   NOTE: start_time filters were intentionally avoided — Google rejected several
+   filter forms with INVALID_DATA_POINT_FILTER_DATA_TYPE_MEMBER.
+3. pickMostRecentRun — keep exerciseTypes in:
+     RUNNING, TRAIL_RUN, INCLINE_RUN, TREADMILL
+   Prefer newest by interval endTime.
+4. summarizeRun — from metricsSummary:
+     distanceMillimeters → miles label
+     activeDuration (e.g. "2642s") → duration label
+     averagePaceSecondsPerMeter → pace /mi
+     fallbacks: interval start/end for duration; distance+duration for pace
+5. If exerciseMetadata.hasGps && dataPointId:
+     exportExerciseTcx → :exportExerciseTcx?alt=media
+     parse Trackpoint LatitudeDegrees/LongitudeDegrees
+     downsample to ≤120 points
+6. Response shape:
+     {
+       distanceMiles, distanceLabel, durationLabel, paceLabel,
+       route: [[lat, lon], ...],
+       missing: [...],
+       startTime, exerciseType, displayName,
+       fallback, error, needsTokenRefresh
+     }
+7. Edge cache: successful non-fallback payloads cached ~300s under /api/run?v=2.
+   Auth failures / fallbacks were never edge-cached so secret updates took effect.
+
+Fallback / defaults
+-------------------
+When Google Health was unreachable, missing a run, or needed a token refresh,
+the UI showed a hard-coded sample Twin Cities loop (~5.14 mi, 44:02, 8:34/mi)
+with a canned GPS polyline. needsTokenRefresh was set on 401/403/invalid_grant/
+insufficient-scope style errors.
+
+Known assets kept on disk (not deleted with the code)
+-----------------------------------------------------
+  main/imgs/bg_heartrate.png   — run widget background
+  get_token.js                 — deleted from repo; logic summarized above
+  main/src/run.js              — deleted from repo; logic summarized above
+
+How to restore later
+--------------------
+1. Recreate get_token.js from the OAuth flow above.
+2. Re-add worker helpers: token refresh, exercise list, summarize, TCX parse,
+   /api/run handler, HTML debug page.
+3. Re-add fetchMostRecentRun in main/src/api.js and a run.js widget.
+4. Re-bind GOOGLE_* secrets in Cloudflare Pages / Wrangler.
+5. Confirm Google Cloud OAuth client still has Google Health scopes enabled;
+   Health API availability/product naming may change over time.
+
+Status at removal
+-----------------
+Integration was functionally working end-to-end against Google Health with
+fallback UI when auth/API failed. Primary remaining pain points were OAuth
+token lifecycle (refresh_token / consent re-prompt) and Google's picky
+dataPoint filter validation for time windows.

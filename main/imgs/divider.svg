@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 48" fill="none" aria-hidden="true">
+  <!-- Left scroll arm -->
+  <path
+    d="M200 24
+       C186 24 178 12 164 12
+       C150 12 146 24 134 24
+       C122 24 116 10 102 12
+       C88 14 86 28 74 28
+       C62 28 56 14 44 16
+       C32 18 28 30 18 28
+       C10 26 8 18 4 20"
+    stroke="#2a2a2a"
+    stroke-width="1.25"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+  <path
+    d="M200 24
+       C186 24 178 36 164 36
+       C150 36 146 24 134 24
+       C122 24 116 38 102 36
+       C88 34 86 20 74 20
+       C62 20 56 34 44 32
+       C32 30 28 18 18 20
+       C10 22 8 30 4 28"
+    stroke="#2a2a2a"
+    stroke-width="1.25"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+  <!-- Left end curl -->
+  <path
+    d="M18 24 C12 18 6 16 4 22 C2 28 10 32 16 28"
+    stroke="#2a2a2a"
+    stroke-width="1.15"
+    stroke-linecap="round"
+    fill="none"
+  />
+  <!-- Right scroll arm -->
+  <path
+    d="M200 24
+       C214 24 222 12 236 12
+       C250 12 254 24 266 24
+       C278 24 284 10 298 12
+       C312 14 314 28 326 28
+       C338 28 344 14 356 16
+       C368 18 372 30 382 28
+       C390 26 392 18 396 20"
+    stroke="#2a2a2a"
+    stroke-width="1.25"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+  <path
+    d="M200 24
+       C214 24 222 36 236 36
+       C250 36 254 24 266 24
+       C278 24 284 38 298 36
+       C312 34 314 20 326 20
+       C338 20 344 34 356 32
+       C368 30 372 18 382 20
+       C390 22 392 30 396 28"
+    stroke="#2a2a2a"
+    stroke-width="1.25"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+  <!-- Right end curl -->
+  <path
+    d="M382 24 C388 18 394 16 396 22 C398 28 390 32 384 28"
+    stroke="#2a2a2a"
+    stroke-width="1.15"
+    stroke-linecap="round"
+    fill="none"
+  />
+  <!-- Center diamond / leaf -->
+  <path
+    d="M200 10 C194 16 194 32 200 38 C206 32 206 16 200 10Z"
+    stroke="#2a2a2a"
+    stroke-width="1.1"
+    fill="none"
+  />
+  <circle cx="200" cy="24" r="2.6" fill="#2a2a2a"/>
+  <circle cx="184" cy="24" r="1.35" fill="#2a2a2a"/>
+  <circle cx="216" cy="24" r="1.35" fill="#2a2a2a"/>
+  <circle cx="4" cy="24" r="1.5" fill="#2a2a2a"/>
+  <circle cx="396" cy="24" r="1.5" fill="#2a2a2a"/>
+</svg>

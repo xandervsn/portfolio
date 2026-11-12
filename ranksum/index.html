@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RankSum</title>
+    <link rel="icon" type="image/png" href="/main/imgs/icon.png">
+    <link rel="stylesheet" href="/main/sub-common.css">
+    <link rel="stylesheet" href="/ranksum/styles.css" />
+  </head>
+  <body>
+    <header class="app-header">
+      <div class="header-brand">
+        <h1 class="logo" id="logo-home">RankSum</h1>
+        <nav class="nav-tabs" aria-label="Main">
+          <button type="button" class="nav-tab is-active" id="nav-library">Library</button>
+          <button type="button" class="nav-tab" id="nav-averages">Averages</button>
+          <button type="button" class="nav-tab" id="nav-reading">Reading</button>
+        </nav>
+        <label class="library-picker">
+          <span class="library-picker-label">Ranking</span>
+          <select id="library-select" class="library-select" aria-label="Data source">
+            <option value="movies">Movies</option>
+            <option value="albums">Albums</option>
+          </select>
+        </label>
+      </div>
+      <div class="header-actions">
+        <button type="button" class="btn btn-ghost" id="btn-auth-open">
+          Sign in
+        </button>
+        <button type="button" class="btn btn-ghost" id="btn-reorder-open" disabled hidden>
+          Reorder
+        </button>
+        <button type="button" class="btn btn-ghost" id="btn-recalc-scores" disabled hidden>
+          Recalculate scores
+        </button>
+        <button type="button" class="btn btn-primary" id="btn-add-open" hidden>
+          Add album
+        </button>
+      </div>
+    </header>
+
+    <main id="view-home" class="view">
+      <p class="muted intro" id="home-intro">Your library, ranked best to worst.</p>
+      <ul id="album-list" class="album-list album-list-home"></ul>
+      <p id="empty-all" class="empty-state" hidden>No albums yet. Add one to begin.</p>
+    </main>
+
+    <main id="view-averages" class="view" hidden>
+      <p class="muted intro" id="averages-intro">Mean score across your reviews, highest first.</p>
+      <section class="stats-section" aria-labelledby="stats-artists-heading">
+        <div class="stats-toolbar">
+          <h2 class="stats-heading" id="stats-artists-heading">By artist</h2>
+          <label class="stats-min2">
+            <input type="checkbox" id="stats-artists-min2" />
+            <span>Min 2</span>
+          </label>
+        </div>
+        <div id="stats-artists" class="stats-table-wrap"></div>
+      </section>
+      <section class="stats-section" aria-labelledby="stats-genres-heading">
+        <div class="stats-toolbar">
+          <h2 class="stats-heading" id="stats-genres-heading">By genre</h2>
+          <label class="stats-min2">
+            <input type="checkbox" id="stats-genres-min2" />
+            <span>Min 2</span>
+          </label>
+        </div>
+        <p class="stats-note muted">Albums with no genres are grouped as &quot;Unspecified&quot;. One album can count toward multiple genres.</p>
+        <div id="stats-genres" class="stats-table-wrap"></div>
+      </section>
+      <p id="stats-empty" class="empty-state" hidden>No data yet. Add albums from the Library.</p>
+    </main>
+
+    <main id="view-reading" class="view" hidden>
+      <p class="muted intro">Updates the Currently Reading book on your portfolio homepage.</p>
+      <div class="reading-preview">
+        <img id="reading-preview-cover" class="reading-preview-cover" src="" alt="" hidden>
+        <div class="reading-preview-text">
+          <p class="reading-preview-author" id="reading-preview-author"></p>
+          <p class="reading-preview-title" id="reading-preview-title"></p>
+        </div>
+      </div>
+      <form id="form-reading" class="form">
+        <label class="field">
+          <span class="label">Title</span>
+          <input type="text" name="title" id="reading-title-input" required autocomplete="off" />
+        </label>
+        <label class="field">
+          <span class="label">Author</span>
+          <input type="text" name="author" id="reading-author-input" required autocomplete="off" />
+        </label>
+        <label class="field">
+          <span class="label">Cover <span class="optional">(PNG)</span></span>
+          <input type="file" name="cover" id="reading-cover-input" accept="image/png" />
+          <span class="field-hint muted">Leave empty to keep the current cover.</span>
+        </label>
+        <p id="reading-auth-note" class="edit-note muted" hidden>Sign in to save changes to your portfolio.</p>
+        <div class="form-actions">
+          <button type="submit" class="btn btn-primary" id="btn-reading-save">Save to portfolio</button>
+        </div>
+      </form>
+    </main>
+
+    <section id="view-add" class="view panel" hidden>
+      <h2 class="panel-title">New album</h2>
+      <form id="form-album" class="form">
+        <label class="field">
+          <span class="label">Title</span>
+          <input type="text" name="title" required autocomplete="off" />
+        </label>
+        <label class="field">
+          <span class="label">Artist</span>
+          <input type="text" name="artist" required autocomplete="off" />
+        </label>
+        <label class="field">
+          <span class="label">Genres <span class="optional">(optional, comma-separated)</span></span>
+          <input type="text" name="genres" autocomplete="off" placeholder="e.g. Indie rock, Alternative" />
+        </label>
+        <label class="field">
+          <span class="label">Notes <span class="optional">(optional)</span></span>
+          <textarea name="notes" rows="4"></textarea>
+        </label>
+        <label class="field">
+          <span class="label">Favorite songs <span class="optional">(comma-separated)</span></span>
+          <input type="text" name="favoriteSongs" autocomplete="off" />
+        </label>
+        <label class="field">
+          <span class="label">Least favorite songs <span class="optional">(comma-separated)</span></span>
+          <input type="text" name="leastFavoriteSongs" autocomplete="off" />
+        </label>
+        <div class="form-actions">
+          <button type="button" class="btn btn-ghost" id="btn-add-cancel">Cancel</button>
+          <button type="submit" class="btn btn-primary" id="btn-add-continue">
+            Continue
+          </button>
+        </div>
+      </form>
+    </section>
+
+    <section id="view-edit" class="view panel" hidden>
+      <h2 class="panel-title">Edit details</h2>
+      <p class="edit-context muted" id="edit-context" aria-live="polite"></p>
+      <p class="edit-note muted">
+        Title, artist, and score come from your ranking and cannot be changed here.
+      </p>
+      <form id="form-edit" class="form">
+        <input type="hidden" name="id" id="edit-id" />
+        <label class="field">
+          <span class="label">Genres <span class="optional">(optional, comma-separated)</span></span>
+          <input type="text" name="genres" id="edit-genres" autocomplete="off" />
+        </label>
+        <label class="field">
+          <span class="label">Notes <span class="optional">(optional)</span></span>
+          <textarea name="notes" id="edit-notes" rows="4"></textarea>
+        </label>
+        <label class="field">
+          <span class="label">Favorite songs <span class="optional">(comma-separated)</span></span>
+          <input type="text" name="favoriteSongs" id="edit-favorite" autocomplete="off" />
+        </label>
+        <label class="field">
+          <span class="label">Least favorite songs <span class="optional">(comma-separated)</span></span>
+          <input type="text" name="leastFavoriteSongs" id="edit-least" autocomplete="off" />
+        </label>
+        <div class="form-actions">
+          <button type="button" class="btn btn-ghost" id="btn-edit-cancel">Cancel</button>
+          <button type="submit" class="btn btn-primary">Save</button>
+        </div>
+      </form>
+    </section>
+
+    <section id="view-reorder" class="view panel" hidden>
+      <h2 class="panel-title">Reorder</h2>
+      <p class="muted reorder-intro">
+        Only titles are shown. Drag to reorder; top is best in your library.
+      </p>
+      <ul id="reorder-list" class="reorder-list"></ul>
+      <div class="form-actions">
+        <button type="button" class="btn btn-ghost" id="btn-reorder-cancel">Cancel</button>
+        <button type="button" class="btn btn-primary" id="btn-reorder-done">Done</button>
+      </div>
+    </section>
+
+    <section id="view-versus" class="view panel" hidden>
+      <h2 class="panel-title">Which is better?</h2>
+      <p class="versus-hint muted">
+        Your new pick is compared against your library. Tap the one you prefer.
+      </p>
+      <div class="versus-cards">
+        <button type="button" class="versus-card" id="versus-new" aria-label="Prefer new album">
+          <span class="versus-label">New</span>
+          <span class="versus-title" id="versus-new-title"></span>
+          <span class="versus-artist" id="versus-new-artist"></span>
+        </button>
+        <button type="button" class="versus-card" id="versus-existing" aria-label="Prefer existing album">
+          <span class="versus-label">In your list</span>
+          <span class="versus-title" id="versus-existing-title"></span>
+          <span class="versus-artist" id="versus-existing-artist"></span>
+        </button>
+      </div>
+      <p id="versus-progress" class="versus-progress muted" aria-live="polite"></p>
+    </section>
+
+    <div id="toast" class="toast" role="status" aria-live="polite" hidden></div>
+
+    <div id="auth-modal" class="modal" hidden>
+      <div class="modal-backdrop" id="auth-backdrop"></div>
+      <div class="modal-card" role="dialog" aria-labelledby="auth-title" aria-modal="true">
+        <h2 class="panel-title" id="auth-title">Sign in to edit</h2>
+        <p class="muted auth-hint">Enter your password to add, reorder, or edit rankings.</p>
+        <form id="form-auth" class="form">
+          <label class="field">
+            <span class="label">Password</span>
+            <input type="password" name="password" id="auth-password" required autocomplete="current-password" />
+          </label>
+          <p id="auth-error" class="auth-error" hidden></p>
+          <div class="form-actions">
+            <button type="button" class="btn btn-ghost" id="btn-auth-cancel">Cancel</button>
+            <button type="submit" class="btn btn-primary">Sign in</button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <script src="/ranksum/app.js"></script>
+
+    <a href="/" class="portfolio-back" aria-label="Back to home">
+        <span class="logo-dot">.</span><span class="logo-xyz">xyz</span>
+    </a>
+  </body>
+</html>

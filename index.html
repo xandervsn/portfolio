@@ -3,186 +3,111 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Alexander Siruno-Nebel | Portfolio</title>
+    <title>siruno.xyz</title>
     <link rel="icon" type="image/png" href="main/imgs/icon.png">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=SF+Pro+Display:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Lato:wght@700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="sidebar">
-        <div class="profile-info">
-            <h1>Alexander <br> Siruno-Nebel</h1>
-            <p class="major">B.S. Computer Science </p>
-            <p class="school">University of Minnesota</p>
-        </div>
-        
-        <div class="contact-info">
-            <div class="contact-item">
-                <i class="fas fa-envelope"></i>
-                <a href="mailto:xandervsn@gmail.com">xandervsn@gmail.com</a>
-            </div>
-            <div class="contact-item">
-                <i class="fas fa-phone"></i>
-                <a href="tel:+19713488915">(971) 348-8915</a>
-            </div>
-            <div class="contact-item">
-                <i class="fas fa-map-marker-alt"></i>
-                <span>Portland, OR</span>
-            </div>
-        </div>
-        
-        <div class="social-links">
-            <a href="https://www.linkedin.com/in/siruno/" target="_blank" class="social-icon">
-                <i class="fab fa-linkedin"></i>
+    <div class="page">
+        <header class="top-nav">
+            <a href="/" class="logo" aria-label="Home">
+                <span class="logo-dot">.</span><span class="logo-xyz">xyz</span>
             </a>
-            <a href="https://github.com/xandervsn" target="_blank" class="social-icon">
-                <i class="fab fa-github"></i>
-            </a>
-        </div>
-        
-        <div class="current-status">
-            <!-- <div class="status-widget">
-                <h3><i class="fas fa-music"></i> Listening</h3>
-                <p id="track">Loading...</p>
-                <p id="artist">Loading...</p>
-            </div> -->
-            
-            <div class="status-widget">
-                <h3><i class="fas fa-book"></i> Reading</h3>
-                <p>Going After Cacciato</p>
-                <p class="author">Tim O'Brien</p>
+            <nav class="nav-links" aria-label="Primary">
+                <a href="/blog/">blog</a>
+                <a href="/projects/">projects</a>
+                <a href="/about/">about</a>
+            </nav>
+        </header>
+
+        <main class="home">
+            <h1 class="site-title">siruno.xyz</h1>
+
+            <figure class="hero-art">
+                <a href="https://www.nga.gov/artworks/67586-untitled-portland-oregon" target="_blank" rel="noopener noreferrer">
+                    <img src="main/imgs/rothko.png" alt="Untitled (Portland, Oregon) by Mark Rothko — National Gallery of Art">
+                </a>
+            </figure>
+
+            <div class="ornament" aria-hidden="true">
+                <img src="main/imgs/divider.svg" alt="">
             </div>
-        </div>
+
+            <section class="bio" aria-labelledby="bio-heading">
+                <h2 id="bio-heading" class="section-heading">Bio</h2>
+                <p class="bio-text">
+                    I like solving problems. I’ve had significant experience in statistics,
+                    data analysis, and artificial intelligence, and I'm currently helping
+                    design the data analysis pipeline for IPUMS-International, the largest
+                    collection of census data in the world. I want to translate this
+                    quantitative approach to social research into a career in public interest
+                    law, defending constitutional rights and civil liberties.
+                </p>
+            </section>
+
+            <section class="rotation" aria-labelledby="rotation-heading">
+                <h2 id="rotation-heading" class="section-heading">Rotation</h2>
+                <div class="rotation-grid">
+                    <div class="rotation-col">
+                        <h3 class="rotation-label">currently reading</h3>
+                        <div class="book-stage">
+                            <div class="book-cover-stack">
+                                <img
+                                    class="book-cover book-cover-back"
+                                    id="reading-cover-back"
+                                    src="main/imgs/book1.jpg"
+                                    alt=""
+                                >
+                                <img
+                                    class="book-cover book-cover-front"
+                                    id="reading-cover-front"
+                                    src="main/imgs/book1.jpg"
+                                    alt="Outline by Rachel Cusk"
+                                >
+                            </div>
+                        </div>
+                        <p class="rotation-meta">
+                            <span id="reading-title">Outline</span><span class="rotation-meta-sep"> — </span><span id="reading-author">Rachel Cusk</span>
+                        </p>
+                    </div>
+                    <div class="rotation-col">
+                        <h3 class="rotation-label">currently hearing</h3>
+                        <div class="vinyl-quarter">
+                            <div class="vinyl-stage">
+                                <div class="vinyl-stage-inner">
+                                    <img
+                                        class="vinyl-layer vinyl-record"
+                                        src="main/imgs/vinyl_record.png"
+                                        alt=""
+                                    >
+                                    <div class="vinyl-cover-wrap">
+                                        <img
+                                            class="vinyl-cover"
+                                            id="vinyl-cover"
+                                            src="main/imgs/vinyl_fishmonger.png"
+                                            alt=""
+                                        >
+                                    </div>
+                                    <img
+                                        class="vinyl-layer vinyl-needle"
+                                        src="main/imgs/vinyl_needle.png"
+                                        alt=""
+                                    >
+                                </div>
+                            </div>
+                        </div>
+                        <p class="rotation-meta">
+                            <span id="vinyl-album">fishmonger</span><span class="rotation-meta-sep"> — </span><span id="vinyl-artist">underscores</span>
+                        </p>
+                    </div>
+                </div>
+            </section>
+        </main>
     </div>
 
-    <div class="main-content">
-        <section class="about">
-            <h2>About</h2>
-            <div class="about-content">
-                <p>I like solving puzzles. Particularly, I've had experience working with data analysis pipelines, solving problems in human-first quantitative research. I am interested in applying my problem-solving skills to the application & defense of Constitutional Law. I want to work in public interest law.</p>
-            </div>
-        </section>
-
-        <section class="projects">
-            <h2>Projects</h2>
-            <div class="project-grid">
-                <a href="lastfm" target="_blank" class="project-card">
-                    <div class="project-image">
-                        <img src="main/imgs/lastfm.png" alt="Last.FM Time Charts">
-                    </div>
-                    <div class="project-content">
-                        <h3>Last.FM Time Charts</h3>
-                        <p>API access; data mapping; data analysis; using the Last.FM and Deezer APIs to map users' scrobble history to time-listened.</p>
-                        <div class="project-tech">JavaScript, HTML, CSS</div>
-                    </div>
-                </a>
-
-                <a href="lsat" target="_blank" class="project-card">
-                    <div class="project-image">
-                        <img src="main/imgs/lsat.png" alt="LSAT Practice">
-                    </div>
-                    <div class="project-content">
-                        <h3>LSAT Practice</h3>
-                        <p>UI/UX design; OCR, LLM API access; clone of LSAC's LSAT test environment with the ability to import practice LSATs.</p>
-                        <div class="project-tech">JavaScript, HTML, CSS</div>
-                    </div>
-                </a>
-
-                <a href="sports/nba" target="_blank" class="project-card">
-                    <div class="project-image">
-                        <img src="main/imgs/sports.png" alt="Sports Dashboard">
-                    </div>
-                    <div class="project-content">
-                        <h3>Sports Head-To-Head Analysis</h3>
-                        <p>API access, data analysis, data visualization; heatmaps of NBA/CFB team head-to-heads based on constructed data set.</p>
-                        <div class="project-tech">Python, JavaScript</div>
-                    </div>
-                </a>
-
-                <a href="https://github.com/xandervsn/portfolio" target="_blank" class="project-card">
-                    <div class="project-image">
-                        <i class="fas fa-code"></i>
-                    </div>
-                    <div class="project-content">
-                        <h3>Portfolio Website</h3>
-                        <p>What you're seeing now :)</p>
-                        <div class="project-tech">JavaScript, HTML, CSS</div>
-                    </div>
-                </a>
-            </div>
-        </section>
-
-        <section class="experience">
-            <h2>Experience</h2>
-
-            <div class="experience-item">
-                <div class="experience-header">
-                    <h3>Undergraduate Research Assistant</h3>
-                    <div class="experience-right">
-                        <div class="experience-org">University of Minnesota</div>
-                        <div class="experience-date">Sep 2024 - August 2025</div>
-                    </div>
-                </div>
-                <p>Researcher at the UMN’s Minnesota Population Center, a leading cooperative for demographic research.</p>
-                <div class="experience-tech">Research, Analysis</div>
-            </div>
-            
-            <div class="experience-item">
-                <div class="experience-header">
-                    <h3>Software Engineering Intern</h3>
-                    <div class="experience-right">
-                        <div class="experience-org">Mercor</div>
-                        <div class="experience-date">May 2025 - August 2025</div>
-                    </div>
-                </div>
-                <p>Supporting AI development at a top AI labratory—focused on debugging, environment setup and test infrastructure across cutting-edge machine learning repositories</p>
-                <div class="experience-tech">Python, Machine Learning, Infrastructure</div>
-            </div>
-
-            <div class="experience-item">
-                <div class="experience-header">
-                    <h3>Teaching Assistant</h3>
-                    <div class="experience-right">
-                        <div class="experience-org">University of Minnesota</div>
-                        <div class="experience-date">Mar 2025 - Dec 2025</div>
-                    </div>
-                </div>
-                <p>Supporting course instruction and student learning in academic environment</p>
-                <div class="experience-tech">Teaching, Communication</div>
-            </div>
-
-            <div class="experience-item">
-                <div class="experience-header">
-                    <h3>Undergraduate Researcher</h3>
-                    <div class="experience-right">
-                        <div class="experience-org">University of Minnesota</div>
-                        <div class="experience-date">Sep 2024 - August 2025</div>
-                    </div>
-                </div>
-                <p>Researcher at the University of Minnesota’s TURBO telescope lab under direct supervision from Professors Patrick Kelly and Mandeep Gill. Developed a data analysis pipeline for detecting transient astronomical events.</p>
-                <div class="experience-tech">Research, Analysis</div>
-            </div>
-
-            <div class="experience-item">
-                <div class="experience-header">
-                    <h3>CSE Curriculum Committee Member</h3>
-                    <div class="experience-right">
-                        <div class="experience-org">University of Minnesota</div>
-                        <div class="experience-date">Sep 2025 - Present</div>
-                    </div>
-                </div>
-                <p>Student representative of the CSE Curriculum Committee, a governance body overseeing undergraduate curriculum.</p>
-                <div class="experience-tech">Research, Analysis</div>
-            </div>
-
-
-
-
-        </section>
-    </div>
-
-    <script src="main.js"></script>
+    <script src="main/src/api.js"></script>
     <script src="main/src/vinyl.js"></script>
+    <script src="main/src/reading.js"></script>
 </body>
 </html>

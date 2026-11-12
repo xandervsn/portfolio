@@ -22,7 +22,7 @@ go.onclick = async () => {
         arrays.genres = [];
     } catch (error) {
         console.error('Failed to initialize:', error);
-        tbody.textContent = "Error loading API keys. Please try again.";
+        tbody.textContent = "Error loading data. Please try again.";
     }
 }
 
